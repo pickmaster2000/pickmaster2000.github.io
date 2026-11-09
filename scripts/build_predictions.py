@@ -182,19 +182,21 @@ def run():
             # small, noisy single-season model. This is NOT an ATS win probability.
             projected = 0.70 * market_margin + 0.30 * raw_margin
             edge = projected - market_margin
-            if abs(edge) < 1.5:
-                continue
+            # Show every matched game as a directional lean, even if the
+            # estimated edge is tiny. Only >= 1.5 points is a stronger signal.
+            # A market-aligned tie is explicitly NOT an actionable pick.
             # No false 'confidence' probabilities: uncalibrated point edge only.
             predictions.append({
                 'favorite': game['favorite'], 'underdog': game['underdog'],
                 'projected_favorite_margin': round(projected, 2),
                 'recommended_team': game['favorite'] if edge > 0 else game['underdog'],
                 'estimated_edge_points': round(abs(edge), 2),
+                'signal': 'watchlist' if abs(edge) >= 1.5 else 'weak_lean',
                 'model': 'Regularized opponent-adjusted scores, 70% market anchor',
                 'data_quality': 'Experimental, not backtested; injuries/weather not included',
             })
         if not predictions:
-            print(f'Week {week}: no qualifying predictions; writing empty list to avoid stale picks')
+            print(f'Week {week}: no model-eligible games; writing empty list to avoid stale picks')
         payload = {'week': week, 'season': YEAR, 'generated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
                    'source': 'ESPN public completed-game scoreboard + Yahoo spread', 'model': 'Regularized scoring with market anchoring',
                    'warning': 'Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.',
