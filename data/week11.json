@@ -2,7 +2,7 @@
   "week": 11,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=11",
-  "retrieved_at": "2026-11-09T14:20:32.464687+00:00",
+  "retrieved_at": "2026-11-09T18:00:43.105529+00:00",
   "games": [
     {
       "favorite": "Pittsburgh",
@@ -10,8 +10,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 55,
+      "underdog_pick_pct": 45
     },
     {
       "favorite": "Houston",
@@ -19,8 +19,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -10.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 84,
+      "underdog_pick_pct": 16
     },
     {
       "favorite": "Wisconsin",
@@ -28,8 +28,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -8.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 85,
+      "underdog_pick_pct": 15
     },
     {
       "favorite": "Miami (FL)",
@@ -37,8 +37,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -13.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 71,
+      "underdog_pick_pct": 29
     },
     {
       "favorite": "Iowa St.",
@@ -46,8 +46,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -2.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 44,
+      "underdog_pick_pct": 56
     },
     {
       "favorite": "Ohio St.",
@@ -55,8 +55,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -11.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 42,
+      "underdog_pick_pct": 58
     },
     {
       "favorite": "Auburn",
@@ -64,8 +64,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -2.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 56,
+      "underdog_pick_pct": 44
     },
     {
       "favorite": "Wake Forest",
@@ -73,8 +73,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -1.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 61,
+      "underdog_pick_pct": 39
     },
     {
       "favorite": "Clemson",
@@ -83,7 +83,7 @@
       "underdog_home": false,
       "favorite_spread": -13.0,
       "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "underdog_pick_pct": 100
     },
     {
       "favorite": "Nebraska",
@@ -91,8 +91,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -13.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 72,
+      "underdog_pick_pct": 28
     },
     {
       "favorite": "Alabama",
@@ -100,8 +100,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -17.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 97,
+      "underdog_pick_pct": 3
     },
     {
       "favorite": "TCU",
@@ -109,7 +109,7 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -9.5,
-      "favorite_pick_pct": 0,
+      "favorite_pick_pct": 100,
       "underdog_pick_pct": 0
     },
     {
@@ -118,8 +118,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -2.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 90,
+      "underdog_pick_pct": 10
     },
     {
       "favorite": "Indiana",
@@ -127,8 +127,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -7.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 41,
+      "underdog_pick_pct": 59
     },
     {
       "favorite": "Oregon",
@@ -136,7 +136,7 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -10.5,
-      "favorite_pick_pct": 0,
+      "favorite_pick_pct": 100,
       "underdog_pick_pct": 0
     },
     {
@@ -145,8 +145,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -14.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 73,
+      "underdog_pick_pct": 27
     },
     {
       "favorite": "UCF",
@@ -155,7 +155,7 @@
       "underdog_home": false,
       "favorite_spread": -3.0,
       "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "underdog_pick_pct": 100
     },
     {
       "favorite": "Mississippi",
@@ -163,8 +163,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -1.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 68,
+      "underdog_pick_pct": 32
     },
     {
       "favorite": "West Virginia",
@@ -172,8 +172,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 94,
+      "underdog_pick_pct": 6
     },
     {
       "favorite": "Boise St.",
@@ -181,8 +181,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -10.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 96,
+      "underdog_pick_pct": 4
     },
     {
       "favorite": "Kentucky",
@@ -190,7 +190,7 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 0,
+      "favorite_pick_pct": 100,
       "underdog_pick_pct": 0
     },
     {
@@ -199,8 +199,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
     },
     {
       "favorite": "Utah",
@@ -208,8 +208,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -2.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 94,
+      "underdog_pick_pct": 6
     },
     {
       "favorite": "LSU",
@@ -217,8 +217,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 57,
+      "underdog_pick_pct": 43
     },
     {
       "favorite": "Oklahoma St.",
@@ -226,8 +226,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.5,
-      "favorite_pick_pct": 0,
-      "underdog_pick_pct": 0
+      "favorite_pick_pct": 9,
+      "underdog_pick_pct": 91
     }
   ],
   "note": "Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group."

@@ -2,7 +2,7 @@
   "week": 1,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=1",
-  "retrieved_at": "2026-11-09T14:20:28.092777+00:00",
+  "retrieved_at": "2026-11-09T18:00:35.410050+00:00",
   "games": [
     {
       "favorite": "East. Michigan",
@@ -28,8 +28,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -24.0,
-      "favorite_pick_pct": 82,
-      "underdog_pick_pct": 18
+      "favorite_pick_pct": 88,
+      "underdog_pick_pct": 12
     },
     {
       "favorite": "Syracuse",
