@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-09T22:58:10.606610+00:00",
-  "warning": "Exploratory retrospective slices. Public Yahoo spreads may have changed after kickoff. Do not optimize parameters or claim predictive advantage from these samples.",
+  "generated_at": "2026-11-09T22:59:46.861369+00:00",
+  "warning": "Exploratory retrospective slices; Yahoo spreads may have changed after kickoff. Baselines use exactly the same matched games. Do not optimize parameters or claim predictive advantage from these samples.",
   "groups": {
     "all": {
       "wins": 72,
@@ -44,6 +44,20 @@
       "pushes": 0,
       "count": 0,
       "win_pct_excluding_pushes": null
+    },
+    "baseline_always_favorite": {
+      "wins": 74,
+      "losses": 84,
+      "pushes": 5,
+      "count": 163,
+      "win_pct_excluding_pushes": 46.8
+    },
+    "baseline_always_underdog": {
+      "wins": 84,
+      "losses": 74,
+      "pushes": 5,
+      "count": 163,
+      "win_pct_excluding_pushes": 53.2
     },
     "watchlist": {
       "wins": 25,
