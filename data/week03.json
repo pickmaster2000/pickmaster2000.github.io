@@ -1,0 +1,450 @@
+{
+  "week": 3,
+  "source": "Yahoo public Pick Distribution (Spread and Confidence)",
+  "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=3",
+  "retrieved_at": "2026-11-09T13:08:39.353241+00:00",
+  "games": [
+    {
+      "favorite": "Texas Tech (-7.5 pts)",
+      "underdog": "Houston (7.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -7.5,
+      "favorite_pick_pct": 53,
+      "underdog_pick_pct": 47
+    },
+    {
+      "favorite": "Saturday, Sep 19, 11:30 am EDT",
+      "underdog": "Coastal Car. (4.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -4.5,
+      "favorite_pick_pct": 67,
+      "underdog_pick_pct": 33
+    },
+    {
+      "favorite": "Delaware (-4.5 pts)",
+      "underdog": "Coastal Car. (4.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -4.5,
+      "favorite_pick_pct": 67,
+      "underdog_pick_pct": 33
+    },
+    {
+      "favorite": "Saturday, Sep 19, 12:00 pm EDT",
+      "underdog": "N. Carolina (3.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 60,
+      "underdog_pick_pct": 40
+    },
+    {
+      "favorite": "Clemson (-3.5 pts)",
+      "underdog": "N. Carolina (3.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 60,
+      "underdog_pick_pct": 40
+    },
+    {
+      "favorite": "Saturday, Sep 19, 12:00 pm EDT",
+      "underdog": "Kansas (5.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -5.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Arizona St. (-5.5 pts)",
+      "underdog": "Kansas (5.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -5.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Saturday, Sep 19, 12:00 pm EDT",
+      "underdog": "Tulane (20.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -20.5,
+      "favorite_pick_pct": 71,
+      "underdog_pick_pct": 29
+    },
+    {
+      "favorite": "Kansas St. (-20.5 pts)",
+      "underdog": "Tulane (20.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -20.5,
+      "favorite_pick_pct": 71,
+      "underdog_pick_pct": 29
+    },
+    {
+      "favorite": "Saturday, Sep 19, 12:00 pm EDT",
+      "underdog": "Arkansas (24.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -24.5,
+      "favorite_pick_pct": 87,
+      "underdog_pick_pct": 13
+    },
+    {
+      "favorite": "Georgia (-24.5 pts)",
+      "underdog": "Arkansas (24.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -24.5,
+      "favorite_pick_pct": 87,
+      "underdog_pick_pct": 13
+    },
+    {
+      "favorite": "Saturday, Sep 19, 12:45 pm EDT",
+      "underdog": "NC State (3.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Vanderbilt (-3.5 pts)",
+      "underdog": "NC State (3.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Saturday, Sep 19, 1:00 pm EDT",
+      "underdog": "Wyoming (1.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -1.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Cent. Michigan (-1.5 pts)",
+      "underdog": "Wyoming (1.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -1.5,
+      "favorite_pick_pct": 70,
+      "underdog_pick_pct": 30
+    },
+    {
+      "favorite": "Saturday, Sep 19, 3:30 pm EDT",
+      "underdog": "Rutgers (23.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -23.5,
+      "favorite_pick_pct": 78,
+      "underdog_pick_pct": 22
+    },
+    {
+      "favorite": "USC (-23.5 pts)",
+      "underdog": "Rutgers (23.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -23.5,
+      "favorite_pick_pct": 78,
+      "underdog_pick_pct": 22
+    },
+    {
+      "favorite": "Saturday, Sep 19, 3:30 pm EDT",
+      "underdog": "Kentucky (16.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -16.5,
+      "favorite_pick_pct": 80,
+      "underdog_pick_pct": 20
+    },
+    {
+      "favorite": "Texas A&M (-16.5 pts)",
+      "underdog": "Kentucky (16.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -16.5,
+      "favorite_pick_pct": 80,
+      "underdog_pick_pct": 20
+    },
+    {
+      "favorite": "Saturday, Sep 19, 3:30 pm EDT",
+      "underdog": "SMU (1.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -1.5,
+      "favorite_pick_pct": 46,
+      "underdog_pick_pct": 54
+    },
+    {
+      "favorite": "Louisville (-1.5 pts)",
+      "underdog": "SMU (1.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -1.5,
+      "favorite_pick_pct": 46,
+      "underdog_pick_pct": 54
+    },
+    {
+      "favorite": "Saturday, Sep 19, 4:00 pm EDT",
+      "underdog": "Stanford (9.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -9.5,
+      "favorite_pick_pct": 89,
+      "underdog_pick_pct": 11
+    },
+    {
+      "favorite": "Duke (-9.5 pts)",
+      "underdog": "Stanford (9.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -9.5,
+      "favorite_pick_pct": 89,
+      "underdog_pick_pct": 11
+    },
+    {
+      "favorite": "Saturday, Sep 19, 4:15 pm EDT",
+      "underdog": "Mississippi St. (3.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 43,
+      "underdog_pick_pct": 57
+    },
+    {
+      "favorite": "South Carolina (-3.5 pts)",
+      "underdog": "Mississippi St. (3.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 43,
+      "underdog_pick_pct": 57
+    },
+    {
+      "favorite": "Saturday, Sep 19, 5:15 pm EDT",
+      "underdog": "Florida St. (19.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -19.5,
+      "favorite_pick_pct": 80,
+      "underdog_pick_pct": 20
+    },
+    {
+      "favorite": "Alabama (-19.5 pts)",
+      "underdog": "Florida St. (19.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -19.5,
+      "favorite_pick_pct": 80,
+      "underdog_pick_pct": 20
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:00 pm EDT",
+      "underdog": "Auburn (2.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 64,
+      "underdog_pick_pct": 36
+    },
+    {
+      "favorite": "Florida (-2.5 pts)",
+      "underdog": "Auburn (2.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 64,
+      "underdog_pick_pct": 36
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:00 pm EDT",
+      "underdog": "Rice (9.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -9.5,
+      "favorite_pick_pct": 84,
+      "underdog_pick_pct": 16
+    },
+    {
+      "favorite": "W. Michigan (-9.5 pts)",
+      "underdog": "Rice (9.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -9.5,
+      "favorite_pick_pct": 84,
+      "underdog_pick_pct": 16
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:30 pm EDT",
+      "underdog": "Maryland (3.0 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -3.0,
+      "favorite_pick_pct": 73,
+      "underdog_pick_pct": 27
+    },
+    {
+      "favorite": "Virginia Tech (-3.0 pts)",
+      "underdog": "Maryland (3.0 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -3.0,
+      "favorite_pick_pct": 73,
+      "underdog_pick_pct": 27
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:30 pm EDT",
+      "underdog": "West Virginia (10.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -10.5,
+      "favorite_pick_pct": 76,
+      "underdog_pick_pct": 24
+    },
+    {
+      "favorite": "Virginia (-10.5 pts)",
+      "underdog": "West Virginia (10.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -10.5,
+      "favorite_pick_pct": 76,
+      "underdog_pick_pct": 24
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:30 pm EDT",
+      "underdog": "New Mexico (22.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -22.5,
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17
+    },
+    {
+      "favorite": "Oklahoma (-22.5 pts)",
+      "underdog": "New Mexico (22.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -22.5,
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:30 pm EDT",
+      "underdog": "Colorado (3.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 53,
+      "underdog_pick_pct": 47
+    },
+    {
+      "favorite": "Northwestern (-3.5 pts)",
+      "underdog": "Colorado (3.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -3.5,
+      "favorite_pick_pct": 53,
+      "underdog_pick_pct": 47
+    },
+    {
+      "favorite": "Saturday, Sep 19, 7:30 pm EDT",
+      "underdog": "Mississippi (3.0 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -3.0,
+      "favorite_pick_pct": 59,
+      "underdog_pick_pct": 41
+    },
+    {
+      "favorite": "LSU (-3.0 pts)",
+      "underdog": "Mississippi (3.0 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -3.0,
+      "favorite_pick_pct": 59,
+      "underdog_pick_pct": 41
+    },
+    {
+      "favorite": "Saturday, Sep 19, 8:15 pm EDT",
+      "underdog": "Colorado St. (17.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -17.5,
+      "favorite_pick_pct": 81,
+      "underdog_pick_pct": 19
+    },
+    {
+      "favorite": "BYU (-17.5 pts)",
+      "underdog": "Colorado St. (17.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -17.5,
+      "favorite_pick_pct": 81,
+      "underdog_pick_pct": 19
+    },
+    {
+      "favorite": "Saturday, Sep 19, 10:00 pm EDT",
+      "underdog": "James Madison (2.5 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 62,
+      "underdog_pick_pct": 38
+    },
+    {
+      "favorite": "SDSU (-2.5 pts)",
+      "underdog": "James Madison (2.5 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 62,
+      "underdog_pick_pct": 38
+    },
+    {
+      "favorite": "Saturday, Sep 19, 11:00 pm EDT",
+      "underdog": "San Jose St. (6.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -6.5,
+      "favorite_pick_pct": 63,
+      "underdog_pick_pct": 37
+    },
+    {
+      "favorite": "Fresno St. (-6.5 pts)",
+      "underdog": "San Jose St. (6.5 pts)",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -6.5,
+      "favorite_pick_pct": 63,
+      "underdog_pick_pct": 37
+    },
+    {
+      "favorite": "Saturday, Sep 19, 11:00 pm EDT",
+      "underdog": "Purdue (14.0 pts)",
+      "favorite_home": false,
+      "underdog_home": false,
+      "favorite_spread": -14.0,
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17
+    },
+    {
+      "favorite": "UCLA (-14.0 pts)",
+      "underdog": "Purdue (14.0 pts)",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -14.0,
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17
+    }
+  ],
+  "note": "Public pick percentages are not predictive cover probabilities. Public game selection may differ from your group."
+}
