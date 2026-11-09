@@ -1,0 +1,135 @@
+{
+  "season": 2026,
+  "generated_at": "2026-11-09T22:57:00.205521+00:00",
+  "warning": "Exploratory retrospective slices. Public Yahoo spreads may have changed after kickoff. Do not optimize parameters or claim predictive advantage from these samples.",
+  "groups": {
+    "all": {
+      "wins": 72,
+      "losses": 86,
+      "pushes": 5,
+      "count": 163,
+      "win_pct_excluding_pushes": 45.6
+    },
+    "favorite": {
+      "wins": 10,
+      "losses": 22,
+      "pushes": 1,
+      "count": 33,
+      "win_pct_excluding_pushes": 31.2
+    },
+    "underdog": {
+      "wins": 62,
+      "losses": 64,
+      "pushes": 4,
+      "count": 130,
+      "win_pct_excluding_pushes": 49.2
+    },
+    "home": {
+      "wins": 43,
+      "losses": 43,
+      "pushes": 1,
+      "count": 87,
+      "win_pct_excluding_pushes": 50.0
+    },
+    "away": {
+      "wins": 29,
+      "losses": 43,
+      "pushes": 4,
+      "count": 76,
+      "win_pct_excluding_pushes": 40.3
+    },
+    "neutral_or_unknown": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "count": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "watchlist": {
+      "wins": 25,
+      "losses": 29,
+      "pushes": 1,
+      "count": 55,
+      "win_pct_excluding_pushes": 46.3
+    },
+    "weak_lean": {
+      "wins": 47,
+      "losses": 57,
+      "pushes": 4,
+      "count": 108,
+      "win_pct_excluding_pushes": 45.2
+    },
+    "spread_under_7": {
+      "wins": 39,
+      "losses": 53,
+      "pushes": 1,
+      "count": 93,
+      "win_pct_excluding_pushes": 42.4
+    },
+    "spread_7_to_14": {
+      "wins": 27,
+      "losses": 25,
+      "pushes": 4,
+      "count": 56,
+      "win_pct_excluding_pushes": 51.9
+    },
+    "spread_over_14": {
+      "wins": 6,
+      "losses": 8,
+      "pushes": 0,
+      "count": 14,
+      "win_pct_excluding_pushes": 42.9
+    },
+    "with_public_majority": {
+      "wins": 17,
+      "losses": 22,
+      "pushes": 1,
+      "count": 40,
+      "win_pct_excluding_pushes": 43.6
+    },
+    "against_public_majority": {
+      "wins": 54,
+      "losses": 64,
+      "pushes": 4,
+      "count": 122,
+      "win_pct_excluding_pushes": 45.8
+    },
+    "public_tied_or_unknown": {
+      "wins": 1,
+      "losses": 0,
+      "pushes": 0,
+      "count": 1,
+      "win_pct_excluding_pushes": 100.0
+    }
+  },
+  "weeks": [
+    {
+      "week": 4,
+      "evaluated": 22
+    },
+    {
+      "week": 5,
+      "evaluated": 24
+    },
+    {
+      "week": 6,
+      "evaluated": 24
+    },
+    {
+      "week": 7,
+      "evaluated": 22
+    },
+    {
+      "week": 8,
+      "evaluated": 24
+    },
+    {
+      "week": 9,
+      "evaluated": 23
+    },
+    {
+      "week": 10,
+      "evaluated": 24
+    }
+  ]
+}
