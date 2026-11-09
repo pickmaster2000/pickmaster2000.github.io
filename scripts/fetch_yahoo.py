@@ -38,7 +38,8 @@ def parse(html):
             sm=next((re.search(r'^(\d+(?:\.\d+)?)\s*pts$',t) for t in tail if re.search(r'^(\d+(?:\.\d+)?)\s*pts$',t)),None)
             if not sm or not f or not u or f==u: continue
             spread=float(sm.group(1))
-            if not (0<=fp<=100 and 0<=up<=100 and abs(fp+up-100)<=2): continue
+            if not (0 <= fp <= 100 and 0 <= up <= 100): continue
+            if fp + up != 0 and abs(fp + up - 100) > 2: continue
             key=(f,u)
             if key not in [(g['favorite'],g['underdog']) for g in games]:
                 games.append({'favorite':f.lstrip('@ ').strip(),'underdog':u.lstrip('@ ').strip(),'favorite_home':f.startswith('@'),'underdog_home':u.startswith('@'),'favorite_spread':-spread,'favorite_pick_pct':fp,'underdog_pick_pct':up})
