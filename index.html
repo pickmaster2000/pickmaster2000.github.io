@@ -20,7 +20,9 @@ function render(){
   const id=(g.favorite+'|'+g.underdog).toLowerCase();
   const model=modelPicks[id];
   const margin=val!==''?Number(val):(model&&Number.isFinite(Number(model.projected_favorite_margin))?Number(model.projected_favorite_margin):'');
-  const r=calc(g,margin);
+  const th=thursdayLines[matchKey(g)];
+  const spread=th?Number(th.favorite_spread)*(String(th.favorite).toLowerCase()===String(g.favorite).toLowerCase()?1:-1):g.favorite_spread;
+  const r=calc({...g,favorite_spread:spread},margin);
   if(r)projected++;
   return {g,i,val,r,model,manual:val!==''};
  }).sort((a,b)=>(b.r?.edge??-1)-(a.r?.edge??-1));
@@ -32,7 +34,7 @@ function render(){
   const th=thursdayLines[matchKey(g)];
   const thSpread=th?Number(th.favorite_spread)*(String(th.favorite).toLowerCase()===String(g.favorite).toLowerCase()?1:-1):null;
   const ref=th&&Number.isFinite(thSpread)?{...g,favorite_spread:thSpread}:g;
-  const locked=r&&th?calc(ref,margin):null;
+  const locked=r&&th?r:null;
   const lockedPick=locked?locked.pick:null;
   const saturday=saturdayUpdates[matchKey(g)];
   const lineNote=th&&Number.isFinite(thSpread)?'<p><small>Thursday public reference: '+esc(thSpread)+' · latest public: '+esc(g.favorite_spread)+(Math.abs(thSpread-g.favorite_spread)>0.01?' · difference '+Math.abs(thSpread-g.favorite_spread).toFixed(1)+' pts':' · unchanged')+'</small></p>':'<p><small>Thursday public reference not captured yet. Showing current public spread only.</small></p>';
