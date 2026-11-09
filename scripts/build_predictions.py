@@ -23,7 +23,10 @@ ALIASES = {
     'boise st': 'boise state', 'oklahoma st': 'oklahoma state',
     'n carolina': 'north carolina', 'mississippi': 'ole miss',
     'smu': 'smu', 'ucf': 'ucf', 'tcu': 'tcu', 'usc': 'usc',
+    'n carolina': 'north carolina', 'north carolina': 'north carolina',
+    'ole miss': 'ole miss', 'miami fl': 'miami',
     'texas a m': 'texas a&m', 'wake forest': 'wake forest',
+    'app state': 'appalachian state', 'fla atlantic': 'florida atlantic',
 }
 
 def norm(s):
@@ -106,26 +109,33 @@ def run():
             for item in extract(results_by_week[prev], kickoff_cutoff):
                 games[item[1]] = item
         ordered = sorted(games.values(), key=lambda x: (x[0], x[1]))
-        ratings = {}
+        # Fit a regularized margin-of-victory team rating, in POINTS.
+        # Previous Elo ratings were calibrated to win odds, then divided by an
+        # arbitrary 28 Elo-points-per-point; that understated favorite margins.
         counts = {}
         team_names = {}
+        fixtures = []
         for _, _, home, away, neutral in ordered:
             hid, aid = home['team']['id'], away['team']['id']
             for c in (home, away):
                 tid = c['team']['id']
                 team_names.setdefault(tid, set()).update(names(c['team']))
-                ratings.setdefault(tid, 1500.0)
-                counts.setdefault(tid, 0)
-            home_adv = 0 if neutral else 55
-            expected = 1 / (1 + 10 ** (-(ratings[hid] + home_adv - ratings[aid]) / 400))
-            hs, ass = float(home['score']), float(away['score'])
-            actual = 1 if hs > ass else (0 if hs < ass else .5)
-            mov = min(abs(hs - ass), 35)
-            change = 24 * (0.65 + 0.35 * math.log1p(mov)) * (actual - expected)
-            ratings[hid] += change
-            ratings[aid] -= change
-            counts[hid] += 1
-            counts[aid] += 1
+                counts[tid] = counts.get(tid, 0) + 1
+            home_field = 0.0 if neutral else 2.5
+            actual_margin = float(home['score']) - float(away['score']) - home_field
+            # Limit outlier blowouts before fitting opponent-adjusted ratings.
+            fixtures.append((hid, aid, max(-42.0, min(42.0, actual_margin))))
+        ratings = {tid: 0.0 for tid in counts}
+        # Regularized least squares / Jacobi iterations. The 6-game prior
+        # prevents wildly exaggerated estimates with sparse schedules.
+        for _ in range(60):
+            totals = {tid: 0.0 for tid in counts}
+            for hid, aid, margin in fixtures:
+                totals[hid] += margin + ratings[aid]
+                totals[aid] += ratings[hid] - margin
+            updated = {tid: totals[tid] / (counts[tid] + 6.0) for tid in counts}
+            average = sum(updated.values()) / max(1, len(updated))
+            ratings = {tid: updated[tid] - average for tid in updated}
         lookup = {}
         ambiguous = set()
         for tid, variations in team_names.items():
@@ -151,9 +161,13 @@ def run():
             else:
                 home_adjust = 2.5 if game.get('favorite_home') else -2.5
             # Elo points-to-margin conversion is heuristic, not backtested.
-            projected = max(-45, min(45, (ratings[fav] - ratings[dog]) / 28 + home_adjust))
-            edge = projected + float(game['favorite_spread'])
-            if abs(edge) < 0.25:
+            raw_margin = max(-45.0, min(45.0, ratings[fav] - ratings[dog] + home_adjust))
+            market_margin = -float(game['favorite_spread'])
+            # Shrink toward the market as a more credible baseline than a
+            # small, noisy single-season model. This is NOT an ATS win probability.
+            projected = 0.70 * market_margin + 0.30 * raw_margin
+            edge = projected - market_margin
+            if abs(edge) < 1.5:
                 continue
             # No false 'confidence' probabilities: uncalibrated point edge only.
             predictions.append({
@@ -161,14 +175,14 @@ def run():
                 'projected_favorite_margin': round(projected, 2),
                 'recommended_team': game['favorite'] if edge > 0 else game['underdog'],
                 'estimated_edge_points': round(abs(edge), 2),
-                'model': 'Experimental ESPN-score Elo (no injuries/weather)',
-                'data_quality': 'Preliminary, not backtested',
+                'model': 'Regularized opponent-adjusted scores, 70% market anchor',
+                'data_quality': 'Experimental, not backtested; injuries/weather not included',
             })
         if not predictions:
             print(f'Week {week}: no sufficiently verified predictions; leaving prior file unchanged')
             continue
         payload = {'week': week, 'season': YEAR, 'generated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
-                   'source': 'ESPN public completed-game scoreboard', 'model': 'Experimental in-season Elo',
+                   'source': 'ESPN public completed-game scoreboard + Yahoo spread', 'model': 'Regularized scoring with market anchoring',
                    'warning': 'Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.',
                    'predictions': predictions}
         path = DATA / f'week{week:02}_predictions.json'
