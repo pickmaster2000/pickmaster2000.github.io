@@ -11,6 +11,8 @@ def run():
     snapshots = sorted((DATA / 'pregame').glob('*.json'))
     totals = {'wins': 0, 'losses': 0, 'pushes': 0, 'pending': 0, 'unmatched': 0}
     weeks = {}
+    by_signal = {'watchlist': {'wins': 0, 'losses': 0, 'pushes': 0}, 'weak_lean': {'wins': 0, 'losses': 0, 'pushes': 0}}
+    baselines = {'always_favorite': {'wins': 0, 'losses': 0, 'pushes': 0}, 'always_underdog': {'wins': 0, 'losses': 0, 'pushes': 0}}
     events = {}
     for path in snapshots:
         try:
@@ -60,6 +62,12 @@ def run():
                 selected_favorite = record['prediction']['recommended_team'] == record['game']['favorite']
                 result = 'wins' if (fav_cover > 0) == selected_favorite else 'losses'
             totals[result] += 1
+            signal = record['prediction'].get('signal', 'weak_lean')
+            by_signal.setdefault(signal, {'wins': 0, 'losses': 0, 'pushes': 0})[result] += 1
+            fv = 'pushes' if abs(fav_cover) < .01 else ('wins' if fav_cover > 0 else 'losses')
+            dg = 'pushes' if abs(fav_cover) < .01 else ('wins' if fav_cover < 0 else 'losses')
+            baselines['always_favorite'][fv] += 1
+            baselines['always_underdog'][dg] += 1
             summary = weeks.setdefault(str(week), {'wins': 0, 'losses': 0, 'pushes': 0})
             summary[result] += 1
         except (OSError, ValueError, KeyError, TypeError, IndexError) as exc:
@@ -73,6 +81,8 @@ def run():
         'notice': 'Forward-tracked evidence, NOT a claim of profitable performance. Public Yahoo lines may differ from private contest lines. Low sample sizes are unreliable.',
         'total': {**totals, 'win_pct_excluding_pushes': round(100 * totals['wins']/decided,1) if decided else None},
         'weeks': weeks,
+        'by_signal': by_signal,
+        'same_games_baselines': baselines,
     }
     (DATA / 'prospective.json').write_text(json.dumps(output, indent=2) + '\n')
     print(f'Prospective audit: {totals}')
