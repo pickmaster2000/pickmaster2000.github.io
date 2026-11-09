@@ -9,6 +9,9 @@ on:
       - 'index.html'
   schedule:
     - cron: '17 11,17,23 * * 1,4,5,6'
+concurrency:
+  group: pickmaster-data-update
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -37,5 +40,6 @@ jobs:
           git add -A data/
           if ! git diff --cached --quiet; then
             git commit -m 'Update Yahoo games and preliminary ATS projections'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
