@@ -1,0 +1,136 @@
+{
+  "week": 7,
+  "season": 2026,
+  "generated_at": "2026-11-09T14:17:15.248727+00:00",
+  "source": "ESPN public completed-game scoreboard",
+  "model": "Experimental in-season Elo",
+  "warning": "Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.",
+  "predictions": [
+    {
+      "favorite": "Memphis",
+      "underdog": "Tulane",
+      "projected_favorite_margin": 0.46,
+      "recommended_team": "Tulane",
+      "estimated_edge_points": 6.54,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "West Virginia",
+      "underdog": "Cincinnati",
+      "projected_favorite_margin": 0.8,
+      "recommended_team": "Cincinnati",
+      "estimated_edge_points": 0.7,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Ohio St.",
+      "underdog": "Indiana",
+      "projected_favorite_margin": -3.11,
+      "recommended_team": "Indiana",
+      "estimated_edge_points": 6.61,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Northwestern",
+      "underdog": "Michigan St.",
+      "projected_favorite_margin": 0.69,
+      "recommended_team": "Michigan St.",
+      "estimated_edge_points": 6.81,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Texas",
+      "underdog": "Florida",
+      "projected_favorite_margin": 3.29,
+      "recommended_team": "Florida",
+      "estimated_edge_points": 7.21,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Virginia Tech",
+      "underdog": "Georgia Tech",
+      "projected_favorite_margin": 4.5,
+      "recommended_team": "Georgia Tech",
+      "estimated_edge_points": 5.5,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Alabama",
+      "underdog": "Tennessee",
+      "projected_favorite_margin": -2.02,
+      "recommended_team": "Tennessee",
+      "estimated_edge_points": 10.52,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Mississippi",
+      "underdog": "Missouri",
+      "projected_favorite_margin": 1.62,
+      "recommended_team": "Missouri",
+      "estimated_edge_points": 4.38,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Baylor",
+      "underdog": "TCU",
+      "projected_favorite_margin": 5.11,
+      "recommended_team": "TCU",
+      "estimated_edge_points": 0.89,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Oklahoma",
+      "underdog": "Kentucky",
+      "projected_favorite_margin": 1.26,
+      "recommended_team": "Kentucky",
+      "estimated_edge_points": 5.74,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "UCLA",
+      "underdog": "Wisconsin",
+      "projected_favorite_margin": 4.0,
+      "recommended_team": "UCLA",
+      "estimated_edge_points": 1.5,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Notre Dame",
+      "underdog": "BYU",
+      "projected_favorite_margin": -1.74,
+      "recommended_team": "BYU",
+      "estimated_edge_points": 12.24,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "Colorado",
+      "projected_favorite_margin": 1.45,
+      "recommended_team": "Colorado",
+      "estimated_edge_points": 14.05,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    },
+    {
+      "favorite": "Wake Forest",
+      "underdog": "California",
+      "projected_favorite_margin": 0.15,
+      "recommended_team": "California",
+      "estimated_edge_points": 9.35,
+      "model": "Experimental ESPN-score Elo (no injuries/weather)",
+      "data_quality": "Preliminary, not backtested"
+    }
+  ]
+}
