@@ -3,13 +3,13 @@
 </style></head><body><main><div class="top"><div><small>COLLEGE FOOTBALL AGAINST THE SPREAD</small><h1>PICKMASTER 2000</h1><p>Yahoo public spreads • model picks • local history</p></div><a href="https://football.fantasysports.yahoo.com/college/7136/4/" target="_blank" rel="noopener">Open my Yahoo group</a></div>
 <div class="panel"><div class="controls"><label for="week">Yahoo week</label><select id="week"></select><label for="sort">Game order</label><select id="sort"><option value="kickoff">Kickoff time (earliest first)</option><option value="edge">Model edge (strongest first)</option><option value="yahoo">Public listing order</option></select><button id="refresh">↻ Refresh &amp; Analyze</button><button id="history" class="secondary">View saved picks</button><button id="copy" class="secondary">Copy pick sheet</button></div><p id="status" role="status">Choose a week and click Refresh &amp; Analyze.</p><div class="stats"><span>Games: <strong id="count">0</strong></span><span>Model leans: <strong id="projected">0</strong></span></div></div>
 <div class="notice"><b>How the analysis works:</b> Yahoo public pick percentages are crowd preferences, not probabilities of covering. Every game on the public Yahoo slate is shown. A model lean appears where sufficient team data exists; weaker leans are not validated betting advantages. Until then, you can enter your own projected favorite win margin. Yahoo crowd percentages are not cover probabilities. Where a Thursday reference is available, picks and displayed edges are evaluated against THAT Thursday public spread, not the latest public spread. Saturday reviews are frozen separately when available. They are not independent sportsbook market lines or verified private group lock lines. This website does not independently research injuries or weather.</div>
-<h2>Games and picks</h2><div id="games"></div><div id="saved" class="hidden"></div>
+<div class="panel"><h2>Three-model experiment</h2><p id="ensembleResult">Loading forward results…</p><p><small>The three models use overlapping public ESPN results and are not independent AI services. Majority votes are experimental and do not replace the primary recommendation.</small></p></div><h2>Games and picks</h2><div id="games"></div><div id="saved" class="hidden"></div>
 <div class="panel"><h2>Forward-tracked game record</h2><p id="prospective">Loading frozen pregame picks…</p><p><small>This record uses first-observed picks and public lines saved before kickoff. A future winning percentage is not guaranteed.</small></p></div><div class="panel"><h2>Thursday versus Saturday review</h2><p id="weeklyComparison">Loading comparison…</p><p><small>Only games captured before kickoff in both snapshots are compared, using the same Thursday public reference line. This is not confirmed as the private Yahoo group lock line.</small></p></div>
 <div class="panel"><h2>Historical model audit</h2><p id="audit">Loading prior weeks' results…</p><p id="diagnostic">Loading picks breakdown…</p><p><small>Retrospective audit only. Saved public spreads may not reflect pregame or official contest lines. A higher estimated edge does not establish an advantage.</small></p></div>
 
 <p><small>Public Yahoo games may not match every game in your private group. Yahoo's official contest spread can differ from the public page. Check your group before submitting picks. Saved projections and picks are stored only in this browser and do not sync across devices.</small></p></main><script>
 const $=id=>document.getElementById(id);const week=$('week');for(let n=1;n<=14;n++){const o=document.createElement('option');o.value=n;o.textContent='Week '+n;week.append(o)}week.value=11;
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;let modelPicks={};let thursdayLines={};let thursdayCapture="";let saturdayUpdates={};let saturdayCapture="";let modelStatus="";
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;let modelPicks={};let thursdayLines={};let thursdayCapture="";let saturdayUpdates={};let saturdayCapture="";let ensembleVotes={};let modelStatus="";
 const matchKey=g=>[g.favorite,g.underdog].map(x=>String(x).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()).sort().join('|');
 const orderSelect=$('sort');
 const kickoffMs=g=>g.kickoff_utc&&Number.isFinite(Date.parse(g.kickoff_utc))?Date.parse(g.kickoff_utc):Infinity;
@@ -41,10 +41,12 @@ function render(){
   const locked=r&&th?r:null;
   const lockedPick=locked?locked.pick:null;
   const saturday=saturdayUpdates[matchKey(g)];
+  const ensemble=ensembleVotes[matchKey(g)];
+  const votesNote=ensemble&&ensemble.votes?.length?'<p><small>Experimental 3-model vote: '+esc(ensemble.majority_pick||'No majority')+' ('+esc(ensemble.agreement)+') · '+ensemble.votes.map(v=>esc(v.model.replaceAll('_',' '))+': '+esc(v.pick)).join(' · ')+'</small></p>':'';
   const lineNote=th&&Number.isFinite(thSpread)?'<p><small>Thursday public reference: '+esc(thSpread)+' · latest public: '+esc(g.favorite_spread)+(Math.abs(thSpread-g.favorite_spread)>0.01?' · difference '+Math.abs(thSpread-g.favorite_spread).toFixed(1)+' pts':' · unchanged')+'</small></p>':'<p><small>Thursday public reference not captured yet. Showing current public spread only.</small></p>';
   const saturdayNote=saturday?'<p><small>Saturday frozen review: '+esc(saturday.saturday_pick||'No pick')+(saturday.pick_changed?' · DIFFERENT from Thursday':' · same as Thursday')+' · edge '+Math.abs(Number(saturday.saturday_edge_vs_thursday_public_reference)).toFixed(1)+' pts versus Thursday public reference</small></p>':'';
   const pick=r?`${esc(lockedPick||r.pick)} ${(lockedPick||r.pick)===g.favorite?ref.favorite_spread:'+'+Math.abs(ref.favorite_spread)}`:'';
-  return `<div class="game"><div><h3><span class="muted">#${displayIndex+1} · </span>${esc(g.favorite)} ${ref.favorite_spread>0?'+':''}${ref.favorite_spread} vs ${esc(g.underdog)} ${-ref.favorite_spread>0?'+':''}${-ref.favorite_spread}</h3><p><small>${esc(kickoffLabel(g))}</small></p><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span> <span class="tag">${source}</span>${model&&model.notes?`<p><small>${esc(model.notes)}</small></p>`:''}${!model&&!manual?'<p><small>Data insufficient to produce a verified model lean for this matchup.</small></p>':''}${lineNote}${saturdayNote}</div><div class="actions"><label>Override favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="Optional"></label><div>${r?`<div class="score">${pick}</div><small>Projected favorite margin ${Number(manual?val:model.projected_favorite_margin).toFixed(1)} · edge ${(locked||r).edge.toFixed(1)} pts ${th?'vs Thursday public reference':'vs current public line'} · ${manual?'your estimate':model?.signal==='watchlist'?'watchlist only':'low-edge lean'}</small>`:'<small>No projection yet</small>'}</div></div></div>`;
+  return `<div class="game"><div><h3><span class="muted">#${displayIndex+1} · </span>${esc(g.favorite)} ${ref.favorite_spread>0?'+':''}${ref.favorite_spread} vs ${esc(g.underdog)} ${-ref.favorite_spread>0?'+':''}${-ref.favorite_spread}</h3><p><small>${esc(kickoffLabel(g))}</small></p><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span> <span class="tag">${source}</span>${model&&model.notes?`<p><small>${esc(model.notes)}</small></p>`:''}${!model&&!manual?'<p><small>Data insufficient to produce a verified model lean for this matchup.</small></p>':''}${lineNote}${saturdayNote}${votesNote}</div><div class="actions"><label>Override favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="Optional"></label><div>${r?`<div class="score">${pick}</div><small>Projected favorite margin ${Number(manual?val:model.projected_favorite_margin).toFixed(1)} · edge ${(locked||r).edge.toFixed(1)} pts ${th?'vs Thursday public reference':'vs current public line'} · ${manual?'your estimate':model?.signal==='watchlist'?'watchlist only':'low-edge lean'}</small>`:'<small>No projection yet</small>'}</div></div></div>`;
  }).join(''):'<div class="panel">No verified Yahoo public games loaded for this week.</div>';
  document.querySelectorAll('input[data-i]').forEach(inp=>inp.addEventListener('change',()=>{
   const g=games[+inp.dataset.i];
@@ -58,7 +60,7 @@ async function refresh(){
  currentWeek=Number(week.value);
  $('status').textContent='Loading latest published Yahoo snapshot…';
  $('saved').classList.add('hidden');
- modelPicks={};thursdayLines={};thursdayCapture='';saturdayUpdates={};saturdayCapture='';
+ modelPicks={};thursdayLines={};thursdayCapture='';saturdayUpdates={};saturdayCapture='';ensembleVotes={};
  try{
   const r=await fetch('./data/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});
   if(!r.ok)throw Error('No published snapshot for this week');
@@ -104,6 +106,12 @@ async function refresh(){
     }
    }
   }catch(_){/* Saturday snapshot is optional */ }
+  try{
+   const er=await fetch('./data/ensemble/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});
+   if(er.ok){const ed=await er.json();if(ed.week===currentWeek&&Array.isArray(ed.games)){
+    for(const e of ed.games){if(e.game)ensembleVotes[matchKey(e.game)]=e;}
+   }}
+  }catch(_){/* Three-model experimental vote optional */ }
   $('status').textContent=`Loaded ${games.length} Yahoo games; ${Object.keys(modelPicks).length} model leans. Games are ordered by verified kickoff time by default (Central Time); unmatched games appear last. Your private Yahoo group may display a different order. Last Yahoo retrieval: ${new Date(d.retrieved_at).toLocaleString()}. Thursday public references: ${Object.keys(thursdayLines).length}${thursdayCapture?' (captured '+new Date(thursdayCapture).toLocaleString()+')':''}. Saturday frozen reviews: ${Object.keys(saturdayUpdates).length}${saturdayCapture?' (captured '+new Date(saturdayCapture).toLocaleString()+')':''}. These are not independently verified official group spreads. Refresh loads published snapshots; GitHub Actions updates them separately.`;
  }catch(e){games=[];$('status').textContent=e.message+'. Check Actions → Update Yahoo public data → Run workflow.'}
  render();
@@ -137,6 +145,12 @@ async function loadWeeklyComparison(){try{
  $('weeklyComparison').textContent='Same '+t.completed_games+' games: Thursday '+a.wins+'-'+a.losses+'-'+a.pushes+' ('+(a.win_pct_excluding_pushes??'N/A')+'%), Saturday '+b.wins+'-'+b.losses+'-'+b.pushes+' ('+(b.win_pct_excluding_pushes??'N/A')+'%). Picks changed in '+t.changed_picks+' games.';
 }catch(_){$('weeklyComparison').textContent='No Thursday/Saturday comparison available yet.';}}
 loadWeeklyComparison();
+async function loadEnsembleResults(){try{
+ const r=await fetch('./data/ensemble_results.json?ts='+Date.now(),{cache:'no-store'});
+ if(!r.ok)throw Error('Not available');const d=await r.json();const t=d.total||{},m=d.models||{},a=m.majority||{},b=m.incumbent||{};
+ $('ensembleResult').textContent=t.decided>0?('Forward-tracked '+t.decided+' games: majority '+a.wins+'-'+a.losses+'-'+a.pushes+' ('+(a.win_pct_excluding_pushes??'N/A')+'%), original model '+b.wins+'-'+b.losses+'-'+b.pushes+' ('+(b.win_pct_excluding_pushes??'N/A')+'%).'):('Experimental votes captured: '+(t.recorded||0)+'. Waiting for completed games. No verified majority win rate yet.');
+}catch(_){$('ensembleResult').textContent='Experimental comparison not published yet.';}}
+loadEnsembleResults();
 async function chooseLatestWeek(){await refresh();for(let n=14;n>Number(week.value);n--){try{const r=await fetch('./data/week'+String(n).padStart(2,'0')+'.json',{method:'HEAD',cache:'no-store'});if(r.ok){week.value=n;await refresh();break;}}catch(_){}}}
 chooseLatestWeek();
 </script></body></html>
