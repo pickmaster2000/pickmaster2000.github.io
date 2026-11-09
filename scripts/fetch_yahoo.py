@@ -62,6 +62,7 @@ def main():
                 print(f'Week {w}: no verified games parsed; keeping prior valid snapshot')
                 continue
             data={'week':w,'source':'Yahoo public Pick Distribution (Spread and Confidence)','source_url':url,'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'games':games,'note':'Public pick percentages are not predictive cover probabilities. Public game selection may differ from your group.'}
+            (ROOT/'data').mkdir(parents=True, exist_ok=True)
             dest=ROOT/'data'/f'week{w:02}.json'
             dest.write_text(json.dumps(data,indent=2)+'\n')
             print(f'Week {w}: saved {len(games)} games')
