@@ -16,7 +16,7 @@ DATA = ROOT / 'data'
 YEAR = 2026
 ESPN = 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard'
 ALIASES = {
-    'florida st': 'florida state', 'pittsburgh': 'pittsburgh',
+    'florida st': 'florida state', 'pittsburgh': 'pitt', 'pitt': 'pitt',
     'miami fl': 'miami', 'iowa st': 'iowa state', 'ohio st': 'ohio state',
     'mississippi st': 'mississippi state', 'kansas st': 'kansas state',
     'arizona st': 'arizona state', 'oregon st': 'oregon state',
