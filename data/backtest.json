@@ -1,0 +1,91 @@
+{
+  "season": 2026,
+  "generated_at": "2026-11-09T22:44:06.996975+00:00",
+  "method": "Retrospective, prior-week-only model against available ESPN final scores and current public Yahoo snapshot spreads",
+  "limitations": [
+    "NOT a true point-in-time historical backtest. Yahoo snapshots may have been retrieved or updated after games occurred.",
+    "ATS spreads from the public Yahoo distribution may differ from the user's contest lines and closing market odds.",
+    "No claims about profitable performance, injury/weather adjustments, or statistically calibrated probabilities.",
+    "Only games with a model pick and a unique ESPN final-score match are evaluated; small or missing samples may bias results."
+  ],
+  "total": {
+    "wins": 25,
+    "losses": 29,
+    "pushes": 1,
+    "unmatched": 0,
+    "evaluated": 55,
+    "win_rate_excluding_pushes": 46.3
+  },
+  "weeks": [
+    {
+      "week": 4,
+      "wins": 4,
+      "losses": 9,
+      "pushes": 1,
+      "unmatched": 0,
+      "evaluated": 14,
+      "slate_games": 25,
+      "model_picks": 14
+    },
+    {
+      "week": 5,
+      "wins": 3,
+      "losses": 6,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 9,
+      "slate_games": 25,
+      "model_picks": 9
+    },
+    {
+      "week": 6,
+      "wins": 4,
+      "losses": 5,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 9,
+      "slate_games": 25,
+      "model_picks": 9
+    },
+    {
+      "week": 7,
+      "wins": 6,
+      "losses": 4,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 10,
+      "slate_games": 25,
+      "model_picks": 10
+    },
+    {
+      "week": 8,
+      "wins": 3,
+      "losses": 3,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 6,
+      "slate_games": 25,
+      "model_picks": 6
+    },
+    {
+      "week": 9,
+      "wins": 4,
+      "losses": 1,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 5,
+      "slate_games": 25,
+      "model_picks": 5
+    },
+    {
+      "week": 10,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "unmatched": 0,
+      "evaluated": 2,
+      "slate_games": 25,
+      "model_picks": 2
+    }
+  ]
+}

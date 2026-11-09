@@ -1,7 +1,7 @@
 {
   "week": 6,
   "season": 2026,
-  "generated_at": "2026-11-09T22:41:51.921141+00:00",
+  "generated_at": "2026-11-09T22:44:04.685970+00:00",
   "source": "ESPN public completed-game scoreboard + Yahoo spread",
   "model": "Regularized scoring with market anchoring",
   "warning": "Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.",
@@ -12,6 +12,15 @@
       "projected_favorite_margin": 8.99,
       "recommended_team": "Iowa St.",
       "estimated_edge_points": 1.51,
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
+      "favorite": "Pittsburgh",
+      "underdog": "N. Carolina",
+      "projected_favorite_margin": 5.43,
+      "recommended_team": "Pittsburgh",
+      "estimated_edge_points": 1.93,
       "model": "Regularized opponent-adjusted scores, 70% market anchor",
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
