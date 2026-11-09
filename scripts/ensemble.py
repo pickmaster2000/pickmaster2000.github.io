@@ -25,7 +25,7 @@ def count_models(game, models):
     for v in votes:agree[v['canonical_pick']]=agree.get(v['canonical_pick'],0)+1
     winner=max(agree,key=agree.get) if agree else None
     n=agree.get(winner,0) if winner else 0
-    return {'votes':votes,'agreement':f'{n} of {len(votes)}' if votes else 'No votes','majority_pick':next((g[k] for k in ('favorite','underdog') if canon(g[k])==winner),None) if n>=2 and len(votes)==3 else None,'full_three_model_vote':len(votes)==3,'unanimous':n==3 and len(votes)==3}
+    return {'votes':votes,'agreement':f'{n} of {len(votes)}' if votes else 'No votes','majority_pick':next((game[k] for k in ('favorite','underdog') if canon(game[k])==winner),None) if n>=2 and len(votes)==3 else None,'full_three_model_vote':len(votes)==3,'unanimous':n==3 and len(votes)==3}
 
 def run():
     now=dt.datetime.now(dt.timezone.utc)
