@@ -1,71 +1,133 @@
-import json, re, os, datetime, urllib.request
+"""Fetch Yahoo public College Football Pick Distribution; reject malformed matchups.
+No paid API required. Uses Python standard library only.
+"""
+import datetime
+import json
+import os
+import re
+import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-BASE='https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week={}'
-ROOT=Path(__file__).resolve().parents[1]
+BASE = 'https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week={}'
+ROOT = Path(__file__).resolve().parents[1]
+DATE = re.compile(r'^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*,?\s+\w+\s+\d+', re.I)
+SPREAD_SUFFIX = re.compile(r'\s*\(\s*[+-]?\d+(?:\.\d+)?\s*pts\s*\)\s*$', re.I)
+POINTS = re.compile(r'^\s*(\d+(?:\.\d+)?)\s*pts\s*$', re.I)
+
 class TextParser(HTMLParser):
-    def __init__(self): super().__init__(); self.parts=[]; self.skip=0
-    def handle_starttag(self,tag,attrs):
-        if tag in ('script','style'): self.skip+=1
-        if tag in ('td','th','tr','div','p','h3','h4','li','br'): self.parts.append('\n')
-    def handle_endtag(self,tag):
-        if tag in ('script','style'): self.skip=max(0,self.skip-1)
-        if tag in ('td','th','tr','div','p','h3','h4','li'): self.parts.append('\n')
-    def handle_data(self,data):
-        if not self.skip: self.parts.append(data)
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+        self.skip = 0
+    def handle_starttag(self, tag, attrs):
+        if tag in ('script', 'style'):
+            self.skip += 1
+        if tag in ('td', 'th', 'tr', 'div', 'p', 'h3', 'h4', 'li', 'br'):
+            self.parts.append('\n')
+    def handle_endtag(self, tag):
+        if tag in ('script', 'style'):
+            self.skip = max(0, self.skip - 1)
+        if tag in ('td', 'th', 'tr', 'div', 'p', 'h3', 'h4', 'li'):
+            self.parts.append('\n')
+    def handle_data(self, data):
+        if not self.skip:
+            self.parts.append(data)
+
+def clean_team(value):
+    value = SPREAD_SUFFIX.sub('', value).strip()
+    home = value.startswith('@')
+    value = value.lstrip('@ ').strip()
+    if not value or DATE.match(value) or re.search(r'\b(?:EST|EDT|CST|CDT|PST|PDT)\b', value):
+        return None
+    if value in ('Favorite', 'Underdog', 'Record', 'Avg. Confidence') or len(value) > 65:
+        return None
+    if re.search(r'\d{1,2}:\d{2}\s*(?:am|pm)', value, re.I):
+        return None
+    return value, home
 
 def parse(html):
-    p=TextParser(); p.feed(html)
-    lines=[re.sub(r'\s+',' ',x).strip() for x in ''.join(p.parts).splitlines()]
-    lines=[x for x in lines if x]
-    games=[]
-    # Public Yahoo page labels favorite, underdog, favorite pick percentage, and spread.
-    # Parsing is deliberately conservative: no invented matches when structure changes.
-    for i,line in enumerate(lines):
-        if line!='Favorite': continue
-        segment=lines[i:i+38]
+    parser = TextParser()
+    parser.feed(html)
+    lines = [re.sub(r'\s+', ' ', x).strip() for x in ''.join(parser.parts).splitlines()]
+    lines = [x for x in lines if x]
+    games = []
+    seen = set()
+    for i, line in enumerate(lines):
+        if line != 'Favorite':
+            continue
+        # Stop at the next game marker rather than borrowing fields from another game.
+        stop = next((j for j in range(i + 1, min(i + 45, len(lines))) if lines[j] == 'Favorite'), min(i + 45, len(lines)))
+        segment = lines[i:stop]
         try:
-            f=segment[1]
-            fi=segment.index('Favorite Pick Percentage')
-            fp=int(re.search(r'\d+',segment[fi+1]).group())
-            ui=segment.index('Underdog')
-            u=segment[ui+1]
-            pi=segment.index('Underdog Pick Percentage')
-            up=int(re.search(r'\d+',segment[pi+1]).group())
-            # spread is expressed as e.g. '7.0 pts' near team record table
-            tail=segment[pi+2:]
-            sm=next((re.search(r'^(\d+(?:\.\d+)?)\s*pts$',t) for t in tail if re.search(r'^(\d+(?:\.\d+)?)\s*pts$',t)),None)
-            if not sm or not f or not u or f==u: continue
-            spread=float(sm.group(1))
-            if not (0 <= fp <= 100 and 0 <= up <= 100): continue
-            if fp + up != 0 and abs(fp + up - 100) > 2: continue
-            key=(f,u)
-            if key not in [(g['favorite'],g['underdog']) for g in games]:
-                games.append({'favorite':f.lstrip('@ ').strip(),'underdog':u.lstrip('@ ').strip(),'favorite_home':f.startswith('@'),'underdog_home':u.startswith('@'),'favorite_spread':-spread,'favorite_pick_pct':fp,'underdog_pick_pct':up})
-        except (ValueError,IndexError,AttributeError): continue
+            fi = segment.index('Favorite Pick Percentage')
+            ui = segment.index('Underdog')
+            pi = segment.index('Underdog Pick Percentage')
+            if not (1 < fi < ui < pi):
+                continue
+            favorite = clean_team(segment[1])
+            underdog = clean_team(segment[ui + 1])
+            if not favorite or not underdog or favorite[0] == underdog[0]:
+                continue
+            fp_match = re.fullmatch(r'(\d{1,3})\s*%', segment[fi + 1])
+            up_match = re.fullmatch(r'(\d{1,3})\s*%', segment[pi + 1])
+            if not fp_match or not up_match:
+                continue
+            fp, up = int(fp_match.group(1)), int(up_match.group(1))
+            if not (0 <= fp <= 100 and 0 <= up <= 100):
+                continue
+            if fp + up != 0 and abs(fp + up - 100) > 2:
+                continue
+            spreads = [float(m.group(1)) for t in segment[pi + 2:] if (m := POINTS.fullmatch(t))]
+            if not spreads:
+                continue
+            spread = spreads[0]
+            if not 0 < spread <= 70:
+                continue
+            key = tuple(sorted((favorite[0].casefold(), underdog[0].casefold())))
+            if key in seen:
+                continue
+            seen.add(key)
+            games.append({
+                'favorite': favorite[0], 'underdog': underdog[0],
+                'favorite_home': favorite[1], 'underdog_home': underdog[1],
+                'favorite_spread': -spread,
+                'favorite_pick_pct': fp, 'underdog_pick_pct': up,
+            })
+        except (ValueError, IndexError, AttributeError):
+            continue
     return games
 
 def main():
-    week=int(os.getenv('WEEK','0') or 0)
-    if not 1<=week<=14:
-        # Refresh all weeks so next week's public listing appears automatically.
-        weeks=range(1,15)
-    else: weeks=[week]
+    week = int(os.getenv('WEEK', '0') or 0)
+    weeks = [week] if 1 <= week <= 14 else range(1, 15)
+    data_dir = ROOT / 'data'
+    data_dir.mkdir(parents=True, exist_ok=True)
     for w in weeks:
-        url=BASE.format(w)
+        url = BASE.format(w)
         try:
-            req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; Pickmaster2000/1.0; personal project)','Accept':'text/html'})
-            with urllib.request.urlopen(req,timeout=18) as r:
-                html=r.read().decode('utf-8','replace')
-            games=parse(html)
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; Pickmaster2000/1.0; personal project)',
+                'Accept': 'text/html',
+            })
+            with urllib.request.urlopen(req, timeout=18) as response:
+                html = response.read().decode('utf-8', 'replace')
+            games = parse(html)
             if not games:
                 print(f'Week {w}: no verified games parsed; keeping prior valid snapshot')
                 continue
-            data={'week':w,'source':'Yahoo public Pick Distribution (Spread and Confidence)','source_url':url,'retrieved_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'games':games,'note':'Public pick percentages are not predictive cover probabilities. Public game selection may differ from your group.'}
-            (ROOT/'data').mkdir(parents=True, exist_ok=True)
-            dest=ROOT/'data'/f'week{w:02}.json'
-            dest.write_text(json.dumps(data,indent=2)+'\n')
-            print(f'Week {w}: saved {len(games)} games')
-        except Exception as e: print(f'Week {w}: request failed ({type(e).__name__}: {e}); keeping prior valid snapshot')
-if __name__=='__main__': main()
+            payload = {
+                'week': w,
+                'source': 'Yahoo public Pick Distribution (Spread and Confidence)',
+                'source_url': url,
+                'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                'games': games,
+                'note': 'Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group.',
+            }
+            (data_dir / f'week{w:02}.json').write_text(json.dumps(payload, indent=2) + '\n', encoding='utf-8')
+            print(f'Week {w}: saved {len(games)} verified games')
+        except Exception as error:
+            print(f'Week {w}: request failed ({type(error).__name__}: {error}); keeping prior valid snapshot')
+
+if __name__ == '__main__':
+    main()
