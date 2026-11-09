@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-09T23:05:23.180096+00:00",
+  "generated_at": "2026-11-09T23:05:44.440401+00:00",
   "warning": "Exploratory retrospective slices; Yahoo spreads may have changed after kickoff. Baselines use exactly the same matched games. Do not optimize parameters or claim predictive advantage from these samples.",
   "groups": {
     "all": {
