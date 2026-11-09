@@ -1,0 +1,25 @@
+{
+  "season": 2026,
+  "generated_at": "2026-11-09T23:18:39.715612+00:00",
+  "method": "Matched immutable Thursday-evening and Saturday-morning public Yahoo snapshots graded against Thursday public line",
+  "disclaimer": "Only games with both picks before kickoff are graded. The Thursday public reference may not match the official private Yahoo group locked line; this comparison does not establish profitable predictions.",
+  "totals": {
+    "thursday": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "saturday": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "changed_picks": 0,
+    "completed_games": 0,
+    "pending": 0,
+    "unmatched": 0
+  },
+  "details": []
+}
