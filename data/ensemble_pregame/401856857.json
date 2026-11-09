@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "UCF",
+    "underdog": "Arizona St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 100,
+    "espn_event_id": "401856857",
+    "kickoff_utc": "2026-11-14T20:30:00+00:00"
+  },
+  "espn_event_id": "401856857",
+  "kickoff_utc": "2026-11-14T20:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "UCF",
+      "canonical_pick": "ucf",
+      "edge_points": 0.91
+    },
+    {
+      "model": "offense_defense",
+      "pick": "UCF",
+      "canonical_pick": "ucf",
+      "edge_points": 1.11
+    },
+    {
+      "model": "recent_form",
+      "pick": "Arizona St.",
+      "canonical_pick": "arizona state",
+      "edge_points": 0.65
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "UCF",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

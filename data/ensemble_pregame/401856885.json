@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "LSU",
+    "underdog": "Texas",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.5,
+    "favorite_pick_pct": 57,
+    "underdog_pick_pct": 43,
+    "espn_event_id": "401856885",
+    "kickoff_utc": "2026-11-15T00:30:00+00:00"
+  },
+  "espn_event_id": "401856885",
+  "kickoff_utc": "2026-11-15T00:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "LSU",
+      "canonical_pick": "lsu",
+      "edge_points": 0.56
+    },
+    {
+      "model": "offense_defense",
+      "pick": "LSU",
+      "canonical_pick": "lsu",
+      "edge_points": 0.5
+    },
+    {
+      "model": "recent_form",
+      "pick": "Texas",
+      "canonical_pick": "texas",
+      "edge_points": 1.46
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "LSU",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

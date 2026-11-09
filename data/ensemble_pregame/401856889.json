@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "Alabama",
+    "underdog": "Vanderbilt",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -17.5,
+    "favorite_pick_pct": 97,
+    "underdog_pick_pct": 3,
+    "espn_event_id": "401856889",
+    "kickoff_utc": "2026-11-14T17:45:00+00:00"
+  },
+  "espn_event_id": "401856889",
+  "kickoff_utc": "2026-11-14T17:45:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Vanderbilt",
+      "canonical_pick": "vanderbilt",
+      "edge_points": 0.99
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Vanderbilt",
+      "canonical_pick": "vanderbilt",
+      "edge_points": 0.54
+    },
+    {
+      "model": "recent_form",
+      "pick": "Vanderbilt",
+      "canonical_pick": "vanderbilt",
+      "edge_points": 2.19
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Vanderbilt",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

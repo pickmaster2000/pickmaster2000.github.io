@@ -1,0 +1,51 @@
+{
+  "season": 2026,
+  "generated_at": "2026-11-09T23:47:28.331675+00:00",
+  "method": "First-observed pregame three-model majority on Yahoo public spread; same matched games for main and underdog baseline",
+  "warning": "Correlated models; no proven benefit. Results are only first captured prekickoff snapshots; public spreads may differ from Yahoo official contest lines.",
+  "total": {
+    "recorded": 25,
+    "pending": 25,
+    "unmatched": 0,
+    "decided": 0
+  },
+  "models": {
+    "majority": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "incumbent": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "offense_defense": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "recent_form": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "always_underdog": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    },
+    "unanimous": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct_excluding_pushes": null
+    }
+  },
+  "completed": []
+}

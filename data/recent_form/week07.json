@@ -1,0 +1,206 @@
+{
+  "season": 2026,
+  "week": 7,
+  "generated_at": "2026-11-09T23:47:26.228339+00:00",
+  "experimental": true,
+  "predictions": [
+    {
+      "favorite": "Memphis",
+      "underdog": "Tulane",
+      "recommended_team": "Tulane",
+      "projected_favorite_margin": 6.23,
+      "estimated_edge_points": 0.77,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Pittsburgh",
+      "underdog": "Boston Coll.",
+      "recommended_team": "Boston Coll.",
+      "projected_favorite_margin": 5.56,
+      "estimated_edge_points": 0.94,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "West Virginia",
+      "underdog": "Cincinnati",
+      "recommended_team": "Cincinnati",
+      "projected_favorite_margin": 0.76,
+      "estimated_edge_points": 0.74,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Kansas St.",
+      "underdog": "Kansas",
+      "recommended_team": "Kansas",
+      "projected_favorite_margin": 2.81,
+      "estimated_edge_points": 1.69,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Ohio St.",
+      "underdog": "Indiana",
+      "recommended_team": "Indiana",
+      "projected_favorite_margin": 1.93,
+      "estimated_edge_points": 1.57,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Northwestern",
+      "underdog": "Michigan St.",
+      "recommended_team": "Northwestern",
+      "projected_favorite_margin": 8.63,
+      "estimated_edge_points": 1.13,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "LSU",
+      "underdog": "Mississippi St.",
+      "recommended_team": "Mississippi St.",
+      "projected_favorite_margin": 12.06,
+      "estimated_edge_points": 1.94,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Texas",
+      "underdog": "Florida",
+      "recommended_team": "Florida",
+      "projected_favorite_margin": 10.06,
+      "estimated_edge_points": 0.44,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Duke",
+      "underdog": "N. Carolina",
+      "recommended_team": "Duke",
+      "projected_favorite_margin": 3.88,
+      "estimated_edge_points": 0.38,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Virginia Tech",
+      "underdog": "Georgia Tech",
+      "recommended_team": "Georgia Tech",
+      "projected_favorite_margin": 7.67,
+      "estimated_edge_points": 2.33,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Michigan",
+      "underdog": "Penn St.",
+      "recommended_team": "Penn St.",
+      "projected_favorite_margin": 5.79,
+      "estimated_edge_points": 0.71,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Alabama",
+      "underdog": "Tennessee",
+      "recommended_team": "Tennessee",
+      "projected_favorite_margin": 7.29,
+      "estimated_edge_points": 1.21,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Mississippi",
+      "underdog": "Missouri",
+      "recommended_team": "Missouri",
+      "projected_favorite_margin": 4.12,
+      "estimated_edge_points": 1.88,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Texas Tech",
+      "underdog": "Arizona St.",
+      "recommended_team": "Texas Tech",
+      "projected_favorite_margin": 14.9,
+      "estimated_edge_points": 0.4,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Oregon St.",
+      "underdog": "Washington St.",
+      "recommended_team": "Washington St.",
+      "projected_favorite_margin": 17.45,
+      "estimated_edge_points": 0.05,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Miami (FL)",
+      "underdog": "Florida St.",
+      "recommended_team": "Florida St.",
+      "projected_favorite_margin": 18.38,
+      "estimated_edge_points": 3.12,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Baylor",
+      "underdog": "TCU",
+      "recommended_team": "Baylor",
+      "projected_favorite_margin": 6.98,
+      "estimated_edge_points": 0.98,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Oklahoma",
+      "underdog": "Kentucky",
+      "recommended_team": "Kentucky",
+      "projected_favorite_margin": 3.82,
+      "estimated_edge_points": 3.18,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "UCLA",
+      "underdog": "Wisconsin",
+      "recommended_team": "Wisconsin",
+      "projected_favorite_margin": 1.54,
+      "estimated_edge_points": 0.96,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
+      "favorite": "Notre Dame",
+      "underdog": "BYU",
+      "recommended_team": "BYU",
+      "projected_favorite_margin": 7.31,
+      "estimated_edge_points": 3.19,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "Colorado",
+      "recommended_team": "Colorado",
+      "projected_favorite_margin": 13.8,
+      "estimated_edge_points": 1.7,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Wake Forest",
+      "underdog": "California",
+      "recommended_team": "California",
+      "projected_favorite_margin": 8.24,
+      "estimated_edge_points": 1.26,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    }
+  ]
+}

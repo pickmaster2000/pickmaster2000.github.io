@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "Auburn",
+    "underdog": "Mississippi St.",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -2.5,
+    "favorite_pick_pct": 56,
+    "underdog_pick_pct": 44,
+    "espn_event_id": "401856886",
+    "kickoff_utc": "2026-11-14T17:00:00+00:00"
+  },
+  "espn_event_id": "401856886",
+  "kickoff_utc": "2026-11-14T17:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Mississippi St.",
+      "canonical_pick": "mississippi state",
+      "edge_points": 1.42
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Mississippi St.",
+      "canonical_pick": "mississippi state",
+      "edge_points": 1.52
+    },
+    {
+      "model": "recent_form",
+      "pick": "Mississippi St.",
+      "canonical_pick": "mississippi state",
+      "edge_points": 0.69
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Mississippi St.",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

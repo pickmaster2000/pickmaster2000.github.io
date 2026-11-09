@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "Clemson",
+    "underdog": "Georgia Tech",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -13.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 100,
+    "espn_event_id": "401858297",
+    "kickoff_utc": "2026-11-14T17:30:00+00:00"
+  },
+  "espn_event_id": "401858297",
+  "kickoff_utc": "2026-11-14T17:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Georgia Tech",
+      "canonical_pick": "georgia tech",
+      "edge_points": 0.93
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Georgia Tech",
+      "canonical_pick": "georgia tech",
+      "edge_points": 0.7
+    },
+    {
+      "model": "recent_form",
+      "pick": "Clemson",
+      "canonical_pick": "clemson",
+      "edge_points": 1.2
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "Georgia Tech",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

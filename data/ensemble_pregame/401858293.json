@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:47:26.360850+00:00",
+  "game": {
+    "favorite": "Pittsburgh",
+    "underdog": "Florida St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.5,
+    "favorite_pick_pct": 55,
+    "underdog_pick_pct": 45,
+    "espn_event_id": "401858293",
+    "kickoff_utc": "2026-11-14T00:00:00+00:00"
+  },
+  "espn_event_id": "401858293",
+  "kickoff_utc": "2026-11-14T00:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Pittsburgh",
+      "canonical_pick": "pitt",
+      "edge_points": 0.58
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Pittsburgh",
+      "canonical_pick": "pitt",
+      "edge_points": 0.93
+    },
+    {
+      "model": "recent_form",
+      "pick": "Florida St.",
+      "canonical_pick": "florida state",
+      "edge_points": 0.17
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "Pittsburgh",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}
