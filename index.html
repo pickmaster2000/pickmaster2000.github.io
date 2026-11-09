@@ -133,6 +133,6 @@ async function loadWeeklyComparison(){try{
  $('weeklyComparison').textContent='Same '+t.completed_games+' games: Thursday '+a.wins+'-'+a.losses+'-'+a.pushes+' ('+(a.win_pct_excluding_pushes??'N/A')+'%), Saturday '+b.wins+'-'+b.losses+'-'+b.pushes+' ('+(b.win_pct_excluding_pushes??'N/A')+'%). Picks changed in '+t.changed_picks+' games.';
 }catch(_){$('weeklyComparison').textContent='No Thursday/Saturday comparison available yet.';}}
 loadWeeklyComparison();
-async function chooseLatestWeek(){for(let n=14;n>=1;n--){try{const r=await fetch('./data/week'+String(n).padStart(2,'0')+'.json',{method:'HEAD',cache:'no-store'});if(r.ok){week.value=n;break;}}catch(_){}}refresh();}
+async function chooseLatestWeek(){await refresh();for(let n=14;n>Number(week.value);n--){try{const r=await fetch('./data/week'+String(n).padStart(2,'0')+'.json',{method:'HEAD',cache:'no-store'});if(r.ok){week.value=n;await refresh();break;}}catch(_){}}}
 chooseLatestWeek();
 </script></body></html>
