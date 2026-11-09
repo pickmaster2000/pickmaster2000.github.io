@@ -2,7 +2,7 @@
   "week": 9,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=9",
-  "retrieved_at": "2026-11-09T23:39:05.326941+00:00",
+  "retrieved_at": "2026-11-09T23:39:29.281993+00:00",
   "games": [
     {
       "favorite": "UCF",
@@ -11,7 +11,9 @@
       "underdog_home": false,
       "favorite_spread": -1.5,
       "favorite_pick_pct": 78,
-      "underdog_pick_pct": 22
+      "underdog_pick_pct": 22,
+      "espn_event_id": "401856844",
+      "kickoff_utc": "2026-10-30T23:30:00+00:00"
     },
     {
       "favorite": "Duke",
@@ -20,7 +22,9 @@
       "underdog_home": false,
       "favorite_spread": -7.0,
       "favorite_pick_pct": 77,
-      "underdog_pick_pct": 23
+      "underdog_pick_pct": 23,
+      "espn_event_id": "401858279",
+      "kickoff_utc": "2026-10-31T16:00:00+00:00"
     },
     {
       "favorite": "Illinois",
@@ -29,7 +33,9 @@
       "underdog_home": true,
       "favorite_spread": -2.5,
       "favorite_pick_pct": 84,
-      "underdog_pick_pct": 16
+      "underdog_pick_pct": 16,
+      "espn_event_id": "401858503",
+      "kickoff_utc": "2026-10-31T16:00:00+00:00"
     },
     {
       "favorite": "Iowa",
@@ -38,7 +44,9 @@
       "underdog_home": false,
       "favorite_spread": -3.5,
       "favorite_pick_pct": 59,
-      "underdog_pick_pct": 41
+      "underdog_pick_pct": 41,
+      "espn_event_id": "401858502",
+      "kickoff_utc": "2026-10-31T16:00:00+00:00"
     },
     {
       "favorite": "Texas Tech",
@@ -47,7 +55,9 @@
       "underdog_home": false,
       "favorite_spread": -3.5,
       "favorite_pick_pct": 70,
-      "underdog_pick_pct": 30
+      "underdog_pick_pct": 30,
+      "espn_event_id": "401856842",
+      "kickoff_utc": "2026-10-31T16:00:00+00:00"
     },
     {
       "favorite": "Notre Dame",
@@ -56,7 +66,9 @@
       "underdog_home": true,
       "favorite_spread": -30.5,
       "favorite_pick_pct": 54,
-      "underdog_pick_pct": 46
+      "underdog_pick_pct": 46,
+      "espn_event_id": "401859185",
+      "kickoff_utc": "2026-10-31T16:00:00+00:00"
     },
     {
       "favorite": "Michigan",
@@ -65,7 +77,9 @@
       "underdog_home": true,
       "favorite_spread": -14.0,
       "favorite_pick_pct": 71,
-      "underdog_pick_pct": 29
+      "underdog_pick_pct": 29,
+      "espn_event_id": "401858507",
+      "kickoff_utc": "2026-10-31T16:30:00+00:00"
     },
     {
       "favorite": "Air Force",
@@ -83,7 +97,9 @@
       "underdog_home": false,
       "favorite_spread": -20.5,
       "favorite_pick_pct": 39,
-      "underdog_pick_pct": 61
+      "underdog_pick_pct": 61,
+      "espn_event_id": "401858501",
+      "kickoff_utc": "2026-10-31T19:30:00+00:00"
     },
     {
       "favorite": "Oregon",
@@ -92,7 +108,9 @@
       "underdog_home": false,
       "favorite_spread": -3.5,
       "favorite_pick_pct": 44,
-      "underdog_pick_pct": 56
+      "underdog_pick_pct": 56,
+      "espn_event_id": "401858505",
+      "kickoff_utc": "2026-10-31T19:30:00+00:00"
     },
     {
       "favorite": "Georgia",
@@ -101,7 +119,9 @@
       "underdog_home": false,
       "favorite_spread": -11.5,
       "favorite_pick_pct": 70,
-      "underdog_pick_pct": 30
+      "underdog_pick_pct": 30,
+      "espn_event_id": "401856734",
+      "kickoff_utc": "2026-10-31T19:30:00+00:00"
     },
     {
       "favorite": "TCU",
@@ -110,7 +130,9 @@
       "underdog_home": false,
       "favorite_spread": -6.0,
       "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21
+      "underdog_pick_pct": 21,
+      "espn_event_id": "401856845",
+      "kickoff_utc": "2026-10-31T19:30:00+00:00"
     },
     {
       "favorite": "Wake Forest",
@@ -119,7 +141,9 @@
       "underdog_home": false,
       "favorite_spread": -12.5,
       "favorite_pick_pct": 75,
-      "underdog_pick_pct": 25
+      "underdog_pick_pct": 25,
+      "espn_event_id": "401858284",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00"
     },
     {
       "favorite": "Utah",
@@ -128,7 +152,9 @@
       "underdog_home": true,
       "favorite_spread": -6.5,
       "favorite_pick_pct": 76,
-      "underdog_pick_pct": 24
+      "underdog_pick_pct": 24,
+      "espn_event_id": "401856848",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00"
     },
     {
       "favorite": "New Mexico",
@@ -146,7 +172,9 @@
       "underdog_home": false,
       "favorite_spread": -5.5,
       "favorite_pick_pct": 63,
-      "underdog_pick_pct": 37
+      "underdog_pick_pct": 37,
+      "espn_event_id": "401858280",
+      "kickoff_utc": "2026-10-31T23:00:00+00:00"
     },
     {
       "favorite": "Oklahoma St.",
@@ -155,7 +183,9 @@
       "underdog_home": true,
       "favorite_spread": -8.5,
       "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21
+      "underdog_pick_pct": 21,
+      "espn_event_id": "401856847",
+      "kickoff_utc": "2026-10-31T23:00:00+00:00"
     },
     {
       "favorite": "SDSU",
@@ -164,7 +194,9 @@
       "underdog_home": false,
       "favorite_spread": -2.5,
       "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21
+      "underdog_pick_pct": 21,
+      "espn_event_id": "401860909",
+      "kickoff_utc": "2026-10-31T23:00:00+00:00"
     },
     {
       "favorite": "Miami (FL)",
@@ -173,7 +205,9 @@
       "underdog_home": true,
       "favorite_spread": -14.5,
       "favorite_pick_pct": 76,
-      "underdog_pick_pct": 24
+      "underdog_pick_pct": 24,
+      "espn_event_id": "401858282",
+      "kickoff_utc": "2026-10-31T23:30:00+00:00"
     },
     {
       "favorite": "Pittsburgh",
@@ -182,7 +216,9 @@
       "underdog_home": false,
       "favorite_spread": -7.5,
       "favorite_pick_pct": 69,
-      "underdog_pick_pct": 31
+      "underdog_pick_pct": 31,
+      "espn_event_id": "401858281",
+      "kickoff_utc": "2026-10-31T23:30:00+00:00"
     },
     {
       "favorite": "Ohio St.",
@@ -191,7 +227,9 @@
       "underdog_home": true,
       "favorite_spread": -6.5,
       "favorite_pick_pct": 80,
-      "underdog_pick_pct": 20
+      "underdog_pick_pct": 20,
+      "espn_event_id": "401858509",
+      "kickoff_utc": "2026-10-31T23:30:00+00:00"
     },
     {
       "favorite": "Texas",
@@ -200,7 +238,9 @@
       "underdog_home": false,
       "favorite_spread": -20.5,
       "favorite_pick_pct": 60,
-      "underdog_pick_pct": 40
+      "underdog_pick_pct": 40,
+      "espn_event_id": "401856737",
+      "kickoff_utc": "2026-10-31T23:30:00+00:00"
     },
     {
       "favorite": "Nebraska",
@@ -209,7 +249,9 @@
       "underdog_home": false,
       "favorite_spread": -7.5,
       "favorite_pick_pct": 81,
-      "underdog_pick_pct": 19
+      "underdog_pick_pct": 19,
+      "espn_event_id": "401858504",
+      "kickoff_utc": "2026-11-01T00:00:00+00:00"
     },
     {
       "favorite": "Memphis",
@@ -218,7 +260,9 @@
       "underdog_home": false,
       "favorite_spread": -6.0,
       "favorite_pick_pct": 73,
-      "underdog_pick_pct": 27
+      "underdog_pick_pct": 27,
+      "espn_event_id": "401862814",
+      "kickoff_utc": "2026-11-01T00:00:00+00:00"
     },
     {
       "favorite": "Oregon St.",
@@ -227,7 +271,9 @@
       "underdog_home": true,
       "favorite_spread": -5.5,
       "favorite_pick_pct": 82,
-      "underdog_pick_pct": 18
+      "underdog_pick_pct": 18,
+      "espn_event_id": "401860924",
+      "kickoff_utc": "2026-11-01T03:00:00+00:00"
     }
   ],
   "note": "Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group."
