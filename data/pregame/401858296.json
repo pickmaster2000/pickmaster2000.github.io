@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401858296",
+  "kickoff_utc": "2026-11-14T17:00:00+00:00",
+  "game": {
+    "favorite": "Miami (FL)",
+    "underdog": "Duke",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -13.5,
+    "favorite_pick_pct": 71,
+    "underdog_pick_pct": 29
+  },
+  "prediction": {
+    "favorite": "Miami (FL)",
+    "underdog": "Duke",
+    "projected_favorite_margin": 11.87,
+    "recommended_team": "Duke",
+    "estimated_edge_points": 1.63,
+    "signal": "watchlist",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

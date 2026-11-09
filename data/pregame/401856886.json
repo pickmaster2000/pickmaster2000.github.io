@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401856886",
+  "kickoff_utc": "2026-11-14T17:00:00+00:00",
+  "game": {
+    "favorite": "Auburn",
+    "underdog": "Mississippi St.",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -2.5,
+    "favorite_pick_pct": 56,
+    "underdog_pick_pct": 44
+  },
+  "prediction": {
+    "favorite": "Auburn",
+    "underdog": "Mississippi St.",
+    "projected_favorite_margin": 1.08,
+    "recommended_team": "Mississippi St.",
+    "estimated_edge_points": 1.42,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

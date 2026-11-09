@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401858523",
+  "kickoff_utc": "2026-11-14T20:30:00+00:00",
+  "game": {
+    "favorite": "Oregon",
+    "underdog": "Michigan",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -10.5,
+    "favorite_pick_pct": 100,
+    "underdog_pick_pct": 0
+  },
+  "prediction": {
+    "favorite": "Oregon",
+    "underdog": "Michigan",
+    "projected_favorite_margin": 9.79,
+    "recommended_team": "Michigan",
+    "estimated_edge_points": 0.71,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

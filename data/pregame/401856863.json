@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401856863",
+  "kickoff_utc": "2026-11-15T02:30:00+00:00",
+  "game": {
+    "favorite": "Oklahoma St.",
+    "underdog": "Texas Tech",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.5,
+    "favorite_pick_pct": 9,
+    "underdog_pick_pct": 91
+  },
+  "prediction": {
+    "favorite": "Oklahoma St.",
+    "underdog": "Texas Tech",
+    "projected_favorite_margin": 3.78,
+    "recommended_team": "Oklahoma St.",
+    "estimated_edge_points": 0.28,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

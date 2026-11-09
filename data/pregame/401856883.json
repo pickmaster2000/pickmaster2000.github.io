@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401856883",
+  "kickoff_utc": "2026-11-14T20:30:00+00:00",
+  "game": {
+    "favorite": "Georgia",
+    "underdog": "Missouri",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -14.5,
+    "favorite_pick_pct": 73,
+    "underdog_pick_pct": 27
+  },
+  "prediction": {
+    "favorite": "Georgia",
+    "underdog": "Missouri",
+    "projected_favorite_margin": 13.36,
+    "recommended_team": "Missouri",
+    "estimated_edge_points": 1.14,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

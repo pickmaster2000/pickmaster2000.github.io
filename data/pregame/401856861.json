@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401856861",
+  "kickoff_utc": "2026-11-14T22:30:00+00:00",
+  "game": {
+    "favorite": "West Virginia",
+    "underdog": "Kansas",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.0,
+    "favorite_pick_pct": 94,
+    "underdog_pick_pct": 6
+  },
+  "prediction": {
+    "favorite": "West Virginia",
+    "underdog": "Kansas",
+    "projected_favorite_margin": 2.8,
+    "recommended_team": "Kansas",
+    "estimated_edge_points": 0.2,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

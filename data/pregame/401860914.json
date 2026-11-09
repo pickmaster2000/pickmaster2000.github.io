@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401860914",
+  "kickoff_utc": "2026-11-14T23:00:00+00:00",
+  "game": {
+    "favorite": "Boise St.",
+    "underdog": "Oregon St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -10.5,
+    "favorite_pick_pct": 96,
+    "underdog_pick_pct": 4
+  },
+  "prediction": {
+    "favorite": "Boise St.",
+    "underdog": "Oregon St.",
+    "projected_favorite_margin": 9.16,
+    "recommended_team": "Oregon St.",
+    "estimated_edge_points": 1.34,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

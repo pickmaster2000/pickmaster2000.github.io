@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "week": 11,
+  "captured_at": "2026-11-09T23:01:32.147015+00:00",
+  "espn_event_id": "401856864",
+  "kickoff_utc": "2026-11-15T00:30:00+00:00",
+  "game": {
+    "favorite": "Utah",
+    "underdog": "Arizona",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -2.5,
+    "favorite_pick_pct": 94,
+    "underdog_pick_pct": 6
+  },
+  "prediction": {
+    "favorite": "Utah",
+    "underdog": "Arizona",
+    "projected_favorite_margin": 2.07,
+    "recommended_team": "Arizona",
+    "estimated_edge_points": 0.43,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}
