@@ -1,15 +1,69 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1931"><title>Pickmaster 2000</title><style>
 :root{font-family:system-ui,-apple-system,sans-serif;color:#f0f5ff;background:#0b1931}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:24px 16px 70px}h1{font-size:clamp(28px,5vw,45px);margin:4px 0}h2{font-size:21px}p{color:#b8c9e5;line-height:1.5}.top{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}.panel,.game{background:#152744;border:1px solid #30486d;border-radius:14px;padding:17px;margin:14px 0}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}button,select,input{font:inherit;border-radius:9px;padding:11px;border:1px solid #5c7499}button{background:#2c7be5;color:white;font-weight:700;cursor:pointer}button.secondary{background:#203655}select,input{background:#0b1931;color:white}input{width:100px}.muted,small{color:#9db2d3}.notice{border-left:4px solid #e7b65b;padding:12px;background:#26314a;margin:15px 0}.game{display:grid;grid-template-columns:1fr auto;gap:12px}.game h3{margin:0 0 7px;font-size:17px}.game p{margin:5px 0}.game .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-end}.tag{display:inline-block;background:#2a4265;border-radius:5px;padding:4px 7px;font-size:12px}.score{font-size:23px;font-weight:800;color:#bce1ff}a{color:#8fc2ff}.stats{display:flex;gap:18px;flex-wrap:wrap}.stats strong{font-size:24px}.hidden{display:none}@media(max-width:650px){.game{grid-template-columns:1fr}.game .actions{justify-content:flex-start}}
-</style></head><body><main><div class="top"><div><small>COLLEGE FOOTBALL AGAINST THE SPREAD</small><h1>PICKMASTER 2000</h1><p>Yahoo public spreads • weekly picks • local history</p></div><a href="https://football.fantasysports.yahoo.com/college/7136/4/" target="_blank" rel="noopener">Open my Yahoo group</a></div>
-<div class="panel"><div class="controls"><label for="week">Yahoo week</label><select id="week"></select><button id="refresh">↻ Refresh &amp; Analyze</button><button id="history" class="secondary">View saved picks</button></div><p id="status" role="status">Choose a week and click Refresh &amp; Analyze.</p><div class="stats"><span>Games: <strong id="count">0</strong></span><span>Projected picks: <strong id="projected">0</strong></span></div></div>
-<div class="notice"><b>How the analysis works:</b> Yahoo public pick percentages are crowd preferences, not probabilities of covering. Enter your independently researched projected favorite victory margin for any game to calculate an illustrative ATS edge. Without a projection, the app will not invent a pick or confidence rating. This version does not automatically research injuries, weather, or team statistics.</div>
+</style></head><body><main><div class="top"><div><small>COLLEGE FOOTBALL AGAINST THE SPREAD</small><h1>PICKMASTER 2000</h1><p>Yahoo public spreads • model picks • local history</p></div><a href="https://football.fantasysports.yahoo.com/college/7136/4/" target="_blank" rel="noopener">Open my Yahoo group</a></div>
+<div class="panel"><div class="controls"><label for="week">Yahoo week</label><select id="week"></select><button id="refresh">↻ Refresh &amp; Analyze</button><button id="history" class="secondary">View saved picks</button></div><p id="status" role="status">Choose a week and click Refresh &amp; Analyze.</p><div class="stats"><span>Games: <strong id="count">0</strong></span><span>Available picks: <strong id="projected">0</strong></span></div></div>
+<div class="notice"><b>How the analysis works:</b> Yahoo public pick percentages are crowd preferences, not probabilities of covering. The app displays model recommendations when a verified weekly predictions file is available. Until then, you can enter your own projected favorite win margin. Yahoo crowd percentages are not cover probabilities. This website does not independently research injuries, weather, or team statistics.</div>
 <h2>Games and picks</h2><div id="games"></div><div id="saved" class="hidden"></div>
 <p><small>Public Yahoo games may not match every game in your private group. Yahoo's official contest spread can differ from the public page. Check your group before submitting picks. Saved projections and picks are stored only in this browser and do not sync across devices.</small></p></main><script>
 const $=id=>document.getElementById(id);const week=$('week');for(let n=1;n<=14;n++){const o=document.createElement('option');o.value=n;o.textContent='Week '+n;week.append(o)}week.value=11;
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;let modelPicks={};let modelStatus="";
 const key=(w,g)=>'pm2000_v2_'+w+'_'+g.favorite+'_'+g.underdog;
 function calc(g,margin){if(margin===''||!Number.isFinite(Number(margin)))return null;const edge=Number(margin)+Number(g.favorite_spread);const z=Math.abs(edge)/(14*Math.sqrt(2));const erf=x=>{const t=1/(1+0.3275911*x),v=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return v};return {pick:edge>=0?g.favorite:g.underdog,edge:Math.abs(edge),prob:Math.round((.5+.5*erf(z))*100)} }
-function render(){let projected=0;const rows=games.map((g,i)=>{const raw=localStorage.getItem(key(currentWeek,g));const val=raw===null?'':raw;const r=calc(g,val);if(r)projected++;return {g,i,val,r}}).sort((a,b)=>(b.r?.edge??-1)-(a.r?.edge??-1));$('count').textContent=games.length;$('projected').textContent=projected;$('games').innerHTML=rows.length?rows.map(({g,i,val,r})=>`<div class="game"><div><h3>${esc(g.favorite)} ${g.favorite_spread} vs ${esc(g.underdog)} +${Math.abs(g.favorite_spread)}</h3><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span></div><div class="actions"><label>Projected favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="e.g. 7"></label><div>${r?`<div class="score">${esc(r.pick)}</div><small>Edge ${r.edge.toFixed(1)} pts · illustrative ${r.prob}% ATS</small>`:'<small>No projection yet</small>'}</div></div></div>`).join(''):'<div class="panel">No verified Yahoo public games loaded for this week.</div>';document.querySelectorAll('input[data-i]').forEach(inp=>inp.addEventListener('change',()=>{const g=games[+inp.dataset.i];if(inp.value==='')localStorage.removeItem(key(currentWeek,g));else localStorage.setItem(key(currentWeek,g),inp.value);render()}))}
-async function refresh(){currentWeek=Number(week.value);$('status').textContent='Loading latest published Yahoo snapshot…';$('saved').classList.add('hidden');try{const r=await fetch('./data/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('No published snapshot for this week');const d=await r.json();if(d.week!==currentWeek||!Array.isArray(d.games))throw Error('Invalid snapshot');games=d.games;$('status').textContent=`Loaded ${games.length} games from Yahoo public data. Last retrieved: ${new Date(d.retrieved_at).toLocaleString()}. Website refresh loads published snapshots; GitHub Actions updates them separately.`}catch(e){games=[];$('status').textContent=e.message+'. Yahoo may not have published this week, or GitHub Actions may be blocked. Check Actions → Update Yahoo public data → Run workflow.'}render()}
+function render(){
+ let projected=0;
+ const rows=games.map((g,i)=>{
+  const raw=localStorage.getItem(key(currentWeek,g));
+  const val=raw===null?'':raw;
+  const id=(g.favorite+'|'+g.underdog).toLowerCase();
+  const model=modelPicks[id];
+  const margin=val!==''?Number(val):(model&&Number.isFinite(Number(model.projected_favorite_margin))?Number(model.projected_favorite_margin):'');
+  const r=calc(g,margin);
+  if(r)projected++;
+  return {g,i,val,r,model,manual:val!==''};
+ }).sort((a,b)=>(b.r?.edge??-1)-(a.r?.edge??-1));
+ $('count').textContent=games.length;
+ $('projected').textContent=projected;
+ $('games').innerHTML=rows.length?rows.map(({g,i,val,r,model,manual})=>{
+  const source=manual?'Your projection':model?'Statistical model':'No projection available';
+  const pick=r?`${esc(r.pick)} ${r.pick===g.favorite?g.favorite_spread:'+'+Math.abs(g.favorite_spread)}`:'';
+  return `<div class="game"><div><h3>${esc(g.favorite)} ${g.favorite_spread} vs ${esc(g.underdog)} +${Math.abs(g.favorite_spread)}</h3><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span> <span class="tag">${source}</span>${model&&model.notes?`<p><small>${esc(model.notes)}</small></p>`:''}</div><div class="actions"><label>Override favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="Optional"></label><div>${r?`<div class="score">${pick}</div><small>Projected favorite margin ${Number(manual?val:model.projected_favorite_margin).toFixed(1)} · edge ${r.edge.toFixed(1)} pts</small>`:'<small>No projection yet</small>'}</div></div></div>`;
+ }).join(''):'<div class="panel">No verified Yahoo public games loaded for this week.</div>';
+ document.querySelectorAll('input[data-i]').forEach(inp=>inp.addEventListener('change',()=>{
+  const g=games[+inp.dataset.i];
+  if(inp.value==='')localStorage.removeItem(key(currentWeek,g));
+  else localStorage.setItem(key(currentWeek,g),inp.value);
+  render();
+ }));
+}
+
+async function refresh(){
+ currentWeek=Number(week.value);
+ $('status').textContent='Loading latest published Yahoo snapshot…';
+ $('saved').classList.add('hidden');
+ modelPicks={};
+ try{
+  const r=await fetch('./data/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('No published snapshot for this week');
+  const d=await r.json();
+  if(d.week!==currentWeek||!Array.isArray(d.games))throw Error('Invalid snapshot');
+  games=d.games;
+  try{
+   const pr=await fetch('./data/week'+String(currentWeek).padStart(2,'0')+'_predictions.json?ts='+Date.now(),{cache:'no-store'});
+   if(pr.ok){
+    const pd=await pr.json();
+    if(pd.week===currentWeek&&Array.isArray(pd.predictions)){
+     for(const x of pd.predictions){
+      if(typeof x.favorite==='string'&&typeof x.underdog==='string'&&typeof x.projected_favorite_margin==='number'&&Number.isFinite(x.projected_favorite_margin)){
+       modelPicks[(x.favorite+'|'+x.underdog).toLowerCase()]=x;
+      }
+     }
+    }
+   }
+  }catch(_){/* Predictions are optional; do not block Yahoo data. */}
+  $('status').textContent=`Loaded ${games.length} Yahoo games and ${Object.keys(modelPicks).length} model projections. Last Yahoo retrieval: ${new Date(d.retrieved_at).toLocaleString()}. Refresh loads published snapshots; GitHub Actions updates them separately.`;
+ }catch(e){games=[];$('status').textContent=e.message+'. Check Actions → Update Yahoo public data → Run workflow.'}
+ render();
+}
+
 $('refresh').onclick=refresh;week.onchange=refresh;$('history').onclick=()=>{const entries=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('pm2000_v2_'))entries.push([k,localStorage.getItem(k)])}const el=$('saved');el.classList.toggle('hidden');el.innerHTML='<div class="panel"><h2>Saved projections on this device</h2>'+(entries.length?entries.map(([k,v])=>`<p>${esc(k.replace('pm2000_v2_','').replaceAll('_',' · '))}: projected margin ${esc(v)}</p>`).join(''):'<p>None saved yet.</p>')+'</div>'};refresh();
 </script></body></html>
