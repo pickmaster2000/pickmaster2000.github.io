@@ -28,7 +28,7 @@ jobs:
           python-version: '3.12'
       - name: Check Python scripts and website JavaScript
         run: |
-          python -m py_compile scripts/build_predictions.py scripts/fetch_yahoo.py scripts/backtest.py scripts/diagnostics.py scripts/freeze_pregame.py scripts/prospective.py scripts/challenger.py scripts/compare_challenger.py scripts/freeze_thursday.py scripts/freeze_saturday.py
+          python -m py_compile scripts/build_predictions.py scripts/fetch_yahoo.py scripts/backtest.py scripts/diagnostics.py scripts/freeze_pregame.py scripts/prospective.py scripts/challenger.py scripts/compare_challenger.py scripts/freeze_thursday.py scripts/freeze_saturday.py scripts/compare_thursday_saturday.py
           python -c "from pathlib import Path; s=Path('index.html').read_text(); Path('/tmp/pickmaster-site.js').write_text(s.split('<script>',1)[1].split('</script>',1)[0])"
           node --check /tmp/pickmaster-site.js
       - name: Fetch Yahoo public games
@@ -45,6 +45,8 @@ jobs:
         run: python scripts/freeze_thursday.py
       - name: Capture Saturday morning comparison against Thursday references
         run: python scripts/freeze_saturday.py
+      - name: Compare Thursday and Saturday picks after final scores
+        run: python scripts/compare_thursday_saturday.py
       - name: Score frozen pregame picks after final results
         run: python scripts/prospective.py
       - name: Run isolated offense-defense challenger and compare models
