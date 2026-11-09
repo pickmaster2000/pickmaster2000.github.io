@@ -2,13 +2,14 @@
 :root{font-family:system-ui,-apple-system,sans-serif;color:#f0f5ff;background:#0b1931}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:24px 16px 70px}h1{font-size:clamp(28px,5vw,45px);margin:4px 0}h2{font-size:21px}p{color:#b8c9e5;line-height:1.5}.top{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}.panel,.game{background:#152744;border:1px solid #30486d;border-radius:14px;padding:17px;margin:14px 0}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}button,select,input{font:inherit;border-radius:9px;padding:11px;border:1px solid #5c7499}button{background:#2c7be5;color:white;font-weight:700;cursor:pointer}button.secondary{background:#203655}select,input{background:#0b1931;color:white}input{width:100px}.muted,small{color:#9db2d3}.notice{border-left:4px solid #e7b65b;padding:12px;background:#26314a;margin:15px 0}.game{display:grid;grid-template-columns:1fr auto;gap:12px}.game h3{margin:0 0 7px;font-size:17px}.game p{margin:5px 0}.game .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-end}.tag{display:inline-block;background:#2a4265;border-radius:5px;padding:4px 7px;font-size:12px}.score{font-size:23px;font-weight:800;color:#bce1ff}a{color:#8fc2ff}.stats{display:flex;gap:18px;flex-wrap:wrap}.stats strong{font-size:24px}.hidden{display:none}@media(max-width:650px){.game{grid-template-columns:1fr}.game .actions{justify-content:flex-start}}
 </style></head><body><main><div class="top"><div><small>COLLEGE FOOTBALL AGAINST THE SPREAD</small><h1>PICKMASTER 2000</h1><p>Yahoo public spreads • model picks • local history</p></div><a href="https://football.fantasysports.yahoo.com/college/7136/4/" target="_blank" rel="noopener">Open my Yahoo group</a></div>
 <div class="panel"><div class="controls"><label for="week">Yahoo week</label><select id="week"></select><button id="refresh">↻ Refresh &amp; Analyze</button><button id="history" class="secondary">View saved picks</button><button id="copy" class="secondary">Copy pick sheet</button></div><p id="status" role="status">Choose a week and click Refresh &amp; Analyze.</p><div class="stats"><span>Games: <strong id="count">0</strong></span><span>Model leans: <strong id="projected">0</strong></span></div></div>
-<div class="notice"><b>How the analysis works:</b> Yahoo public pick percentages are crowd preferences, not probabilities of covering. Every game on the public Yahoo slate is shown. A model lean appears where sufficient team data exists; weaker leans are not validated betting advantages. Until then, you can enter your own projected favorite win margin. Yahoo crowd percentages are not cover probabilities. Thursday public line references are frozen after 6 PM Central where available, and compared with later Yahoo public data. They are not independent sportsbook market lines or verified private group lock lines. This website does not independently research injuries or weather.</div>
+<div class="notice"><b>How the analysis works:</b> Yahoo public pick percentages are crowd preferences, not probabilities of covering. Every game on the public Yahoo slate is shown. A model lean appears where sufficient team data exists; weaker leans are not validated betting advantages. Until then, you can enter your own projected favorite win margin. Yahoo crowd percentages are not cover probabilities. Where a Thursday reference is available, picks and displayed edges are evaluated against THAT Thursday public spread, not the latest public spread. Saturday reviews are frozen separately when available. They are not independent sportsbook market lines or verified private group lock lines. This website does not independently research injuries or weather.</div>
 <div class="panel"><h2>Forward-tracked game record</h2><p id="prospective">Loading frozen pregame picks…</p><p><small>This record uses first-observed picks and public lines saved before kickoff. A future winning percentage is not guaranteed.</small></p></div>
 <div class="panel"><h2>Historical model audit</h2><p id="audit">Loading prior weeks' results…</p><p id="diagnostic">Loading picks breakdown…</p><p><small>Retrospective audit only. Saved public spreads may not reflect pregame or official contest lines. A higher estimated edge does not establish an advantage.</small></p></div>
 <h2>Games and picks</h2><div id="games"></div><div id="saved" class="hidden"></div>
 <p><small>Public Yahoo games may not match every game in your private group. Yahoo's official contest spread can differ from the public page. Check your group before submitting picks. Saved projections and picks are stored only in this browser and do not sync across devices.</small></p></main><script>
 const $=id=>document.getElementById(id);const week=$('week');for(let n=1;n<=14;n++){const o=document.createElement('option');o.value=n;o.textContent='Week '+n;week.append(o)}week.value=11;
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;let modelPicks={};let thursdayLines={};let thursdayCapture="";let modelStatus="";
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let games=[];let currentWeek=11;let modelPicks={};let thursdayLines={};let thursdayCapture="";let saturdayUpdates={};let saturdayCapture="";let modelStatus="";
+const matchKey=g=>[g.favorite,g.underdog].map(x=>String(x).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()).sort().join('|');
 const key=(w,g)=>'pm2000_v2_'+w+'_'+g.favorite+'_'+g.underdog;
 function calc(g,margin){if(margin===''||!Number.isFinite(Number(margin)))return null;const edge=Number(margin)+Number(g.favorite_spread);const z=Math.abs(edge)/(14*Math.sqrt(2));const erf=x=>{const t=1/(1+0.3275911*x),v=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return v};return {pick:edge>=0?g.favorite:g.underdog,edge:Math.abs(edge),prob:Math.round((.5+.5*erf(z))*100)} }
 function render(){
@@ -28,10 +29,16 @@ function render(){
  $('games').innerHTML=rows.length?rows.map(({g,i,val,r,model,manual})=>{
   const signal=model?.signal==='watchlist'?'Model watchlist':model?'Low-edge model lean':'No verified projection';
   const source=manual?'Your projection':signal;
-  const th=thursdayLines[id];
-  const lineNote=th&&Number.isFinite(Number(th.favorite_spread))?'<p><small>Thursday public reference: '+esc(th.favorite_spread)+' · latest public: '+esc(g.favorite_spread)+(Math.abs(th.favorite_spread-g.favorite_spread)>0.01?' · changed '+Math.abs(th.favorite_spread-g.favorite_spread).toFixed(1)+' pts':' · unchanged')+'</small></p>':'';
-  const pick=r?`${esc(r.pick)} ${r.pick===g.favorite?g.favorite_spread:'+'+Math.abs(g.favorite_spread)}`:'';
-  return `<div class="game"><div><h3>${esc(g.favorite)} ${g.favorite_spread} vs ${esc(g.underdog)} +${Math.abs(g.favorite_spread)}</h3><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span> <span class="tag">${source}</span>${model&&model.notes?`<p><small>${esc(model.notes)}</small></p>`:''}${!model&&!manual?'<p><small>Data insufficient to produce a verified model lean for this matchup.</small></p>':''}${lineNote}</div><div class="actions"><label>Override favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="Optional"></label><div>${r?`<div class="score">${pick}</div><small>Projected favorite margin ${Number(manual?val:model.projected_favorite_margin).toFixed(1)} · edge ${r.edge.toFixed(1)} pts · ${manual?'your estimate':model?.signal==='watchlist'?'watchlist only':'low-edge lean'}</small>`:'<small>No projection yet</small>'}</div></div></div>`;
+  const th=thursdayLines[matchKey(g)];
+  const thSpread=th?Number(th.favorite_spread)*(String(th.favorite).toLowerCase()===String(g.favorite).toLowerCase()?1:-1):null;
+  const ref=th&&Number.isFinite(thSpread)?{...g,favorite_spread:thSpread}:g;
+  const locked=r&&th?calc(ref,margin):null;
+  const lockedPick=locked?locked.pick:null;
+  const saturday=saturdayUpdates[matchKey(g)];
+  const lineNote=th&&Number.isFinite(thSpread)?'<p><small>Thursday public reference: '+esc(thSpread)+' · latest public: '+esc(g.favorite_spread)+(Math.abs(thSpread-g.favorite_spread)>0.01?' · difference '+Math.abs(thSpread-g.favorite_spread).toFixed(1)+' pts':' · unchanged')+'</small></p>':'<p><small>Thursday public reference not captured yet. Showing current public spread only.</small></p>';
+  const saturdayNote=saturday?'<p><small>Saturday frozen review: '+esc(saturday.saturday_pick||'No pick')+(saturday.pick_changed?' · DIFFERENT from Thursday':' · same as Thursday')+' · edge '+Math.abs(Number(saturday.saturday_edge_vs_thursday_public_reference)).toFixed(1)+' pts versus Thursday public reference</small></p>':'';
+  const pick=r?`${esc(lockedPick||r.pick)} ${(lockedPick||r.pick)===g.favorite?ref.favorite_spread:'+'+Math.abs(ref.favorite_spread)}`:'';
+  return `<div class="game"><div><h3>${esc(g.favorite)} ${g.favorite_spread} vs ${esc(g.underdog)} +${Math.abs(g.favorite_spread)}</h3><p>Yahoo public picks: ${esc(g.favorite)} ${g.favorite_pick_pct}% · ${esc(g.underdog)} ${g.underdog_pick_pct}%</p><span class="tag">${g.favorite_home?'Favorite home':g.underdog_home?'Underdog home':'Venue unverified'}</span> <span class="tag">${source}</span>${model&&model.notes?`<p><small>${esc(model.notes)}</small></p>`:''}${!model&&!manual?'<p><small>Data insufficient to produce a verified model lean for this matchup.</small></p>':''}${lineNote}${saturdayNote}</div><div class="actions"><label>Override favorite win margin <input type="number" step="0.5" data-i="${i}" value="${esc(val)}" placeholder="Optional"></label><div>${r?`<div class="score">${pick}</div><small>Projected favorite margin ${Number(manual?val:model.projected_favorite_margin).toFixed(1)} · edge ${(locked||r).edge.toFixed(1)} pts ${th?'vs Thursday public reference':'vs current public line'} · ${manual?'your estimate':model?.signal==='watchlist'?'watchlist only':'low-edge lean'}</small>`:'<small>No projection yet</small>'}</div></div></div>`;
  }).join(''):'<div class="panel">No verified Yahoo public games loaded for this week.</div>';
  document.querySelectorAll('input[data-i]').forEach(inp=>inp.addEventListener('change',()=>{
   const g=games[+inp.dataset.i];
@@ -45,7 +52,7 @@ async function refresh(){
  currentWeek=Number(week.value);
  $('status').textContent='Loading latest published Yahoo snapshot…';
  $('saved').classList.add('hidden');
- modelPicks={};thursdayLines={};thursdayCapture='';
+ modelPicks={};thursdayLines={};thursdayCapture='';saturdayUpdates={};saturdayCapture='';
  try{
   const r=await fetch('./data/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});
   if(!r.ok)throw Error('No published snapshot for this week');
@@ -72,14 +79,26 @@ async function refresh(){
     if(td.week===currentWeek && Array.isArray(td.games)){
      for(const item of td.games){
       if(item.game && typeof item.game.favorite==='string' && typeof item.game.underdog==='string'){
-       thursdayLines[(item.game.favorite+'|'+item.game.underdog).toLowerCase()]=item.game;
+       thursdayLines[matchKey(item.game)]=item.game;
       }
      }
      thursdayCapture=td.captured_central||td.captured_at||'';
     }
    }
   }catch(_){/* Thursday data may not exist yet */ }
-  $('status').textContent=`Loaded ${games.length} Yahoo games; ${Object.keys(modelPicks).length} model leans. All games appear even if a model lean is unavailable. Last Yahoo retrieval: ${new Date(d.retrieved_at).toLocaleString()}. Thursday public references: ${Object.keys(thursdayLines).length}${thursdayCapture?' (captured '+new Date(thursdayCapture).toLocaleString()+')':''}. These are not independently verified official group spreads. Refresh loads published snapshots; GitHub Actions updates them separately.`;
+  try{
+   const sr=await fetch('./data/saturday/week'+String(currentWeek).padStart(2,'0')+'.json?ts='+Date.now(),{cache:'no-store'});
+   if(sr.ok){
+    const sd=await sr.json();
+    if(sd.week===currentWeek&&Array.isArray(sd.games)){
+     for(const item of sd.games){
+      if(item.saturday_game)saturdayUpdates[matchKey(item.saturday_game)]=item;
+     }
+     saturdayCapture=sd.captured_central||sd.captured_at||'';
+    }
+   }
+  }catch(_){/* Saturday snapshot is optional */ }
+  $('status').textContent=`Loaded ${games.length} Yahoo games; ${Object.keys(modelPicks).length} model leans. All games appear even if a model lean is unavailable. Last Yahoo retrieval: ${new Date(d.retrieved_at).toLocaleString()}. Thursday public references: ${Object.keys(thursdayLines).length}${thursdayCapture?' (captured '+new Date(thursdayCapture).toLocaleString()+')':''}. Saturday frozen reviews: ${Object.keys(saturdayUpdates).length}${saturdayCapture?' (captured '+new Date(saturdayCapture).toLocaleString()+')':''}. These are not independently verified official group spreads. Refresh loads published snapshots; GitHub Actions updates them separately.`;
  }catch(e){games=[];$('status').textContent=e.message+'. Check Actions → Update Yahoo public data → Run workflow.'}
  render();
 }
