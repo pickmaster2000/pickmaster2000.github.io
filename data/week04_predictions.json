@@ -1,7 +1,7 @@
 {
   "week": 4,
   "season": 2026,
-  "generated_at": "2026-11-09T22:37:21.152071+00:00",
+  "generated_at": "2026-11-09T22:41:51.901077+00:00",
   "source": "ESPN public completed-game scoreboard + Yahoo spread",
   "model": "Regularized scoring with market anchoring",
   "warning": "Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.",
@@ -43,6 +43,15 @@
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
     {
+      "favorite": "Boise St.",
+      "underdog": "W. Michigan",
+      "projected_favorite_margin": 3.67,
+      "recommended_team": "W. Michigan",
+      "estimated_edge_points": 3.33,
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
       "favorite": "Georgia",
       "underdog": "Oklahoma",
       "projected_favorite_margin": 12.09,
@@ -66,6 +75,15 @@
       "projected_favorite_margin": 10.01,
       "recommended_team": "South Carolina",
       "estimated_edge_points": 2.49,
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
+      "favorite": "Kansas St.",
+      "underdog": "Cincinnati",
+      "projected_favorite_margin": 4.21,
+      "recommended_team": "Cincinnati",
+      "estimated_edge_points": 2.29,
       "model": "Regularized opponent-adjusted scores, 70% market anchor",
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
@@ -102,6 +120,15 @@
       "projected_favorite_margin": 2.62,
       "recommended_team": "Tulsa",
       "estimated_edge_points": 4.38,
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
+      "favorite": "Oregon St.",
+      "underdog": "UTEP",
+      "projected_favorite_margin": 8.13,
+      "recommended_team": "UTEP",
+      "estimated_edge_points": 2.37,
       "model": "Regularized opponent-adjusted scores, 70% market anchor",
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     }
