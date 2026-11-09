@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-09T22:45:03.556843+00:00",
+  "generated_at": "2026-11-09T22:50:35.721948+00:00",
   "method": "Retrospective, prior-week-only model against available ESPN final scores and current public Yahoo snapshot spreads",
   "limitations": [
     "NOT a true point-in-time historical backtest. Yahoo snapshots may have been retrieved or updated after games occurred.",
@@ -9,83 +9,83 @@
     "Only games with a model pick and a unique ESPN final-score match are evaluated; small or missing samples may bias results."
   ],
   "total": {
-    "wins": 25,
-    "losses": 29,
-    "pushes": 1,
+    "wins": 72,
+    "losses": 86,
+    "pushes": 5,
     "unmatched": 0,
-    "evaluated": 55,
-    "win_rate_excluding_pushes": 46.3
+    "evaluated": 163,
+    "win_rate_excluding_pushes": 45.6
   },
   "weeks": [
     {
       "week": 4,
-      "wins": 4,
-      "losses": 9,
-      "pushes": 1,
+      "wins": 6,
+      "losses": 14,
+      "pushes": 2,
       "unmatched": 0,
-      "evaluated": 14,
+      "evaluated": 22,
       "slate_games": 25,
-      "model_picks": 14
+      "model_picks": 22
     },
     {
       "week": 5,
-      "wins": 3,
-      "losses": 6,
+      "wins": 12,
+      "losses": 12,
       "pushes": 0,
       "unmatched": 0,
-      "evaluated": 9,
+      "evaluated": 24,
       "slate_games": 25,
-      "model_picks": 9
+      "model_picks": 24
     },
     {
       "week": 6,
-      "wins": 4,
-      "losses": 5,
+      "wins": 13,
+      "losses": 11,
       "pushes": 0,
       "unmatched": 0,
-      "evaluated": 9,
+      "evaluated": 24,
       "slate_games": 25,
-      "model_picks": 9
+      "model_picks": 24
     },
     {
       "week": 7,
-      "wins": 6,
-      "losses": 4,
-      "pushes": 0,
+      "wins": 10,
+      "losses": 11,
+      "pushes": 1,
       "unmatched": 0,
-      "evaluated": 10,
+      "evaluated": 22,
       "slate_games": 25,
-      "model_picks": 10
+      "model_picks": 22
     },
     {
       "week": 8,
-      "wins": 3,
-      "losses": 3,
-      "pushes": 0,
+      "wins": 12,
+      "losses": 11,
+      "pushes": 1,
       "unmatched": 0,
-      "evaluated": 6,
+      "evaluated": 24,
       "slate_games": 25,
-      "model_picks": 6
+      "model_picks": 24
     },
     {
       "week": 9,
-      "wins": 4,
-      "losses": 1,
-      "pushes": 0,
+      "wins": 11,
+      "losses": 11,
+      "pushes": 1,
       "unmatched": 0,
-      "evaluated": 5,
+      "evaluated": 23,
       "slate_games": 25,
-      "model_picks": 5
+      "model_picks": 23
     },
     {
       "week": 10,
-      "wins": 1,
-      "losses": 1,
+      "wins": 8,
+      "losses": 16,
       "pushes": 0,
       "unmatched": 0,
-      "evaluated": 2,
+      "evaluated": 24,
       "slate_games": 25,
-      "model_picks": 2
+      "model_picks": 24
     }
   ]
 }
