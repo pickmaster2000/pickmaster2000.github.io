@@ -1,4 +1,4 @@
-"""Experimental, no-cost college football Elo ATS projections.
+"""Experimental, no-cost college football ATS projections.
 
 Uses public ESPN scoreboard results; not an injury, weather or AI model.
 Fails closed: no pick when team identification or history is insufficient.
@@ -23,10 +23,17 @@ ALIASES = {
     'boise st': 'boise state', 'oklahoma st': 'oklahoma state',
     'n carolina': 'north carolina', 'mississippi': 'ole miss',
     'smu': 'smu', 'ucf': 'ucf', 'tcu': 'tcu', 'usc': 'usc',
-    'n carolina': 'north carolina', 'north carolina': 'north carolina',
-    'ole miss': 'ole miss', 'miami fl': 'miami',
+    'ole miss': 'ole miss',
     'texas a m': 'texas a&m', 'wake forest': 'wake forest',
     'app state': 'appalachian state', 'fla atlantic': 'florida atlantic',
+    'w michigan': 'western michigan', 'w virginia': 'west virginia',
+    'boston coll': 'boston college', 'penn st': 'penn state',
+    'sdsu': 'san diego state', 'fresno st': 'fresno state',
+    'washington st': 'washington state', 'utah st': 'utah state',
+    'michigan st': 'michigan state', 'kent st': 'kent state',
+    'san jose st': 'san jose state', 'texas st': 'texas state',
+    'colorado st': 'colorado state', 'n dak st': 'north dakota state',
+    'coastal car': 'coastal carolina', 'appalachian st': 'appalachian state',
 }
 
 def norm(s):
@@ -149,18 +156,26 @@ def run():
         def resolve(name):
             n = norm(name)
             n = ALIASES.get(n, n)
-            return lookup.get(n)
+            result = lookup.get(n)
+            if result is not None:
+                return result
+            # ESPN abbreviations can be present when a shortened Yahoo name is not.
+            # Never guess based on fuzzy similarity: a wrong team is worse than no pick.
+            return lookup.get(norm(name))
         predictions = []
         for game in snapshot['games']:
             fav, dog = resolve(game['favorite']), resolve(game['underdog'])
-            if not fav or not dog or fav == dog or counts.get(fav, 0) < 3 or counts.get(dog, 0) < 3:
-                print(f"Week {week}: unmatched/insufficient history: {game['favorite']} / {game['underdog']}")
+            if not fav or not dog or fav == dog:
+                print(f"Week {week}: unresolved team ID: {game['favorite']}={fav} / {game['underdog']}={dog}")
+                continue
+            if counts.get(fav, 0) < 3 or counts.get(dog, 0) < 3:
+                print(f"Week {week}: insufficient games: {game['favorite']}={counts.get(fav,0)} / {game['underdog']}={counts.get(dog,0)}")
                 continue
             if game.get('favorite_home') == game.get('underdog_home'):
                 home_adjust = 0
             else:
                 home_adjust = 2.5 if game.get('favorite_home') else -2.5
-            # Elo points-to-margin conversion is heuristic, not backtested.
+            # Opponent-adjusted score difference in points.
             raw_margin = max(-45.0, min(45.0, ratings[fav] - ratings[dog] + home_adjust))
             market_margin = -float(game['favorite_spread'])
             # Shrink toward the market as a more credible baseline than a
@@ -179,8 +194,7 @@ def run():
                 'data_quality': 'Experimental, not backtested; injuries/weather not included',
             })
         if not predictions:
-            print(f'Week {week}: no sufficiently verified predictions; leaving prior file unchanged')
-            continue
+            print(f'Week {week}: no qualifying predictions; writing empty list to avoid stale picks')
         payload = {'week': week, 'season': YEAR, 'generated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
                    'source': 'ESPN public completed-game scoreboard + Yahoo spread', 'model': 'Regularized scoring with market anchoring',
                    'warning': 'Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.',
