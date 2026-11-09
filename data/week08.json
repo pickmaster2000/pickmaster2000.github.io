@@ -2,11 +2,11 @@
   "week": 8,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=8",
-  "retrieved_at": "2026-11-09T13:18:26.877488+00:00",
+  "retrieved_at": "2026-11-09T13:42:13.881364+00:00",
   "games": [
     {
-      "favorite": "Virginia (-1.5 pts)",
-      "underdog": "Duke (1.5 pts)",
+      "favorite": "Virginia",
+      "underdog": "Duke",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -1.5,
@@ -14,17 +14,8 @@
       "underdog_pick_pct": 29
     },
     {
-      "favorite": "Friday, Oct 23, 8:30 pm EDT",
-      "underdog": "Army (1.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -1.5,
-      "favorite_pick_pct": 45,
-      "underdog_pick_pct": 55
-    },
-    {
-      "favorite": "Tulsa (-1.5 pts)",
-      "underdog": "Army (1.5 pts)",
+      "favorite": "Tulsa",
+      "underdog": "Army",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -1.5,
@@ -32,8 +23,8 @@
       "underdog_pick_pct": 55
     },
     {
-      "favorite": "Friday, Oct 23, 9:00 pm EDT",
-      "underdog": "Wyoming (5.0 pts)",
+      "favorite": "Air Force",
+      "underdog": "Wyoming",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -5.0,
@@ -41,26 +32,8 @@
       "underdog_pick_pct": 22
     },
     {
-      "favorite": "Air Force (-5.0 pts)",
-      "underdog": "Wyoming (5.0 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -5.0,
-      "favorite_pick_pct": 78,
-      "underdog_pick_pct": 22
-    },
-    {
-      "favorite": "Saturday, Oct 24, 12:00 pm EDT",
-      "underdog": "Pittsburgh (20.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -20.5,
-      "favorite_pick_pct": 59,
-      "underdog_pick_pct": 41
-    },
-    {
-      "favorite": "Miami (FL) (-20.5 pts)",
-      "underdog": "Pittsburgh (20.5 pts)",
+      "favorite": "Miami (FL)",
+      "underdog": "Pittsburgh",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -20.5,
@@ -68,8 +41,8 @@
       "underdog_pick_pct": 41
     },
     {
-      "favorite": "Saturday, Oct 24, 12:00 pm EDT",
-      "underdog": "Michigan (7.0 pts)",
+      "favorite": "Indiana",
+      "underdog": "Michigan",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -7.0,
@@ -77,17 +50,8 @@
       "underdog_pick_pct": 22
     },
     {
-      "favorite": "Indiana (-7.0 pts)",
-      "underdog": "Michigan (7.0 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -7.0,
-      "favorite_pick_pct": 78,
-      "underdog_pick_pct": 22
-    },
-    {
-      "favorite": "Saturday, Oct 24, 12:00 pm EDT",
-      "underdog": "Auburn (7.5 pts)",
+      "favorite": "LSU",
+      "underdog": "Auburn",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -7.5,
@@ -95,17 +59,8 @@
       "underdog_pick_pct": 44
     },
     {
-      "favorite": "LSU (-7.5 pts)",
-      "underdog": "Auburn (7.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -7.5,
-      "favorite_pick_pct": 56,
-      "underdog_pick_pct": 44
-    },
-    {
-      "favorite": "Saturday, Oct 24, 12:00 pm EDT",
-      "underdog": "Cincinnati (10.5 pts)",
+      "favorite": "Texas Tech",
+      "underdog": "Cincinnati",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -10.5,
@@ -113,17 +68,8 @@
       "underdog_pick_pct": 20
     },
     {
-      "favorite": "Texas Tech (-10.5 pts)",
-      "underdog": "Cincinnati (10.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -10.5,
-      "favorite_pick_pct": 80,
-      "underdog_pick_pct": 20
-    },
-    {
-      "favorite": "Saturday, Oct 24, 1:00 pm EDT",
-      "underdog": "Kansas (3.0 pts)",
+      "favorite": "Baylor",
+      "underdog": "Kansas",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
@@ -131,26 +77,8 @@
       "underdog_pick_pct": 28
     },
     {
-      "favorite": "Baylor (-3.0 pts)",
-      "underdog": "Kansas (3.0 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -3.0,
-      "favorite_pick_pct": 72,
-      "underdog_pick_pct": 28
-    },
-    {
-      "favorite": "Saturday, Oct 24, 1:00 pm EDT",
-      "underdog": "Akron (3.0 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -3.0,
-      "favorite_pick_pct": 85,
-      "underdog_pick_pct": 15
-    },
-    {
-      "favorite": "Kent St. (-3.0 pts)",
-      "underdog": "Akron (3.0 pts)",
+      "favorite": "Kent St.",
+      "underdog": "Akron",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.0,
@@ -158,8 +86,8 @@
       "underdog_pick_pct": 15
     },
     {
-      "favorite": "Saturday, Oct 24, 3:00 pm EDT",
-      "underdog": "Illinois (9.5 pts)",
+      "favorite": "Oregon",
+      "underdog": "Illinois",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -9.5,
@@ -167,26 +95,8 @@
       "underdog_pick_pct": 35
     },
     {
-      "favorite": "Oregon (-9.5 pts)",
-      "underdog": "Illinois (9.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -9.5,
-      "favorite_pick_pct": 65,
-      "underdog_pick_pct": 35
-    },
-    {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "Boston Coll. (4.0 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -4.0,
-      "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21
-    },
-    {
-      "favorite": "Georgia Tech (-4.0 pts)",
-      "underdog": "Boston Coll. (4.0 pts)",
+      "favorite": "Georgia Tech",
+      "underdog": "Boston Coll.",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -4.0,
@@ -194,8 +104,8 @@
       "underdog_pick_pct": 21
     },
     {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "Minnesota (6.5 pts)",
+      "favorite": "Iowa",
+      "underdog": "Minnesota",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -6.5,
@@ -203,26 +113,8 @@
       "underdog_pick_pct": 20
     },
     {
-      "favorite": "Iowa (-6.5 pts)",
-      "underdog": "Minnesota (6.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -6.5,
-      "favorite_pick_pct": 80,
-      "underdog_pick_pct": 20
-    },
-    {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "Tennessee (2.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -2.5,
-      "favorite_pick_pct": 22,
-      "underdog_pick_pct": 78
-    },
-    {
-      "favorite": "South Carolina (-2.5 pts)",
-      "underdog": "Tennessee (2.5 pts)",
+      "favorite": "South Carolina",
+      "underdog": "Tennessee",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -2.5,
@@ -230,8 +122,8 @@
       "underdog_pick_pct": 78
     },
     {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "Mississippi St. (4.5 pts)",
+      "favorite": "Oklahoma",
+      "underdog": "Mississippi St.",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -4.5,
@@ -239,17 +131,8 @@
       "underdog_pick_pct": 48
     },
     {
-      "favorite": "Oklahoma (-4.5 pts)",
-      "underdog": "Mississippi St. (4.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -4.5,
-      "favorite_pick_pct": 52,
-      "underdog_pick_pct": 48
-    },
-    {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "Navy (2.5 pts)",
+      "favorite": "North Texas",
+      "underdog": "Navy",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -2.5,
@@ -257,17 +140,8 @@
       "underdog_pick_pct": 35
     },
     {
-      "favorite": "North Texas (-2.5 pts)",
-      "underdog": "Navy (2.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -2.5,
-      "favorite_pick_pct": 65,
-      "underdog_pick_pct": 35
-    },
-    {
-      "favorite": "Saturday, Oct 24, 3:30 pm EDT",
-      "underdog": "UCF (6.5 pts)",
+      "favorite": "BYU",
+      "underdog": "UCF",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -6.5,
@@ -275,17 +149,8 @@
       "underdog_pick_pct": 14
     },
     {
-      "favorite": "BYU (-6.5 pts)",
-      "underdog": "UCF (6.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -6.5,
-      "favorite_pick_pct": 86,
-      "underdog_pick_pct": 14
-    },
-    {
-      "favorite": "Saturday, Oct 24, 3:45 pm EDT",
-      "underdog": "Arizona St. (3.5 pts)",
+      "favorite": "Kansas St.",
+      "underdog": "Arizona St.",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.5,
@@ -293,17 +158,8 @@
       "underdog_pick_pct": 34
     },
     {
-      "favorite": "Kansas St. (-3.5 pts)",
-      "underdog": "Arizona St. (3.5 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -3.5,
-      "favorite_pick_pct": 66,
-      "underdog_pick_pct": 34
-    },
-    {
-      "favorite": "Saturday, Oct 24, 6:00 pm EDT",
-      "underdog": "Washington St. (13.0 pts)",
+      "favorite": "Boise St.",
+      "underdog": "Washington St.",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -13.0,
@@ -311,26 +167,8 @@
       "underdog_pick_pct": 15
     },
     {
-      "favorite": "Boise St. (-13.0 pts)",
-      "underdog": "Washington St. (13.0 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -13.0,
-      "favorite_pick_pct": 85,
-      "underdog_pick_pct": 15
-    },
-    {
-      "favorite": "Saturday, Oct 24, 7:00 pm EDT",
-      "underdog": "Virginia Tech (2.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -2.5,
-      "favorite_pick_pct": 71,
-      "underdog_pick_pct": 29
-    },
-    {
-      "favorite": "Clemson (-2.5 pts)",
-      "underdog": "Virginia Tech (2.5 pts)",
+      "favorite": "Clemson",
+      "underdog": "Virginia Tech",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -2.5,
@@ -338,8 +176,8 @@
       "underdog_pick_pct": 29
     },
     {
-      "favorite": "Saturday, Oct 24, 7:30 pm EDT",
-      "underdog": "Wisconsin (3.0 pts)",
+      "favorite": "USC",
+      "underdog": "Wisconsin",
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
@@ -347,26 +185,8 @@
       "underdog_pick_pct": 28
     },
     {
-      "favorite": "USC (-3.0 pts)",
-      "underdog": "Wisconsin (3.0 pts)",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -3.0,
-      "favorite_pick_pct": 72,
-      "underdog_pick_pct": 28
-    },
-    {
-      "favorite": "Saturday, Oct 24, 7:30 pm EDT",
-      "underdog": "Iowa St. (10.0 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -10.0,
-      "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21
-    },
-    {
-      "favorite": "Arizona (-10.0 pts)",
-      "underdog": "Iowa St. (10.0 pts)",
+      "favorite": "Arizona",
+      "underdog": "Iowa St.",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -10.0,
@@ -374,17 +194,8 @@
       "underdog_pick_pct": 21
     },
     {
-      "favorite": "Saturday, Oct 24, 7:30 pm EDT",
-      "underdog": "Mississippi (3.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -3.5,
-      "favorite_pick_pct": 32,
-      "underdog_pick_pct": 68
-    },
-    {
-      "favorite": "Texas (-3.5 pts)",
-      "underdog": "Mississippi (3.5 pts)",
+      "favorite": "Texas",
+      "underdog": "Mississippi",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.5,
@@ -392,17 +203,8 @@
       "underdog_pick_pct": 68
     },
     {
-      "favorite": "Saturday, Oct 24, 7:30 pm EDT",
-      "underdog": "Utah St. (13.0 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -13.0,
-      "favorite_pick_pct": 74,
-      "underdog_pick_pct": 26
-    },
-    {
-      "favorite": "Texas St. (-13.0 pts)",
-      "underdog": "Utah St. (13.0 pts)",
+      "favorite": "Texas St.",
+      "underdog": "Utah St.",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -13.0,
@@ -410,17 +212,8 @@
       "underdog_pick_pct": 26
     },
     {
-      "favorite": "Saturday, Oct 24, 10:00 pm EDT",
-      "underdog": "N. Dak. St. (4.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -4.5,
-      "favorite_pick_pct": 69,
-      "underdog_pick_pct": 31
-    },
-    {
-      "favorite": "New Mexico (-4.5 pts)",
-      "underdog": "N. Dak. St. (4.5 pts)",
+      "favorite": "New Mexico",
+      "underdog": "N. Dak. St.",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -4.5,
@@ -428,17 +221,8 @@
       "underdog_pick_pct": 31
     },
     {
-      "favorite": "Saturday, Oct 24, 10:15 pm EDT",
-      "underdog": "Houston (6.5 pts)",
-      "favorite_home": false,
-      "underdog_home": false,
-      "favorite_spread": -6.5,
-      "favorite_pick_pct": 70,
-      "underdog_pick_pct": 30
-    },
-    {
-      "favorite": "Utah (-6.5 pts)",
-      "underdog": "Houston (6.5 pts)",
+      "favorite": "Utah",
+      "underdog": "Houston",
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -6.5,
@@ -446,5 +230,5 @@
       "underdog_pick_pct": 30
     }
   ],
-  "note": "Public pick percentages are not predictive cover probabilities. Public game selection may differ from your group."
+  "note": "Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group."
 }
