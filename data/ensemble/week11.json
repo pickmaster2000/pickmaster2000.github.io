@@ -1,7 +1,7 @@
 {
   "week": 11,
   "season": 2026,
-  "generated_at": "2026-11-10T03:41:43.651244+00:00",
+  "generated_at": "2026-11-10T13:36:08.584116+00:00",
   "experimental": true,
   "disclaimer": "Three correlated statistical predictors using ESPN public scores; NOT three independent AI services. Retrospective predictions change on reruns; evaluate only immutable prekickoff snapshots.",
   "games": [
@@ -89,7 +89,7 @@
         "underdog": "Maryland",
         "favorite_home": false,
         "underdog_home": true,
-        "favorite_spread": -8.5,
+        "favorite_spread": -8.0,
         "favorite_pick_pct": 85,
         "underdog_pick_pct": 15,
         "espn_event_id": "401858520",
@@ -102,19 +102,19 @@
           "model": "incumbent",
           "pick": "Maryland",
           "canonical_pick": "maryland",
-          "edge_points": 1.01
+          "edge_points": 0.86
         },
         {
           "model": "offense_defense",
           "pick": "Maryland",
           "canonical_pick": "maryland",
-          "edge_points": 0.94
+          "edge_points": 0.79
         },
         {
           "model": "recent_form",
           "pick": "Maryland",
           "canonical_pick": "maryland",
-          "edge_points": 2.16
+          "edge_points": 1.99
         }
       ],
       "agreement": "3 of 3",
@@ -167,7 +167,7 @@
         "underdog": "Cincinnati",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -2.5,
+        "favorite_spread": -3.0,
         "favorite_pick_pct": 44,
         "underdog_pick_pct": 56,
         "espn_event_id": "401856859",
@@ -180,19 +180,19 @@
           "model": "incumbent",
           "pick": "Cincinnati",
           "canonical_pick": "cincinnati",
-          "edge_points": 0.04
+          "edge_points": 0.19
         },
         {
           "model": "offense_defense",
           "pick": "Cincinnati",
           "canonical_pick": "cincinnati",
-          "edge_points": 0.06
+          "edge_points": 0.21
         },
         {
           "model": "recent_form",
           "pick": "Cincinnati",
           "canonical_pick": "cincinnati",
-          "edge_points": 0.82
+          "edge_points": 0.99
         }
       ],
       "agreement": "3 of 3",
@@ -206,7 +206,7 @@
         "underdog": "Northwestern",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -11.5,
+        "favorite_spread": -12.5,
         "favorite_pick_pct": 42,
         "underdog_pick_pct": 58,
         "espn_event_id": "401858522",
@@ -219,19 +219,19 @@
           "model": "incumbent",
           "pick": "Northwestern",
           "canonical_pick": "northwestern",
-          "edge_points": 1.72
+          "edge_points": 2.02
         },
         {
           "model": "offense_defense",
           "pick": "Northwestern",
           "canonical_pick": "northwestern",
-          "edge_points": 1.22
+          "edge_points": 1.52
         },
         {
           "model": "recent_form",
           "pick": "Northwestern",
           "canonical_pick": "northwestern",
-          "edge_points": 2.98
+          "edge_points": 3.33
         }
       ],
       "agreement": "3 of 3",
@@ -284,7 +284,7 @@
         "underdog": "SMU",
         "favorite_home": false,
         "underdog_home": true,
-        "favorite_spread": -1.5,
+        "favorite_spread": -1.0,
         "favorite_pick_pct": 61,
         "underdog_pick_pct": 39,
         "espn_event_id": "401858301",
@@ -297,19 +297,19 @@
           "model": "incumbent",
           "pick": "Wake Forest",
           "canonical_pick": "wake forest",
-          "edge_points": 0.38
+          "edge_points": 0.53
         },
         {
           "model": "offense_defense",
           "pick": "Wake Forest",
           "canonical_pick": "wake forest",
-          "edge_points": 1.05
+          "edge_points": 1.2
         },
         {
           "model": "recent_form",
           "pick": "Wake Forest",
           "canonical_pick": "wake forest",
-          "edge_points": 1.1
+          "edge_points": 1.28
         }
       ],
       "agreement": "3 of 3",
@@ -323,7 +323,7 @@
         "underdog": "Georgia Tech",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -13.0,
+        "favorite_spread": -13.5,
         "favorite_pick_pct": 0,
         "underdog_pick_pct": 100,
         "espn_event_id": "401858297",
@@ -336,19 +336,19 @@
           "model": "incumbent",
           "pick": "Georgia Tech",
           "canonical_pick": "georgia tech",
-          "edge_points": 0.93
+          "edge_points": 1.08
         },
         {
           "model": "offense_defense",
           "pick": "Georgia Tech",
           "canonical_pick": "georgia tech",
-          "edge_points": 0.7
+          "edge_points": 0.85
         },
         {
           "model": "recent_form",
           "pick": "Clemson",
           "canonical_pick": "clemson",
-          "edge_points": 1.2
+          "edge_points": 1.02
         }
       ],
       "agreement": "2 of 3",
@@ -401,7 +401,7 @@
         "underdog": "Vanderbilt",
         "favorite_home": false,
         "underdog_home": true,
-        "favorite_spread": -17.5,
+        "favorite_spread": -16.0,
         "favorite_pick_pct": 97,
         "underdog_pick_pct": 3,
         "espn_event_id": "401856889",
@@ -414,19 +414,19 @@
           "model": "incumbent",
           "pick": "Vanderbilt",
           "canonical_pick": "vanderbilt",
-          "edge_points": 0.99
+          "edge_points": 0.54
         },
         {
           "model": "offense_defense",
           "pick": "Vanderbilt",
           "canonical_pick": "vanderbilt",
-          "edge_points": 0.54
+          "edge_points": 0.09
         },
         {
           "model": "recent_form",
           "pick": "Vanderbilt",
           "canonical_pick": "vanderbilt",
-          "edge_points": 2.19
+          "edge_points": 1.67
         }
       ],
       "agreement": "3 of 3",
@@ -440,7 +440,7 @@
         "underdog": "Kansas St.",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -9.5,
+        "favorite_spread": -10.0,
         "favorite_pick_pct": 100,
         "underdog_pick_pct": 0,
         "espn_event_id": "401856862",
@@ -453,19 +453,19 @@
           "model": "incumbent",
           "pick": "Kansas St.",
           "canonical_pick": "kansas state",
-          "edge_points": 0.53
+          "edge_points": 0.68
         },
         {
           "model": "offense_defense",
           "pick": "Kansas St.",
           "canonical_pick": "kansas state",
-          "edge_points": 0.45
+          "edge_points": 0.6
         },
         {
           "model": "recent_form",
           "pick": "TCU",
           "canonical_pick": "tcu",
-          "edge_points": 1.05
+          "edge_points": 0.87
         }
       ],
       "agreement": "2 of 3",
@@ -557,7 +557,7 @@
         "underdog": "Michigan",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -10.5,
+        "favorite_spread": -11.5,
         "favorite_pick_pct": 100,
         "underdog_pick_pct": 0,
         "espn_event_id": "401858523",
@@ -570,19 +570,19 @@
           "model": "incumbent",
           "pick": "Michigan",
           "canonical_pick": "michigan",
-          "edge_points": 0.71
+          "edge_points": 1.01
         },
         {
           "model": "offense_defense",
           "pick": "Michigan",
           "canonical_pick": "michigan",
-          "edge_points": 0.1
+          "edge_points": 0.4
         },
         {
           "model": "recent_form",
           "pick": "Michigan",
           "canonical_pick": "michigan",
-          "edge_points": 0.27
+          "edge_points": 0.62
         }
       ],
       "agreement": "3 of 3",
@@ -596,7 +596,7 @@
         "underdog": "Missouri",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -14.5,
+        "favorite_spread": -15.5,
         "favorite_pick_pct": 73,
         "underdog_pick_pct": 27,
         "espn_event_id": "401856883",
@@ -609,19 +609,19 @@
           "model": "incumbent",
           "pick": "Missouri",
           "canonical_pick": "missouri",
-          "edge_points": 1.14
+          "edge_points": 1.44
         },
         {
           "model": "offense_defense",
           "pick": "Missouri",
           "canonical_pick": "missouri",
-          "edge_points": 0.72
+          "edge_points": 1.02
         },
         {
           "model": "recent_form",
           "pick": "Missouri",
           "canonical_pick": "missouri",
-          "edge_points": 0.85
+          "edge_points": 1.2
         }
       ],
       "agreement": "3 of 3",
@@ -635,7 +635,7 @@
         "underdog": "Arizona St.",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -3.0,
+        "favorite_spread": -3.5,
         "favorite_pick_pct": 0,
         "underdog_pick_pct": 100,
         "espn_event_id": "401856857",
@@ -648,19 +648,19 @@
           "model": "incumbent",
           "pick": "UCF",
           "canonical_pick": "ucf",
-          "edge_points": 0.91
+          "edge_points": 0.76
         },
         {
           "model": "offense_defense",
           "pick": "UCF",
           "canonical_pick": "ucf",
-          "edge_points": 1.11
+          "edge_points": 0.96
         },
         {
           "model": "recent_form",
           "pick": "Arizona St.",
           "canonical_pick": "arizona state",
-          "edge_points": 0.65
+          "edge_points": 0.83
         }
       ],
       "agreement": "2 of 3",
@@ -752,7 +752,7 @@
         "underdog": "Oregon St.",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -10.5,
+        "favorite_spread": -13.0,
         "favorite_pick_pct": 96,
         "underdog_pick_pct": 4,
         "espn_event_id": "401860914",
@@ -765,19 +765,19 @@
           "model": "incumbent",
           "pick": "Oregon St.",
           "canonical_pick": "oregon state",
-          "edge_points": 1.34
+          "edge_points": 2.09
         },
         {
           "model": "offense_defense",
           "pick": "Oregon St.",
           "canonical_pick": "oregon state",
-          "edge_points": 1.33
+          "edge_points": 2.08
         },
         {
           "model": "recent_form",
           "pick": "Oregon St.",
           "canonical_pick": "oregon state",
-          "edge_points": 0.16
+          "edge_points": 1.03
         }
       ],
       "agreement": "3 of 3",
@@ -791,7 +791,7 @@
         "underdog": "Florida",
         "favorite_home": true,
         "underdog_home": false,
-        "favorite_spread": -3.0,
+        "favorite_spread": -3.5,
         "favorite_pick_pct": 100,
         "underdog_pick_pct": 0,
         "espn_event_id": "401856884",
@@ -804,19 +804,19 @@
           "model": "incumbent",
           "pick": "Florida",
           "canonical_pick": "florida",
-          "edge_points": 0.14
+          "edge_points": 0.29
         },
         {
           "model": "offense_defense",
           "pick": "Florida",
           "canonical_pick": "florida",
-          "edge_points": 0.24
+          "edge_points": 0.39
         },
         {
           "model": "recent_form",
           "pick": "Kentucky",
           "canonical_pick": "kentucky",
-          "edge_points": 1.28
+          "edge_points": 1.11
         }
       ],
       "agreement": "2 of 3",
@@ -830,7 +830,7 @@
         "underdog": "N. Carolina",
         "favorite_home": false,
         "underdog_home": true,
-        "favorite_spread": -3.0,
+        "favorite_spread": -3.5,
         "favorite_pick_pct": 70,
         "underdog_pick_pct": 30,
         "espn_event_id": "401858298",
@@ -843,19 +843,19 @@
           "model": "incumbent",
           "pick": "N. Carolina",
           "canonical_pick": "north carolina",
-          "edge_points": 0.68
+          "edge_points": 0.83
         },
         {
           "model": "offense_defense",
           "pick": "N. Carolina",
           "canonical_pick": "north carolina",
-          "edge_points": 0.7
+          "edge_points": 0.85
         },
         {
           "model": "recent_form",
           "pick": "N. Carolina",
           "canonical_pick": "north carolina",
-          "edge_points": 1.02
+          "edge_points": 1.19
         }
       ],
       "agreement": "3 of 3",
