@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 11,
-  "generated_at": "2026-11-10T13:40:38.010205+00:00",
+  "generated_at": "2026-11-12T12:08:42.121530+00:00",
   "status": "CHALLENGER ONLY. Not production picks. Retrospective evaluation has line-timing limitations.",
   "predictions": [
     {
@@ -17,9 +17,9 @@
     {
       "favorite": "Houston",
       "underdog": "Colorado",
-      "projected_favorite_margin": 10.65,
+      "projected_favorite_margin": 9.95,
       "recommended_team": "Houston",
-      "estimated_edge_points": 0.15,
+      "estimated_edge_points": 0.45,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
@@ -75,12 +75,12 @@
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
     },
     {
-      "favorite": "Wake Forest",
-      "underdog": "SMU",
-      "projected_favorite_margin": 2.2,
+      "favorite": "SMU",
+      "underdog": "Wake Forest",
+      "projected_favorite_margin": -0.8,
       "recommended_team": "Wake Forest",
-      "estimated_edge_points": 1.2,
-      "signal": "weak_lean",
+      "estimated_edge_points": 1.8,
+      "signal": "watchlist",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
     },
@@ -107,9 +107,9 @@
     {
       "favorite": "Alabama",
       "underdog": "Vanderbilt",
-      "projected_favorite_margin": 15.91,
-      "recommended_team": "Vanderbilt",
-      "estimated_edge_points": 0.09,
+      "projected_favorite_margin": 15.56,
+      "recommended_team": "Alabama",
+      "estimated_edge_points": 0.06,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
@@ -147,9 +147,9 @@
     {
       "favorite": "Oregon",
       "underdog": "Michigan",
-      "projected_favorite_margin": 11.1,
+      "projected_favorite_margin": 10.75,
       "recommended_team": "Michigan",
-      "estimated_edge_points": 0.4,
+      "estimated_edge_points": 0.25,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
@@ -167,9 +167,9 @@
     {
       "favorite": "UCF",
       "underdog": "Arizona St.",
-      "projected_favorite_margin": 4.46,
+      "projected_favorite_margin": 4.11,
       "recommended_team": "UCF",
-      "estimated_edge_points": 0.96,
+      "estimated_edge_points": 1.11,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
@@ -197,9 +197,9 @@
     {
       "favorite": "Boise St.",
       "underdog": "Oregon St.",
-      "projected_favorite_margin": 10.92,
+      "projected_favorite_margin": 11.27,
       "recommended_team": "Oregon St.",
-      "estimated_edge_points": 2.08,
+      "estimated_edge_points": 2.23,
       "signal": "watchlist",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
@@ -237,9 +237,9 @@
     {
       "favorite": "LSU",
       "underdog": "Texas",
-      "projected_favorite_margin": 4.0,
+      "projected_favorite_margin": 4.35,
       "recommended_team": "LSU",
-      "estimated_edge_points": 0.5,
+      "estimated_edge_points": 0.35,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
