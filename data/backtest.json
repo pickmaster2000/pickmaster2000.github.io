@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-12T23:54:20.691306+00:00",
+  "generated_at": "2026-11-13T01:30:14.841531+00:00",
   "method": "Retrospective, prior-week-only model against available ESPN final scores and current public Yahoo snapshot spreads",
   "limitations": [
     "NOT a true point-in-time historical backtest. Yahoo snapshots may have been retrieved or updated after games occurred.",

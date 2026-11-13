@@ -1,0 +1,636 @@
+{
+  "week": 11,
+  "season": 2026,
+  "captured_at": "2026-11-13T01:30:19.246912+00:00",
+  "captured_central": "2026-11-12T19:30:19.246912-06:00",
+  "source": "Yahoo PUBLIC spread distribution",
+  "verified_official_contest_line": false,
+  "note": "Thursday-evening public reference, NOT a verified private-group lock or independent sportsbook market line.",
+  "games": [
+    {
+      "espn_event_id": "401858293",
+      "kickoff_utc": "2026-11-14T00:00:00+00:00",
+      "game": {
+        "favorite": "Pittsburgh",
+        "underdog": "Florida St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 75,
+        "underdog_pick_pct": 25,
+        "espn_event_id": "401858293",
+        "kickoff_utc": "2026-11-14T00:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Pittsburgh",
+        "underdog": "Florida St.",
+        "projected_favorite_margin": 4.08,
+        "recommended_team": "Pittsburgh",
+        "estimated_edge_points": 0.58,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856860",
+      "kickoff_utc": "2026-11-14T03:15:00+00:00",
+      "game": {
+        "favorite": "Houston",
+        "underdog": "Colorado",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -9.5,
+        "favorite_pick_pct": 100,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856860",
+        "kickoff_utc": "2026-11-14T03:15:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Houston",
+        "underdog": "Colorado",
+        "projected_favorite_margin": 9.41,
+        "recommended_team": "Colorado",
+        "estimated_edge_points": 0.09,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858520",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "Wisconsin",
+        "underdog": "Maryland",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -8.0,
+        "favorite_pick_pct": 83,
+        "underdog_pick_pct": 17,
+        "espn_event_id": "401858520",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Wisconsin",
+        "underdog": "Maryland",
+        "projected_favorite_margin": 7.14,
+        "recommended_team": "Maryland",
+        "estimated_edge_points": 0.86,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858296",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "Miami (FL)",
+        "underdog": "Duke",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -13.5,
+        "favorite_pick_pct": 76,
+        "underdog_pick_pct": 24,
+        "espn_event_id": "401858296",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Miami (FL)",
+        "underdog": "Duke",
+        "projected_favorite_margin": 11.87,
+        "recommended_team": "Duke",
+        "estimated_edge_points": 1.63,
+        "signal": "watchlist",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856859",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "Iowa St.",
+        "underdog": "Cincinnati",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.0,
+        "favorite_pick_pct": 45,
+        "underdog_pick_pct": 55,
+        "espn_event_id": "401856859",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Iowa St.",
+        "underdog": "Cincinnati",
+        "projected_favorite_margin": 2.81,
+        "recommended_team": "Cincinnati",
+        "estimated_edge_points": 0.19,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858522",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "Ohio St.",
+        "underdog": "Northwestern",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -12.5,
+        "favorite_pick_pct": 47,
+        "underdog_pick_pct": 53,
+        "espn_event_id": "401858522",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Ohio St.",
+        "underdog": "Northwestern",
+        "projected_favorite_margin": 10.48,
+        "recommended_team": "Northwestern",
+        "estimated_edge_points": 2.02,
+        "signal": "watchlist",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856886",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "Auburn",
+        "underdog": "Mississippi St.",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -2.5,
+        "favorite_pick_pct": 77,
+        "underdog_pick_pct": 23,
+        "espn_event_id": "401856886",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Auburn",
+        "underdog": "Mississippi St.",
+        "projected_favorite_margin": 1.08,
+        "recommended_team": "Mississippi St.",
+        "estimated_edge_points": 1.42,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858301",
+      "kickoff_utc": "2026-11-14T17:00:00+00:00",
+      "game": {
+        "favorite": "SMU",
+        "underdog": "Wake Forest",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -1.0,
+        "favorite_pick_pct": 43,
+        "underdog_pick_pct": 57,
+        "espn_event_id": "401858301",
+        "kickoff_utc": "2026-11-14T17:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "SMU",
+        "underdog": "Wake Forest",
+        "projected_favorite_margin": -0.13,
+        "recommended_team": "Wake Forest",
+        "estimated_edge_points": 1.13,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858297",
+      "kickoff_utc": "2026-11-14T17:30:00+00:00",
+      "game": {
+        "favorite": "Clemson",
+        "underdog": "Georgia Tech",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -13.5,
+        "favorite_pick_pct": 53,
+        "underdog_pick_pct": 47,
+        "espn_event_id": "401858297",
+        "kickoff_utc": "2026-11-14T17:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Clemson",
+        "underdog": "Georgia Tech",
+        "projected_favorite_margin": 12.42,
+        "recommended_team": "Georgia Tech",
+        "estimated_edge_points": 1.08,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858525",
+      "kickoff_utc": "2026-11-14T17:30:00+00:00",
+      "game": {
+        "favorite": "Nebraska",
+        "underdog": "Rutgers",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -13.5,
+        "favorite_pick_pct": 93,
+        "underdog_pick_pct": 7,
+        "espn_event_id": "401858525",
+        "kickoff_utc": "2026-11-14T17:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Nebraska",
+        "underdog": "Rutgers",
+        "projected_favorite_margin": 12.27,
+        "recommended_team": "Rutgers",
+        "estimated_edge_points": 1.23,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856889",
+      "kickoff_utc": "2026-11-14T17:45:00+00:00",
+      "game": {
+        "favorite": "Alabama",
+        "underdog": "Vanderbilt",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -15.5,
+        "favorite_pick_pct": 87,
+        "underdog_pick_pct": 13,
+        "espn_event_id": "401856889",
+        "kickoff_utc": "2026-11-14T17:45:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Alabama",
+        "underdog": "Vanderbilt",
+        "projected_favorite_margin": 15.11,
+        "recommended_team": "Vanderbilt",
+        "estimated_edge_points": 0.39,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856862",
+      "kickoff_utc": "2026-11-14T19:00:00+00:00",
+      "game": {
+        "favorite": "TCU",
+        "underdog": "Kansas St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -10.0,
+        "favorite_pick_pct": 77,
+        "underdog_pick_pct": 23,
+        "espn_event_id": "401856862",
+        "kickoff_utc": "2026-11-14T19:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "TCU",
+        "underdog": "Kansas St.",
+        "projected_favorite_margin": 9.32,
+        "recommended_team": "Kansas St.",
+        "estimated_edge_points": 0.68,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856888",
+      "kickoff_utc": "2026-11-14T20:00:00+00:00",
+      "game": {
+        "favorite": "Tennessee",
+        "underdog": "Texas A&M",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -2.5,
+        "favorite_pick_pct": 87,
+        "underdog_pick_pct": 13,
+        "espn_event_id": "401856888",
+        "kickoff_utc": "2026-11-14T20:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Tennessee",
+        "underdog": "Texas A&M",
+        "projected_favorite_margin": 2.56,
+        "recommended_team": "Tennessee",
+        "estimated_edge_points": 0.06,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858518",
+      "kickoff_utc": "2026-11-14T20:30:00+00:00",
+      "game": {
+        "favorite": "Indiana",
+        "underdog": "USC",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -7.5,
+        "favorite_pick_pct": 42,
+        "underdog_pick_pct": 58,
+        "espn_event_id": "401858518",
+        "kickoff_utc": "2026-11-14T20:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Indiana",
+        "underdog": "USC",
+        "projected_favorite_margin": 7.56,
+        "recommended_team": "Indiana",
+        "estimated_edge_points": 0.06,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858523",
+      "kickoff_utc": "2026-11-14T20:30:00+00:00",
+      "game": {
+        "favorite": "Oregon",
+        "underdog": "Michigan",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -11.0,
+        "favorite_pick_pct": 82,
+        "underdog_pick_pct": 18,
+        "espn_event_id": "401858523",
+        "kickoff_utc": "2026-11-14T20:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Oregon",
+        "underdog": "Michigan",
+        "projected_favorite_margin": 10.14,
+        "recommended_team": "Michigan",
+        "estimated_edge_points": 0.86,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856883",
+      "kickoff_utc": "2026-11-14T20:30:00+00:00",
+      "game": {
+        "favorite": "Georgia",
+        "underdog": "Missouri",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -15.5,
+        "favorite_pick_pct": 79,
+        "underdog_pick_pct": 21,
+        "espn_event_id": "401856883",
+        "kickoff_utc": "2026-11-14T20:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Georgia",
+        "underdog": "Missouri",
+        "projected_favorite_margin": 14.06,
+        "recommended_team": "Missouri",
+        "estimated_edge_points": 1.44,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856857",
+      "kickoff_utc": "2026-11-14T20:30:00+00:00",
+      "game": {
+        "favorite": "UCF",
+        "underdog": "Arizona St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.0,
+        "favorite_pick_pct": 70,
+        "underdog_pick_pct": 30,
+        "espn_event_id": "401856857",
+        "kickoff_utc": "2026-11-14T20:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "UCF",
+        "underdog": "Arizona St.",
+        "projected_favorite_margin": 3.91,
+        "recommended_team": "UCF",
+        "estimated_edge_points": 0.91,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856887",
+      "kickoff_utc": "2026-11-14T21:15:00+00:00",
+      "game": {
+        "favorite": "Mississippi",
+        "underdog": "Oklahoma",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -1.5,
+        "favorite_pick_pct": 73,
+        "underdog_pick_pct": 27,
+        "espn_event_id": "401856887",
+        "kickoff_utc": "2026-11-14T21:15:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Mississippi",
+        "underdog": "Oklahoma",
+        "projected_favorite_margin": 1.27,
+        "recommended_team": "Oklahoma",
+        "estimated_edge_points": 0.23,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856861",
+      "kickoff_utc": "2026-11-14T22:30:00+00:00",
+      "game": {
+        "favorite": "West Virginia",
+        "underdog": "Kansas",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.0,
+        "favorite_pick_pct": 92,
+        "underdog_pick_pct": 8,
+        "espn_event_id": "401856861",
+        "kickoff_utc": "2026-11-14T22:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "West Virginia",
+        "underdog": "Kansas",
+        "projected_favorite_margin": 2.8,
+        "recommended_team": "Kansas",
+        "estimated_edge_points": 0.2,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401860914",
+      "kickoff_utc": "2026-11-14T23:00:00+00:00",
+      "game": {
+        "favorite": "Boise St.",
+        "underdog": "Oregon St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -13.5,
+        "favorite_pick_pct": 80,
+        "underdog_pick_pct": 20,
+        "espn_event_id": "401860914",
+        "kickoff_utc": "2026-11-14T23:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Boise St.",
+        "underdog": "Oregon St.",
+        "projected_favorite_margin": 11.26,
+        "recommended_team": "Oregon St.",
+        "estimated_edge_points": 2.24,
+        "signal": "watchlist",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856884",
+      "kickoff_utc": "2026-11-14T23:15:00+00:00",
+      "game": {
+        "favorite": "Kentucky",
+        "underdog": "Florida",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 91,
+        "underdog_pick_pct": 9,
+        "espn_event_id": "401856884",
+        "kickoff_utc": "2026-11-14T23:15:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Kentucky",
+        "underdog": "Florida",
+        "projected_favorite_margin": 3.21,
+        "recommended_team": "Florida",
+        "estimated_edge_points": 0.29,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401858298",
+      "kickoff_utc": "2026-11-15T00:00:00+00:00",
+      "game": {
+        "favorite": "Louisville",
+        "underdog": "N. Carolina",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 40,
+        "underdog_pick_pct": 60,
+        "espn_event_id": "401858298",
+        "kickoff_utc": "2026-11-15T00:00:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Louisville",
+        "underdog": "N. Carolina",
+        "projected_favorite_margin": 2.67,
+        "recommended_team": "N. Carolina",
+        "estimated_edge_points": 0.83,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856864",
+      "kickoff_utc": "2026-11-15T00:30:00+00:00",
+      "game": {
+        "favorite": "Utah",
+        "underdog": "Arizona",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -2.5,
+        "favorite_pick_pct": 90,
+        "underdog_pick_pct": 10,
+        "espn_event_id": "401856864",
+        "kickoff_utc": "2026-11-15T00:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Utah",
+        "underdog": "Arizona",
+        "projected_favorite_margin": 2.07,
+        "recommended_team": "Arizona",
+        "estimated_edge_points": 0.43,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856885",
+      "kickoff_utc": "2026-11-15T00:30:00+00:00",
+      "game": {
+        "favorite": "LSU",
+        "underdog": "Texas",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -4.0,
+        "favorite_pick_pct": 41,
+        "underdog_pick_pct": 59,
+        "espn_event_id": "401856885",
+        "kickoff_utc": "2026-11-15T00:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "LSU",
+        "underdog": "Texas",
+        "projected_favorite_margin": 4.41,
+        "recommended_team": "LSU",
+        "estimated_edge_points": 0.41,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    },
+    {
+      "espn_event_id": "401856863",
+      "kickoff_utc": "2026-11-15T02:30:00+00:00",
+      "game": {
+        "favorite": "Oklahoma St.",
+        "underdog": "Texas Tech",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 33,
+        "underdog_pick_pct": 67,
+        "espn_event_id": "401856863",
+        "kickoff_utc": "2026-11-15T02:30:00+00:00"
+      },
+      "prediction": {
+        "favorite": "Oklahoma St.",
+        "underdog": "Texas Tech",
+        "projected_favorite_margin": 3.78,
+        "recommended_team": "Oklahoma St.",
+        "estimated_edge_points": 0.28,
+        "signal": "weak_lean",
+        "model": "Regularized opponent-adjusted scores, 70% market anchor",
+        "data_quality": "Experimental, not backtested; injuries/weather not included"
+      }
+    }
+  ]
+}
