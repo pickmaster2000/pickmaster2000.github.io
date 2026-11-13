@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-13T12:05:53.609807+00:00",
+  "generated_at": "2026-11-13T17:59:12.863803+00:00",
   "status": "RETROSPECTIVE EXPLORATORY COMPARISON: NOT a real-time pregame backtest. This does not establish profitable predictive accuracy.",
   "limitation": "Historical Yahoo slate spreads may have been refreshed after kickoff; incumbent backfills may also reflect later model-code changes.",
   "models": {
