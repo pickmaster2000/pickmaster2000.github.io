@@ -1,12 +1,12 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T11:50:19.301361+00:00",
+  "generated_at": "2026-11-14T14:58:58.163633+00:00",
   "method": "First-observed pregame three-model majority on Yahoo public spread; same matched games for main and underdog baseline",
   "warning": "Correlated models; no proven benefit. Results are only first captured prekickoff snapshots; public spreads may differ from Yahoo official contest lines.",
   "total": {
     "recorded": 25,
-    "pending": 22,
-    "unmatched": 1,
+    "pending": 23,
+    "unmatched": 0,
     "decided": 2
   },
   "models": {

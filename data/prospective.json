@@ -1,14 +1,14 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T11:50:16.450460+00:00",
+  "generated_at": "2026-11-14T14:58:53.028823+00:00",
   "method": "First-captured pre-kickoff Yahoo public spread and contemporaneous model pick, scored using final ESPN results",
   "notice": "Forward-tracked evidence, NOT a claim of profitable performance. Public Yahoo lines may differ from private contest lines. Low sample sizes are unreliable.",
   "total": {
     "wins": 1,
     "losses": 1,
     "pushes": 0,
-    "pending": 22,
-    "unmatched": 1,
+    "pending": 23,
+    "unmatched": 0,
     "win_pct_excluding_pushes": 50.0
   },
   "weeks": {

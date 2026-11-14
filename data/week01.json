@@ -2,7 +2,7 @@
   "week": 1,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=1",
-  "retrieved_at": "2026-11-14T11:50:04.653733+00:00",
+  "retrieved_at": "2026-11-14T14:58:40.960653+00:00",
   "games": [
     {
       "favorite": "East. Michigan",
@@ -41,8 +41,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -32.5,
-      "favorite_pick_pct": 82,
-      "underdog_pick_pct": 18,
+      "favorite_pick_pct": 84,
+      "underdog_pick_pct": 16,
       "espn_event_id": "401858208",
       "kickoff_utc": "2026-09-05T16:00:00+00:00"
     },
