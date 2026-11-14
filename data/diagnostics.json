@@ -1,42 +1,42 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T17:47:51.958195+00:00",
+  "generated_at": "2026-11-14T23:46:35.261864+00:00",
   "warning": "Exploratory retrospective slices; Yahoo spreads may have changed after kickoff. Baselines use exactly the same matched games. Do not optimize parameters or claim predictive advantage from these samples.",
   "groups": {
     "all": {
-      "wins": 73,
-      "losses": 87,
-      "pushes": 5,
-      "count": 165,
-      "win_pct_excluding_pushes": 45.6
+      "wins": 80,
+      "losses": 89,
+      "pushes": 6,
+      "count": 175,
+      "win_pct_excluding_pushes": 47.3
     },
     "favorite": {
-      "wins": 10,
+      "wins": 11,
       "losses": 23,
       "pushes": 1,
-      "count": 34,
-      "win_pct_excluding_pushes": 30.3
+      "count": 35,
+      "win_pct_excluding_pushes": 32.4
     },
     "underdog": {
-      "wins": 63,
-      "losses": 64,
-      "pushes": 4,
-      "count": 131,
-      "win_pct_excluding_pushes": 49.6
+      "wins": 69,
+      "losses": 66,
+      "pushes": 5,
+      "count": 140,
+      "win_pct_excluding_pushes": 51.1
     },
     "home": {
-      "wins": 44,
-      "losses": 44,
+      "wins": 46,
+      "losses": 45,
       "pushes": 1,
-      "count": 89,
-      "win_pct_excluding_pushes": 50.0
+      "count": 92,
+      "win_pct_excluding_pushes": 50.5
     },
     "away": {
-      "wins": 29,
-      "losses": 43,
-      "pushes": 4,
-      "count": 76,
-      "win_pct_excluding_pushes": 40.3
+      "wins": 34,
+      "losses": 44,
+      "pushes": 5,
+      "count": 83,
+      "win_pct_excluding_pushes": 43.6
     },
     "neutral_or_unknown": {
       "wins": 0,
@@ -46,67 +46,67 @@
       "win_pct_excluding_pushes": null
     },
     "baseline_always_favorite": {
-      "wins": 74,
-      "losses": 86,
-      "pushes": 5,
-      "count": 165,
-      "win_pct_excluding_pushes": 46.2
+      "wins": 77,
+      "losses": 92,
+      "pushes": 6,
+      "count": 175,
+      "win_pct_excluding_pushes": 45.6
     },
     "baseline_always_underdog": {
-      "wins": 86,
-      "losses": 74,
-      "pushes": 5,
-      "count": 165,
-      "win_pct_excluding_pushes": 53.8
+      "wins": 92,
+      "losses": 77,
+      "pushes": 6,
+      "count": 175,
+      "win_pct_excluding_pushes": 54.4
     },
     "watchlist": {
-      "wins": 25,
+      "wins": 27,
       "losses": 29,
       "pushes": 1,
-      "count": 55,
-      "win_pct_excluding_pushes": 46.3
+      "count": 57,
+      "win_pct_excluding_pushes": 48.2
     },
     "weak_lean": {
-      "wins": 48,
-      "losses": 58,
-      "pushes": 4,
-      "count": 110,
-      "win_pct_excluding_pushes": 45.3
+      "wins": 53,
+      "losses": 60,
+      "pushes": 5,
+      "count": 118,
+      "win_pct_excluding_pushes": 46.9
     },
     "spread_under_7": {
-      "wins": 39,
-      "losses": 54,
+      "wins": 41,
+      "losses": 55,
       "pushes": 1,
-      "count": 94,
-      "win_pct_excluding_pushes": 41.9
+      "count": 97,
+      "win_pct_excluding_pushes": 42.7
     },
     "spread_7_to_14": {
-      "wins": 28,
-      "losses": 25,
-      "pushes": 4,
-      "count": 57,
-      "win_pct_excluding_pushes": 52.8
+      "wins": 32,
+      "losses": 26,
+      "pushes": 5,
+      "count": 63,
+      "win_pct_excluding_pushes": 55.2
     },
     "spread_over_14": {
-      "wins": 6,
+      "wins": 7,
       "losses": 8,
       "pushes": 0,
-      "count": 14,
-      "win_pct_excluding_pushes": 42.9
+      "count": 15,
+      "win_pct_excluding_pushes": 46.7
     },
     "with_public_majority": {
-      "wins": 17,
-      "losses": 23,
+      "wins": 19,
+      "losses": 24,
       "pushes": 1,
-      "count": 41,
-      "win_pct_excluding_pushes": 42.5
+      "count": 44,
+      "win_pct_excluding_pushes": 44.2
     },
     "against_public_majority": {
-      "wins": 55,
-      "losses": 64,
-      "pushes": 4,
-      "count": 123,
-      "win_pct_excluding_pushes": 46.2
+      "wins": 60,
+      "losses": 65,
+      "pushes": 5,
+      "count": 130,
+      "win_pct_excluding_pushes": 48.0
     },
     "public_tied_or_unknown": {
       "wins": 1,
@@ -147,7 +147,7 @@
     },
     {
       "week": 11,
-      "evaluated": 2
+      "evaluated": 12
     }
   ]
 }
