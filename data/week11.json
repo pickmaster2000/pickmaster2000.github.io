@@ -2,7 +2,7 @@
   "week": 11,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=11",
-  "retrieved_at": "2026-11-13T23:49:53.321068+00:00",
+  "retrieved_at": "2026-11-14T11:50:09.998561+00:00",
   "games": [
     {
       "favorite": "Pittsburgh",
@@ -68,17 +68,6 @@
       "favorite_pick_pct": 49,
       "underdog_pick_pct": 51,
       "espn_event_id": "401858522",
-      "kickoff_utc": "2026-11-14T17:00:00+00:00"
-    },
-    {
-      "favorite": "Auburn",
-      "underdog": "Mississippi St.",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -2.5,
-      "favorite_pick_pct": 76,
-      "underdog_pick_pct": 24,
-      "espn_event_id": "401856886",
       "kickoff_utc": "2026-11-14T17:00:00+00:00"
     },
     {
@@ -148,6 +137,17 @@
       "kickoff_utc": "2026-11-14T20:00:00+00:00"
     },
     {
+      "favorite": "West Virginia",
+      "underdog": "Kansas",
+      "favorite_home": true,
+      "underdog_home": false,
+      "favorite_spread": -3.0,
+      "favorite_pick_pct": 88,
+      "underdog_pick_pct": 12,
+      "espn_event_id": "401856861",
+      "kickoff_utc": "2026-11-14T20:30:00+00:00"
+    },
+    {
       "favorite": "Indiana",
       "underdog": "USC",
       "favorite_home": true,
@@ -181,6 +181,17 @@
       "kickoff_utc": "2026-11-14T20:30:00+00:00"
     },
     {
+      "favorite": "Auburn",
+      "underdog": "Mississippi St.",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 76,
+      "underdog_pick_pct": 24,
+      "espn_event_id": "401856886",
+      "kickoff_utc": "2026-11-14T21:15:00+00:00"
+    },
+    {
       "favorite": "UCF",
       "underdog": "Arizona St.",
       "favorite_home": true,
@@ -189,28 +200,6 @@
       "favorite_pick_pct": 74,
       "underdog_pick_pct": 26,
       "espn_event_id": "401856857",
-      "kickoff_utc": "2026-11-14T20:30:00+00:00"
-    },
-    {
-      "favorite": "Mississippi",
-      "underdog": "Oklahoma",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -1.5,
-      "favorite_pick_pct": 72,
-      "underdog_pick_pct": 28,
-      "espn_event_id": "401856887",
-      "kickoff_utc": "2026-11-14T21:15:00+00:00"
-    },
-    {
-      "favorite": "West Virginia",
-      "underdog": "Kansas",
-      "favorite_home": true,
-      "underdog_home": false,
-      "favorite_spread": -3.0,
-      "favorite_pick_pct": 88,
-      "underdog_pick_pct": 12,
-      "espn_event_id": "401856861",
       "kickoff_utc": "2026-11-14T22:30:00+00:00"
     },
     {
@@ -247,17 +236,6 @@
       "kickoff_utc": "2026-11-15T00:00:00+00:00"
     },
     {
-      "favorite": "Utah",
-      "underdog": "Arizona",
-      "favorite_home": false,
-      "underdog_home": true,
-      "favorite_spread": -2.5,
-      "favorite_pick_pct": 83,
-      "underdog_pick_pct": 17,
-      "espn_event_id": "401856864",
-      "kickoff_utc": "2026-11-15T00:30:00+00:00"
-    },
-    {
       "favorite": "LSU",
       "underdog": "Texas",
       "favorite_home": true,
@@ -278,6 +256,26 @@
       "underdog_pick_pct": 67,
       "espn_event_id": "401856863",
       "kickoff_utc": "2026-11-15T02:30:00+00:00"
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "Arizona",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -2.5,
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17,
+      "espn_event_id": "401856864",
+      "kickoff_utc": "2026-11-15T03:30:00+00:00"
+    },
+    {
+      "favorite": "Mississippi",
+      "underdog": "Oklahoma",
+      "favorite_home": false,
+      "underdog_home": true,
+      "favorite_spread": -1.5,
+      "favorite_pick_pct": 72,
+      "underdog_pick_pct": 28
     }
   ],
   "note": "Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group."

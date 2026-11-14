@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 11,
-  "generated_at": "2026-11-13T23:50:05.343824+00:00",
+  "generated_at": "2026-11-14T11:50:18.482324+00:00",
   "experimental": true,
   "predictions": [
     {
@@ -59,15 +59,6 @@
       "signal": "watchlist"
     },
     {
-      "favorite": "Auburn",
-      "underdog": "Mississippi St.",
-      "recommended_team": "Mississippi St.",
-      "projected_favorite_margin": 1.81,
-      "estimated_edge_points": 0.69,
-      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
-      "signal": "weak_lean"
-    },
-    {
       "favorite": "SMU",
       "underdog": "Wake Forest",
       "recommended_team": "Wake Forest",
@@ -122,6 +113,15 @@
       "signal": "weak_lean"
     },
     {
+      "favorite": "West Virginia",
+      "underdog": "Kansas",
+      "recommended_team": "West Virginia",
+      "projected_favorite_margin": 3.39,
+      "estimated_edge_points": 0.39,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
       "favorite": "Indiana",
       "underdog": "USC",
       "recommended_team": "USC",
@@ -149,29 +149,20 @@
       "signal": "weak_lean"
     },
     {
+      "favorite": "Auburn",
+      "underdog": "Mississippi St.",
+      "recommended_team": "Mississippi St.",
+      "projected_favorite_margin": 1.81,
+      "estimated_edge_points": 0.69,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
+    },
+    {
       "favorite": "UCF",
       "underdog": "Arizona St.",
       "recommended_team": "Arizona St.",
       "projected_favorite_margin": 2.35,
       "estimated_edge_points": 0.65,
-      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
-      "signal": "weak_lean"
-    },
-    {
-      "favorite": "Mississippi",
-      "underdog": "Oklahoma",
-      "recommended_team": "Oklahoma",
-      "projected_favorite_margin": 0.46,
-      "estimated_edge_points": 1.04,
-      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
-      "signal": "weak_lean"
-    },
-    {
-      "favorite": "West Virginia",
-      "underdog": "Kansas",
-      "recommended_team": "West Virginia",
-      "projected_favorite_margin": 3.39,
-      "estimated_edge_points": 0.39,
       "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
       "signal": "weak_lean"
     },
@@ -203,15 +194,6 @@
       "signal": "weak_lean"
     },
     {
-      "favorite": "Utah",
-      "underdog": "Arizona",
-      "recommended_team": "Arizona",
-      "projected_favorite_margin": 0.94,
-      "estimated_edge_points": 1.56,
-      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
-      "signal": "watchlist"
-    },
-    {
       "favorite": "LSU",
       "underdog": "Texas",
       "recommended_team": "Texas",
@@ -228,6 +210,24 @@
       "estimated_edge_points": 1.9,
       "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
       "signal": "watchlist"
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "Arizona",
+      "recommended_team": "Arizona",
+      "projected_favorite_margin": 0.94,
+      "estimated_edge_points": 1.56,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Mississippi",
+      "underdog": "Oklahoma",
+      "recommended_team": "Oklahoma",
+      "projected_favorite_margin": 0.46,
+      "estimated_edge_points": 1.04,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "weak_lean"
     }
   ]
 }

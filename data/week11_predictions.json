@@ -1,7 +1,7 @@
 {
   "week": 11,
   "season": 2026,
-  "generated_at": "2026-11-13T23:50:00.285153+00:00",
+  "generated_at": "2026-11-14T11:50:14.105856+00:00",
   "source": "ESPN public completed-game scoreboard + Yahoo spread",
   "model": "Regularized scoring with market anchoring",
   "warning": "Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.",
@@ -67,16 +67,6 @@
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
     {
-      "favorite": "Auburn",
-      "underdog": "Mississippi St.",
-      "projected_favorite_margin": 1.08,
-      "recommended_team": "Mississippi St.",
-      "estimated_edge_points": 1.42,
-      "signal": "weak_lean",
-      "model": "Regularized opponent-adjusted scores, 70% market anchor",
-      "data_quality": "Experimental, not backtested; injuries/weather not included"
-    },
-    {
       "favorite": "SMU",
       "underdog": "Wake Forest",
       "projected_favorite_margin": -0.13,
@@ -137,6 +127,16 @@
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
     {
+      "favorite": "West Virginia",
+      "underdog": "Kansas",
+      "projected_favorite_margin": 2.8,
+      "recommended_team": "Kansas",
+      "estimated_edge_points": 0.2,
+      "signal": "weak_lean",
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
       "favorite": "Indiana",
       "underdog": "USC",
       "projected_favorite_margin": 7.56,
@@ -167,31 +167,21 @@
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
     {
+      "favorite": "Auburn",
+      "underdog": "Mississippi St.",
+      "projected_favorite_margin": 1.08,
+      "recommended_team": "Mississippi St.",
+      "estimated_edge_points": 1.42,
+      "signal": "weak_lean",
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
       "favorite": "UCF",
       "underdog": "Arizona St.",
       "projected_favorite_margin": 3.91,
       "recommended_team": "UCF",
       "estimated_edge_points": 0.91,
-      "signal": "weak_lean",
-      "model": "Regularized opponent-adjusted scores, 70% market anchor",
-      "data_quality": "Experimental, not backtested; injuries/weather not included"
-    },
-    {
-      "favorite": "Mississippi",
-      "underdog": "Oklahoma",
-      "projected_favorite_margin": 1.27,
-      "recommended_team": "Oklahoma",
-      "estimated_edge_points": 0.23,
-      "signal": "weak_lean",
-      "model": "Regularized opponent-adjusted scores, 70% market anchor",
-      "data_quality": "Experimental, not backtested; injuries/weather not included"
-    },
-    {
-      "favorite": "West Virginia",
-      "underdog": "Kansas",
-      "projected_favorite_margin": 2.8,
-      "recommended_team": "Kansas",
-      "estimated_edge_points": 0.2,
       "signal": "weak_lean",
       "model": "Regularized opponent-adjusted scores, 70% market anchor",
       "data_quality": "Experimental, not backtested; injuries/weather not included"
@@ -227,16 +217,6 @@
       "data_quality": "Experimental, not backtested; injuries/weather not included"
     },
     {
-      "favorite": "Utah",
-      "underdog": "Arizona",
-      "projected_favorite_margin": 2.07,
-      "recommended_team": "Arizona",
-      "estimated_edge_points": 0.43,
-      "signal": "weak_lean",
-      "model": "Regularized opponent-adjusted scores, 70% market anchor",
-      "data_quality": "Experimental, not backtested; injuries/weather not included"
-    },
-    {
       "favorite": "LSU",
       "underdog": "Texas",
       "projected_favorite_margin": 4.41,
@@ -252,6 +232,26 @@
       "projected_favorite_margin": 3.78,
       "recommended_team": "Oklahoma St.",
       "estimated_edge_points": 0.28,
+      "signal": "weak_lean",
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "Arizona",
+      "projected_favorite_margin": 2.07,
+      "recommended_team": "Arizona",
+      "estimated_edge_points": 0.43,
+      "signal": "weak_lean",
+      "model": "Regularized opponent-adjusted scores, 70% market anchor",
+      "data_quality": "Experimental, not backtested; injuries/weather not included"
+    },
+    {
+      "favorite": "Mississippi",
+      "underdog": "Oklahoma",
+      "projected_favorite_margin": 1.27,
+      "recommended_team": "Oklahoma",
+      "estimated_edge_points": 0.23,
       "signal": "weak_lean",
       "model": "Regularized opponent-adjusted scores, 70% market anchor",
       "data_quality": "Experimental, not backtested; injuries/weather not included"
