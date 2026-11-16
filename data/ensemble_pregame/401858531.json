@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Ohio St.",
+    "underdog": "Nebraska",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -3.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858531",
+    "kickoff_utc": "2026-11-21T17:00:00+00:00"
+  },
+  "espn_event_id": "401858531",
+  "kickoff_utc": "2026-11-21T17:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Nebraska",
+      "canonical_pick": "nebraska",
+      "edge_points": 1.24
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Nebraska",
+      "canonical_pick": "nebraska",
+      "edge_points": 0.85
+    },
+    {
+      "model": "recent_form",
+      "pick": "Nebraska",
+      "canonical_pick": "nebraska",
+      "edge_points": 2.43
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Nebraska",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

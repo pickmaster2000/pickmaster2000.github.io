@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Houston",
+    "underdog": "West Virginia",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -7.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856868",
+    "kickoff_utc": "2026-11-21T18:00:00+00:00"
+  },
+  "espn_event_id": "401856868",
+  "kickoff_utc": "2026-11-21T18:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "West Virginia",
+      "canonical_pick": "west virginia",
+      "edge_points": 1.03
+    },
+    {
+      "model": "offense_defense",
+      "pick": "West Virginia",
+      "canonical_pick": "west virginia",
+      "edge_points": 0.67
+    },
+    {
+      "model": "recent_form",
+      "pick": "West Virginia",
+      "canonical_pick": "west virginia",
+      "edge_points": 2.82
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "West Virginia",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

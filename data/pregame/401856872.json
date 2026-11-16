@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:17.136658+00:00",
+  "espn_event_id": "401856872",
+  "kickoff_utc": "2026-11-22T02:00:00+00:00",
+  "game": {
+    "favorite": "Utah",
+    "underdog": "TCU",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -6.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856872",
+    "kickoff_utc": "2026-11-22T02:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Utah",
+    "underdog": "TCU",
+    "projected_favorite_margin": 5.87,
+    "recommended_team": "TCU",
+    "estimated_edge_points": 0.63,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

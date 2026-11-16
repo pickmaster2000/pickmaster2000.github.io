@@ -1,24 +1,24 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T23:46:38.090467+00:00",
+  "generated_at": "2026-11-16T12:23:19.671962+00:00",
   "method": "Matched immutable Thursday-evening and Saturday-morning public Yahoo snapshots graded against Thursday public line",
   "disclaimer": "Only games with both picks before kickoff are graded. The Thursday public reference may not match the official private Yahoo group locked line; this comparison does not establish profitable predictions.",
   "totals": {
     "thursday": {
-      "wins": 7,
-      "losses": 2,
+      "wins": 14,
+      "losses": 8,
       "pushes": 1,
-      "win_pct_excluding_pushes": 77.8
+      "win_pct_excluding_pushes": 63.6
     },
     "saturday": {
-      "wins": 7,
-      "losses": 2,
+      "wins": 14,
+      "losses": 8,
       "pushes": 1,
-      "win_pct_excluding_pushes": 77.8
+      "win_pct_excluding_pushes": 63.6
     },
     "changed_picks": 0,
-    "completed_games": 10,
-    "pending": 13,
+    "completed_games": 23,
+    "pending": 0,
     "unmatched": 0
   },
   "details": [
@@ -88,6 +88,97 @@
     {
       "week": 11,
       "espn_event_id": "401856888",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856861",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401858518",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401858523",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856883",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856886",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856857",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401860914",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856884",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401858298",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856885",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856863",
+      "thursday_result": "losses",
+      "saturday_result": "losses",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856864",
+      "thursday_result": "wins",
+      "saturday_result": "wins",
+      "changed": false
+    },
+    {
+      "week": 11,
+      "espn_event_id": "401856887",
       "thursday_result": "wins",
       "saturday_result": "wins",
       "changed": false

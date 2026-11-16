@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:17.136658+00:00",
+  "espn_event_id": "401858528",
+  "kickoff_utc": "2026-11-21T20:30:00+00:00",
+  "game": {
+    "favorite": "UCLA",
+    "underdog": "Michigan",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -5.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858528",
+    "kickoff_utc": "2026-11-21T20:30:00+00:00"
+  },
+  "prediction": {
+    "favorite": "UCLA",
+    "underdog": "Michigan",
+    "projected_favorite_margin": 5.93,
+    "recommended_team": "UCLA",
+    "estimated_edge_points": 0.43,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

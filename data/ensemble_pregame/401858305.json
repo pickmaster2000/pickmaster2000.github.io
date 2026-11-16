@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Virginia",
+    "underdog": "N. Carolina",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -1.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858305",
+    "kickoff_utc": "2026-11-21T17:30:00+00:00"
+  },
+  "espn_event_id": "401858305",
+  "kickoff_utc": "2026-11-21T17:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "N. Carolina",
+      "canonical_pick": "north carolina",
+      "edge_points": 0.35
+    },
+    {
+      "model": "offense_defense",
+      "pick": "N. Carolina",
+      "canonical_pick": "north carolina",
+      "edge_points": 0.3
+    },
+    {
+      "model": "recent_form",
+      "pick": "N. Carolina",
+      "canonical_pick": "north carolina",
+      "edge_points": 1.06
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "N. Carolina",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:17.136658+00:00",
+  "espn_event_id": "401864545",
+  "kickoff_utc": "2026-11-21T01:00:00+00:00",
+  "game": {
+    "favorite": "Air Force",
+    "underdog": "UTEP",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -22.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401864545",
+    "kickoff_utc": "2026-11-21T01:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Air Force",
+    "underdog": "UTEP",
+    "projected_favorite_margin": 20.79,
+    "recommended_team": "UTEP",
+    "estimated_edge_points": 1.21,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

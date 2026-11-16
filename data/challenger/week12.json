@@ -1,0 +1,248 @@
+{
+  "season": 2026,
+  "week": 12,
+  "generated_at": "2026-11-16T12:23:23.301284+00:00",
+  "status": "CHALLENGER ONLY. Not production picks. Retrospective evaluation has line-timing limitations.",
+  "predictions": [
+    {
+      "favorite": "UCF",
+      "underdog": "Iowa St.",
+      "projected_favorite_margin": 2.16,
+      "recommended_team": "Iowa St.",
+      "estimated_edge_points": 0.34,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Duke",
+      "underdog": "Clemson",
+      "projected_favorite_margin": 12.38,
+      "recommended_team": "Clemson",
+      "estimated_edge_points": 0.12,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Toledo",
+      "underdog": "Bowling Green",
+      "projected_favorite_margin": 15.61,
+      "recommended_team": "Bowling Green",
+      "estimated_edge_points": 0.39,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Air Force",
+      "underdog": "UTEP",
+      "projected_favorite_margin": 21.41,
+      "recommended_team": "UTEP",
+      "estimated_edge_points": 0.59,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "BYU",
+      "underdog": "Kansas",
+      "projected_favorite_margin": 4.55,
+      "recommended_team": "Kansas",
+      "estimated_edge_points": 0.95,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Ohio St.",
+      "underdog": "Nebraska",
+      "projected_favorite_margin": 2.15,
+      "recommended_team": "Nebraska",
+      "estimated_edge_points": 0.85,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Wisconsin",
+      "underdog": "Purdue",
+      "projected_favorite_margin": 5.18,
+      "recommended_team": "Purdue",
+      "estimated_edge_points": 0.82,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Memphis",
+      "underdog": "Navy",
+      "projected_favorite_margin": 3.94,
+      "recommended_team": "Memphis",
+      "estimated_edge_points": 0.44,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Virginia",
+      "underdog": "N. Carolina",
+      "projected_favorite_margin": 0.7,
+      "recommended_team": "N. Carolina",
+      "estimated_edge_points": 0.3,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Houston",
+      "underdog": "West Virginia",
+      "projected_favorite_margin": 6.33,
+      "recommended_team": "West Virginia",
+      "estimated_edge_points": 0.67,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Iowa",
+      "underdog": "Illinois",
+      "projected_favorite_margin": 5.54,
+      "recommended_team": "Illinois",
+      "estimated_edge_points": 0.96,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Florida St.",
+      "underdog": "NC State",
+      "projected_favorite_margin": 8.67,
+      "recommended_team": "NC State",
+      "estimated_edge_points": 0.83,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "UCLA",
+      "underdog": "Michigan",
+      "projected_favorite_margin": 6.33,
+      "recommended_team": "UCLA",
+      "estimated_edge_points": 0.83,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Indiana",
+      "underdog": "Washington",
+      "projected_favorite_margin": 7.55,
+      "recommended_team": "Washington",
+      "estimated_edge_points": 0.45,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "LSU",
+      "underdog": "Tennessee",
+      "projected_favorite_margin": 0.17,
+      "recommended_team": "Tennessee",
+      "estimated_edge_points": 0.83,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Texas Tech",
+      "underdog": "Baylor",
+      "projected_favorite_margin": 2.1,
+      "recommended_team": "Baylor",
+      "estimated_edge_points": 1.4,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Oklahoma",
+      "underdog": "Texas A&M",
+      "projected_favorite_margin": 5.73,
+      "recommended_team": "Texas A&M",
+      "estimated_edge_points": 1.77,
+      "signal": "watchlist",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Miami (FL)",
+      "underdog": "Virginia Tech",
+      "projected_favorite_margin": 19.86,
+      "recommended_team": "Virginia Tech",
+      "estimated_edge_points": 0.64,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Missouri",
+      "underdog": "Kentucky",
+      "projected_favorite_margin": 5.18,
+      "recommended_team": "Kentucky",
+      "estimated_edge_points": 0.32,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Georgia",
+      "underdog": "South Carolina",
+      "projected_favorite_margin": 14.6,
+      "recommended_team": "South Carolina",
+      "estimated_edge_points": 1.9,
+      "signal": "watchlist",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Notre Dame",
+      "underdog": "SMU",
+      "projected_favorite_margin": 18.8,
+      "recommended_team": "SMU",
+      "estimated_edge_points": 1.7,
+      "signal": "watchlist",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Utah",
+      "underdog": "TCU",
+      "projected_favorite_margin": 5.91,
+      "recommended_team": "TCU",
+      "estimated_edge_points": 0.59,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Oklahoma St.",
+      "underdog": "Arizona St.",
+      "projected_favorite_margin": 3.61,
+      "recommended_team": "Oklahoma St.",
+      "estimated_edge_points": 0.61,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Oregon St.",
+      "underdog": "Utah St.",
+      "projected_favorite_margin": 10.0,
+      "recommended_team": "Oregon St.",
+      "estimated_edge_points": 0.5,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    }
+  ]
+}

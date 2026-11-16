@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Florida St.",
+    "underdog": "NC State",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -9.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858304",
+    "kickoff_utc": "2026-11-21T20:30:00+00:00"
+  },
+  "espn_event_id": "401858304",
+  "kickoff_utc": "2026-11-21T20:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "NC State",
+      "canonical_pick": "nc state",
+      "edge_points": 0.6
+    },
+    {
+      "model": "offense_defense",
+      "pick": "NC State",
+      "canonical_pick": "nc state",
+      "edge_points": 0.83
+    },
+    {
+      "model": "recent_form",
+      "pick": "NC State",
+      "canonical_pick": "nc state",
+      "edge_points": 0.26
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "NC State",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

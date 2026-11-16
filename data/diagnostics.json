@@ -1,42 +1,42 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T23:46:35.261864+00:00",
+  "generated_at": "2026-11-16T12:23:17.075467+00:00",
   "warning": "Exploratory retrospective slices; Yahoo spreads may have changed after kickoff. Baselines use exactly the same matched games. Do not optimize parameters or claim predictive advantage from these samples.",
   "groups": {
     "all": {
-      "wins": 80,
-      "losses": 89,
+      "wins": 87,
+      "losses": 95,
       "pushes": 6,
-      "count": 175,
-      "win_pct_excluding_pushes": 47.3
+      "count": 188,
+      "win_pct_excluding_pushes": 47.8
     },
     "favorite": {
-      "wins": 11,
-      "losses": 23,
+      "wins": 12,
+      "losses": 26,
       "pushes": 1,
-      "count": 35,
-      "win_pct_excluding_pushes": 32.4
+      "count": 39,
+      "win_pct_excluding_pushes": 31.6
     },
     "underdog": {
-      "wins": 69,
-      "losses": 66,
+      "wins": 75,
+      "losses": 69,
       "pushes": 5,
-      "count": 140,
-      "win_pct_excluding_pushes": 51.1
+      "count": 149,
+      "win_pct_excluding_pushes": 52.1
     },
     "home": {
-      "wins": 46,
-      "losses": 45,
+      "wins": 50,
+      "losses": 49,
       "pushes": 1,
-      "count": 92,
+      "count": 100,
       "win_pct_excluding_pushes": 50.5
     },
     "away": {
-      "wins": 34,
-      "losses": 44,
+      "wins": 37,
+      "losses": 46,
       "pushes": 5,
-      "count": 83,
-      "win_pct_excluding_pushes": 43.6
+      "count": 88,
+      "win_pct_excluding_pushes": 44.6
     },
     "neutral_or_unknown": {
       "wins": 0,
@@ -46,67 +46,67 @@
       "win_pct_excluding_pushes": null
     },
     "baseline_always_favorite": {
-      "wins": 77,
-      "losses": 92,
+      "wins": 81,
+      "losses": 101,
       "pushes": 6,
-      "count": 175,
-      "win_pct_excluding_pushes": 45.6
+      "count": 188,
+      "win_pct_excluding_pushes": 44.5
     },
     "baseline_always_underdog": {
-      "wins": 92,
-      "losses": 77,
+      "wins": 101,
+      "losses": 81,
       "pushes": 6,
-      "count": 175,
-      "win_pct_excluding_pushes": 54.4
+      "count": 188,
+      "win_pct_excluding_pushes": 55.5
     },
     "watchlist": {
-      "wins": 27,
+      "wins": 28,
       "losses": 29,
       "pushes": 1,
-      "count": 57,
-      "win_pct_excluding_pushes": 48.2
+      "count": 58,
+      "win_pct_excluding_pushes": 49.1
     },
     "weak_lean": {
-      "wins": 53,
-      "losses": 60,
+      "wins": 59,
+      "losses": 66,
       "pushes": 5,
-      "count": 118,
-      "win_pct_excluding_pushes": 46.9
+      "count": 130,
+      "win_pct_excluding_pushes": 47.2
     },
     "spread_under_7": {
-      "wins": 41,
-      "losses": 55,
+      "wins": 46,
+      "losses": 59,
       "pushes": 1,
-      "count": 97,
-      "win_pct_excluding_pushes": 42.7
+      "count": 106,
+      "win_pct_excluding_pushes": 43.8
     },
     "spread_7_to_14": {
-      "wins": 32,
-      "losses": 26,
+      "wins": 34,
+      "losses": 27,
       "pushes": 5,
-      "count": 63,
-      "win_pct_excluding_pushes": 55.2
+      "count": 66,
+      "win_pct_excluding_pushes": 55.7
     },
     "spread_over_14": {
       "wins": 7,
-      "losses": 8,
+      "losses": 9,
       "pushes": 0,
-      "count": 15,
-      "win_pct_excluding_pushes": 46.7
+      "count": 16,
+      "win_pct_excluding_pushes": 43.8
     },
     "with_public_majority": {
-      "wins": 19,
-      "losses": 24,
+      "wins": 20,
+      "losses": 25,
       "pushes": 1,
-      "count": 44,
-      "win_pct_excluding_pushes": 44.2
+      "count": 46,
+      "win_pct_excluding_pushes": 44.4
     },
     "against_public_majority": {
-      "wins": 60,
-      "losses": 65,
+      "wins": 66,
+      "losses": 70,
       "pushes": 5,
-      "count": 130,
-      "win_pct_excluding_pushes": 48.0
+      "count": 141,
+      "win_pct_excluding_pushes": 48.5
     },
     "public_tied_or_unknown": {
       "wins": 1,
@@ -147,7 +147,7 @@
     },
     {
       "week": 11,
-      "evaluated": 12
+      "evaluated": 25
     }
   ]
 }

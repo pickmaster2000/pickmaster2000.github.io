@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "UCF",
+    "underdog": "Iowa St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -2.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856869",
+    "kickoff_utc": "2026-11-20T23:00:00+00:00"
+  },
+  "espn_event_id": "401856869",
+  "kickoff_utc": "2026-11-20T23:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Iowa St.",
+      "canonical_pick": "iowa state",
+      "edge_points": 0.55
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Iowa St.",
+      "canonical_pick": "iowa state",
+      "edge_points": 0.34
+    },
+    {
+      "model": "recent_form",
+      "pick": "Iowa St.",
+      "canonical_pick": "iowa state",
+      "edge_points": 2.2
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Iowa St.",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

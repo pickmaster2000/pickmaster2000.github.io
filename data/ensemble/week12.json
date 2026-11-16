@@ -1,0 +1,963 @@
+{
+  "week": 12,
+  "season": 2026,
+  "generated_at": "2026-11-16T12:23:28.165875+00:00",
+  "experimental": true,
+  "disclaimer": "Three correlated statistical predictors using ESPN public scores; NOT three independent AI services. Retrospective predictions change on reruns; evaluate only immutable prekickoff snapshots.",
+  "games": [
+    {
+      "game": {
+        "favorite": "UCF",
+        "underdog": "Iowa St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -2.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856869",
+        "kickoff_utc": "2026-11-20T23:00:00+00:00"
+      },
+      "espn_event_id": "401856869",
+      "kickoff_utc": "2026-11-20T23:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Iowa St.",
+          "canonical_pick": "iowa state",
+          "edge_points": 0.55
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Iowa St.",
+          "canonical_pick": "iowa state",
+          "edge_points": 0.34
+        },
+        {
+          "model": "recent_form",
+          "pick": "Iowa St.",
+          "canonical_pick": "iowa state",
+          "edge_points": 2.2
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Iowa St.",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Duke",
+        "underdog": "Clemson",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -12.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858303",
+        "kickoff_utc": "2026-11-21T00:30:00+00:00"
+      },
+      "espn_event_id": "401858303",
+      "kickoff_utc": "2026-11-21T00:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Clemson",
+          "canonical_pick": "clemson",
+          "edge_points": 0.42
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Clemson",
+          "canonical_pick": "clemson",
+          "edge_points": 0.12
+        },
+        {
+          "model": "recent_form",
+          "pick": "Duke",
+          "canonical_pick": "duke",
+          "edge_points": 0.5
+        }
+      ],
+      "agreement": "2 of 3",
+      "majority_pick": "Clemson",
+      "full_three_model_vote": true,
+      "unanimous": false
+    },
+    {
+      "game": {
+        "favorite": "Toledo",
+        "underdog": "Bowling Green",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -16.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401866468",
+        "kickoff_utc": "2026-11-21T00:30:00+00:00"
+      },
+      "espn_event_id": "401866468",
+      "kickoff_utc": "2026-11-21T00:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Bowling Green",
+          "canonical_pick": "bowling green",
+          "edge_points": 0.87
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Bowling Green",
+          "canonical_pick": "bowling green",
+          "edge_points": 0.39
+        },
+        {
+          "model": "recent_form",
+          "pick": "Bowling Green",
+          "canonical_pick": "bowling green",
+          "edge_points": 1.6
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Bowling Green",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Air Force",
+        "underdog": "UTEP",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -22.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401864545",
+        "kickoff_utc": "2026-11-21T01:00:00+00:00"
+      },
+      "espn_event_id": "401864545",
+      "kickoff_utc": "2026-11-21T01:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "UTEP",
+          "canonical_pick": "utep",
+          "edge_points": 1.21
+        },
+        {
+          "model": "offense_defense",
+          "pick": "UTEP",
+          "canonical_pick": "utep",
+          "edge_points": 0.59
+        },
+        {
+          "model": "recent_form",
+          "pick": "UTEP",
+          "canonical_pick": "utep",
+          "edge_points": 3.23
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "UTEP",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "BYU",
+        "underdog": "Kansas",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -5.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856866",
+        "kickoff_utc": "2026-11-21T17:00:00+00:00"
+      },
+      "espn_event_id": "401856866",
+      "kickoff_utc": "2026-11-21T17:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Kansas",
+          "canonical_pick": "kansas",
+          "edge_points": 1.05
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Kansas",
+          "canonical_pick": "kansas",
+          "edge_points": 0.95
+        },
+        {
+          "model": "recent_form",
+          "pick": "Kansas",
+          "canonical_pick": "kansas",
+          "edge_points": 2.41
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Kansas",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Ohio St.",
+        "underdog": "Nebraska",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -3.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858531",
+        "kickoff_utc": "2026-11-21T17:00:00+00:00"
+      },
+      "espn_event_id": "401858531",
+      "kickoff_utc": "2026-11-21T17:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Nebraska",
+          "canonical_pick": "nebraska",
+          "edge_points": 1.24
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Nebraska",
+          "canonical_pick": "nebraska",
+          "edge_points": 0.85
+        },
+        {
+          "model": "recent_form",
+          "pick": "Nebraska",
+          "canonical_pick": "nebraska",
+          "edge_points": 2.43
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Nebraska",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Wisconsin",
+        "underdog": "Purdue",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -6.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858533",
+        "kickoff_utc": "2026-11-21T17:00:00+00:00"
+      },
+      "espn_event_id": "401858533",
+      "kickoff_utc": "2026-11-21T17:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Purdue",
+          "canonical_pick": "purdue",
+          "edge_points": 0.84
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Purdue",
+          "canonical_pick": "purdue",
+          "edge_points": 0.82
+        },
+        {
+          "model": "recent_form",
+          "pick": "Purdue",
+          "canonical_pick": "purdue",
+          "edge_points": 1.31
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Purdue",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Memphis",
+        "underdog": "Navy",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401862834",
+        "kickoff_utc": "2026-11-21T17:00:00+00:00"
+      },
+      "espn_event_id": "401862834",
+      "kickoff_utc": "2026-11-21T17:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Memphis",
+          "canonical_pick": "memphis",
+          "edge_points": 0.2
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Memphis",
+          "canonical_pick": "memphis",
+          "edge_points": 0.44
+        },
+        {
+          "model": "recent_form",
+          "pick": "Memphis",
+          "canonical_pick": "memphis",
+          "edge_points": 0.48
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Memphis",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Virginia",
+        "underdog": "N. Carolina",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -1.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858305",
+        "kickoff_utc": "2026-11-21T17:30:00+00:00"
+      },
+      "espn_event_id": "401858305",
+      "kickoff_utc": "2026-11-21T17:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "N. Carolina",
+          "canonical_pick": "north carolina",
+          "edge_points": 0.35
+        },
+        {
+          "model": "offense_defense",
+          "pick": "N. Carolina",
+          "canonical_pick": "north carolina",
+          "edge_points": 0.3
+        },
+        {
+          "model": "recent_form",
+          "pick": "N. Carolina",
+          "canonical_pick": "north carolina",
+          "edge_points": 1.06
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "N. Carolina",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Houston",
+        "underdog": "West Virginia",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -7.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856868",
+        "kickoff_utc": "2026-11-21T18:00:00+00:00"
+      },
+      "espn_event_id": "401856868",
+      "kickoff_utc": "2026-11-21T18:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "West Virginia",
+          "canonical_pick": "west virginia",
+          "edge_points": 1.03
+        },
+        {
+          "model": "offense_defense",
+          "pick": "West Virginia",
+          "canonical_pick": "west virginia",
+          "edge_points": 0.67
+        },
+        {
+          "model": "recent_form",
+          "pick": "West Virginia",
+          "canonical_pick": "west virginia",
+          "edge_points": 2.82
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "West Virginia",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Iowa",
+        "underdog": "Illinois",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -6.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858527",
+        "kickoff_utc": "2026-11-21T19:30:00+00:00"
+      },
+      "espn_event_id": "401858527",
+      "kickoff_utc": "2026-11-21T19:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Illinois",
+          "canonical_pick": "illinois",
+          "edge_points": 1.16
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Illinois",
+          "canonical_pick": "illinois",
+          "edge_points": 0.96
+        },
+        {
+          "model": "recent_form",
+          "pick": "Illinois",
+          "canonical_pick": "illinois",
+          "edge_points": 1.79
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Illinois",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Florida St.",
+        "underdog": "NC State",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -9.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858304",
+        "kickoff_utc": "2026-11-21T20:30:00+00:00"
+      },
+      "espn_event_id": "401858304",
+      "kickoff_utc": "2026-11-21T20:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "NC State",
+          "canonical_pick": "nc state",
+          "edge_points": 0.6
+        },
+        {
+          "model": "offense_defense",
+          "pick": "NC State",
+          "canonical_pick": "nc state",
+          "edge_points": 0.83
+        },
+        {
+          "model": "recent_form",
+          "pick": "NC State",
+          "canonical_pick": "nc state",
+          "edge_points": 0.26
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "NC State",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "UCLA",
+        "underdog": "Michigan",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -5.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858528",
+        "kickoff_utc": "2026-11-21T20:30:00+00:00"
+      },
+      "espn_event_id": "401858528",
+      "kickoff_utc": "2026-11-21T20:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "UCLA",
+          "canonical_pick": "ucla",
+          "edge_points": 0.43
+        },
+        {
+          "model": "offense_defense",
+          "pick": "UCLA",
+          "canonical_pick": "ucla",
+          "edge_points": 0.83
+        },
+        {
+          "model": "recent_form",
+          "pick": "UCLA",
+          "canonical_pick": "ucla",
+          "edge_points": 1.12
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "UCLA",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Indiana",
+        "underdog": "Washington",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -8.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858535",
+        "kickoff_utc": "2026-11-21T20:30:00+00:00"
+      },
+      "espn_event_id": "401858535",
+      "kickoff_utc": "2026-11-21T20:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Washington",
+          "canonical_pick": "washington",
+          "edge_points": 0.75
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Washington",
+          "canonical_pick": "washington",
+          "edge_points": 0.45
+        },
+        {
+          "model": "recent_form",
+          "pick": "Washington",
+          "canonical_pick": "washington",
+          "edge_points": 3.69
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Washington",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "LSU",
+        "underdog": "Tennessee",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -1.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856754",
+        "kickoff_utc": "2026-11-21T20:30:00+00:00"
+      },
+      "espn_event_id": "401856754",
+      "kickoff_utc": "2026-11-21T20:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Tennessee",
+          "canonical_pick": "tennessee",
+          "edge_points": 0.9
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Tennessee",
+          "canonical_pick": "tennessee",
+          "edge_points": 0.83
+        },
+        {
+          "model": "recent_form",
+          "pick": "Tennessee",
+          "canonical_pick": "tennessee",
+          "edge_points": 3.09
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Tennessee",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Texas Tech",
+        "underdog": "Baylor",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -3.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856871",
+        "kickoff_utc": "2026-11-21T20:30:00+00:00"
+      },
+      "espn_event_id": "401856871",
+      "kickoff_utc": "2026-11-21T20:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Baylor",
+          "canonical_pick": "baylor",
+          "edge_points": 1.39
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Baylor",
+          "canonical_pick": "baylor",
+          "edge_points": 1.4
+        },
+        {
+          "model": "recent_form",
+          "pick": "Baylor",
+          "canonical_pick": "baylor",
+          "edge_points": 0.99
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Baylor",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Oklahoma",
+        "underdog": "Texas A&M",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -7.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856752",
+        "kickoff_utc": "2026-11-21T20:45:00+00:00"
+      },
+      "espn_event_id": "401856752",
+      "kickoff_utc": "2026-11-21T20:45:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Texas A&M",
+          "canonical_pick": "texas a and m",
+          "edge_points": 1.8
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Texas A&M",
+          "canonical_pick": "texas a and m",
+          "edge_points": 1.77
+        },
+        {
+          "model": "recent_form",
+          "pick": "Texas A&M",
+          "canonical_pick": "texas a and m",
+          "edge_points": 1.31
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Texas A&M",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Miami (FL)",
+        "underdog": "Virginia Tech",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -20.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858302",
+        "kickoff_utc": "2026-11-22T00:00:00+00:00"
+      },
+      "espn_event_id": "401858302",
+      "kickoff_utc": "2026-11-22T00:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Virginia Tech",
+          "canonical_pick": "virginia tech",
+          "edge_points": 1.11
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Virginia Tech",
+          "canonical_pick": "virginia tech",
+          "edge_points": 0.64
+        },
+        {
+          "model": "recent_form",
+          "pick": "Virginia Tech",
+          "canonical_pick": "virginia tech",
+          "edge_points": 1.28
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Virginia Tech",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "UNLV",
+        "underdog": "San Jose St.",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -6.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0
+      },
+      "espn_event_id": null,
+      "kickoff_utc": null,
+      "votes": [],
+      "agreement": "No votes",
+      "majority_pick": null,
+      "full_three_model_vote": false,
+      "unanimous": false
+    },
+    {
+      "game": {
+        "favorite": "Missouri",
+        "underdog": "Kentucky",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -5.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856751",
+        "kickoff_utc": "2026-11-22T00:30:00+00:00"
+      },
+      "espn_event_id": "401856751",
+      "kickoff_utc": "2026-11-22T00:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Kentucky",
+          "canonical_pick": "kentucky",
+          "edge_points": 0.37
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Kentucky",
+          "canonical_pick": "kentucky",
+          "edge_points": 0.32
+        },
+        {
+          "model": "recent_form",
+          "pick": "Kentucky",
+          "canonical_pick": "kentucky",
+          "edge_points": 1.28
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "Kentucky",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Georgia",
+        "underdog": "South Carolina",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -16.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856753",
+        "kickoff_utc": "2026-11-22T00:30:00+00:00"
+      },
+      "espn_event_id": "401856753",
+      "kickoff_utc": "2026-11-22T00:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "South Carolina",
+          "canonical_pick": "south carolina",
+          "edge_points": 2.18
+        },
+        {
+          "model": "offense_defense",
+          "pick": "South Carolina",
+          "canonical_pick": "south carolina",
+          "edge_points": 1.9
+        },
+        {
+          "model": "recent_form",
+          "pick": "South Carolina",
+          "canonical_pick": "south carolina",
+          "edge_points": 2.14
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "South Carolina",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Notre Dame",
+        "underdog": "SMU",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -20.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401858307",
+        "kickoff_utc": "2026-11-22T00:30:00+00:00"
+      },
+      "espn_event_id": "401858307",
+      "kickoff_utc": "2026-11-22T00:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "SMU",
+          "canonical_pick": "smu",
+          "edge_points": 2.2
+        },
+        {
+          "model": "offense_defense",
+          "pick": "SMU",
+          "canonical_pick": "smu",
+          "edge_points": 1.7
+        },
+        {
+          "model": "recent_form",
+          "pick": "SMU",
+          "canonical_pick": "smu",
+          "edge_points": 3.51
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "SMU",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Utah",
+        "underdog": "TCU",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -6.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856872",
+        "kickoff_utc": "2026-11-22T02:00:00+00:00"
+      },
+      "espn_event_id": "401856872",
+      "kickoff_utc": "2026-11-22T02:00:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "TCU",
+          "canonical_pick": "tcu",
+          "edge_points": 0.63
+        },
+        {
+          "model": "offense_defense",
+          "pick": "TCU",
+          "canonical_pick": "tcu",
+          "edge_points": 0.59
+        },
+        {
+          "model": "recent_form",
+          "pick": "TCU",
+          "canonical_pick": "tcu",
+          "edge_points": 1.47
+        }
+      ],
+      "agreement": "3 of 3",
+      "majority_pick": "TCU",
+      "full_three_model_vote": true,
+      "unanimous": true
+    },
+    {
+      "game": {
+        "favorite": "Oklahoma St.",
+        "underdog": "Arizona St.",
+        "favorite_home": false,
+        "underdog_home": true,
+        "favorite_spread": -3.0,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401856870",
+        "kickoff_utc": "2026-11-22T03:15:00+00:00"
+      },
+      "espn_event_id": "401856870",
+      "kickoff_utc": "2026-11-22T03:15:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Oklahoma St.",
+          "canonical_pick": "oklahoma state",
+          "edge_points": 0.44
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Oklahoma St.",
+          "canonical_pick": "oklahoma state",
+          "edge_points": 0.61
+        },
+        {
+          "model": "recent_form",
+          "pick": "Arizona St.",
+          "canonical_pick": "arizona state",
+          "edge_points": 1.61
+        }
+      ],
+      "agreement": "2 of 3",
+      "majority_pick": "Oklahoma St.",
+      "full_three_model_vote": true,
+      "unanimous": false
+    },
+    {
+      "game": {
+        "favorite": "Oregon St.",
+        "underdog": "Utah St.",
+        "favorite_home": true,
+        "underdog_home": false,
+        "favorite_spread": -9.5,
+        "favorite_pick_pct": 0,
+        "underdog_pick_pct": 0,
+        "espn_event_id": "401860919",
+        "kickoff_utc": "2026-11-22T03:30:00+00:00"
+      },
+      "espn_event_id": "401860919",
+      "kickoff_utc": "2026-11-22T03:30:00+00:00",
+      "votes": [
+        {
+          "model": "incumbent",
+          "pick": "Oregon St.",
+          "canonical_pick": "oregon state",
+          "edge_points": 0.25
+        },
+        {
+          "model": "offense_defense",
+          "pick": "Oregon St.",
+          "canonical_pick": "oregon state",
+          "edge_points": 0.5
+        },
+        {
+          "model": "recent_form",
+          "pick": "Utah St.",
+          "canonical_pick": "utah state",
+          "edge_points": 2.58
+        }
+      ],
+      "agreement": "2 of 3",
+      "majority_pick": "Oregon St.",
+      "full_three_model_vote": true,
+      "unanimous": false
+    }
+  ]
+}

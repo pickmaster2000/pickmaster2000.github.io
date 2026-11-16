@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Oregon St.",
+    "underdog": "Utah St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -9.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401860919",
+    "kickoff_utc": "2026-11-22T03:30:00+00:00"
+  },
+  "espn_event_id": "401860919",
+  "kickoff_utc": "2026-11-22T03:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Oregon St.",
+      "canonical_pick": "oregon state",
+      "edge_points": 0.25
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Oregon St.",
+      "canonical_pick": "oregon state",
+      "edge_points": 0.5
+    },
+    {
+      "model": "recent_form",
+      "pick": "Utah St.",
+      "canonical_pick": "utah state",
+      "edge_points": 2.58
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "Oregon St.",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

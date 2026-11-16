@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:28.165875+00:00",
+  "game": {
+    "favorite": "Indiana",
+    "underdog": "Washington",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -8.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858535",
+    "kickoff_utc": "2026-11-21T20:30:00+00:00"
+  },
+  "espn_event_id": "401858535",
+  "kickoff_utc": "2026-11-21T20:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Washington",
+      "canonical_pick": "washington",
+      "edge_points": 0.75
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Washington",
+      "canonical_pick": "washington",
+      "edge_points": 0.45
+    },
+    {
+      "model": "recent_form",
+      "pick": "Washington",
+      "canonical_pick": "washington",
+      "edge_points": 3.69
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Washington",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

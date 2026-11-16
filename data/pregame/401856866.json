@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:17.136658+00:00",
+  "espn_event_id": "401856866",
+  "kickoff_utc": "2026-11-21T17:00:00+00:00",
+  "game": {
+    "favorite": "BYU",
+    "underdog": "Kansas",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -5.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856866",
+    "kickoff_utc": "2026-11-21T17:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "BYU",
+    "underdog": "Kansas",
+    "projected_favorite_margin": 4.45,
+    "recommended_team": "Kansas",
+    "estimated_edge_points": 1.05,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

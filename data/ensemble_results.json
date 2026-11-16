@@ -1,53 +1,59 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-14T23:46:51.195238+00:00",
+  "generated_at": "2026-11-16T12:23:31.108711+00:00",
   "method": "First-observed pregame three-model majority on Yahoo public spread; same matched games for main and underdog baseline",
   "warning": "Correlated models; no proven benefit. Results are only first captured prekickoff snapshots; public spreads may differ from Yahoo official contest lines.",
   "total": {
-    "recorded": 25,
-    "pending": 13,
+    "recorded": 49,
+    "pending": 24,
     "unmatched": 0,
-    "decided": 12
+    "decided": 25
   },
   "models": {
     "majority": {
-      "wins": 8,
-      "losses": 4,
+      "wins": 15,
+      "losses": 10,
       "pushes": 0,
-      "win_pct_excluding_pushes": 66.7
+      "win_pct_excluding_pushes": 60.0
     },
     "incumbent": {
-      "wins": 8,
-      "losses": 4,
+      "wins": 15,
+      "losses": 10,
       "pushes": 0,
-      "win_pct_excluding_pushes": 66.7
+      "win_pct_excluding_pushes": 60.0
     },
     "offense_defense": {
-      "wins": 7,
-      "losses": 5,
+      "wins": 14,
+      "losses": 11,
       "pushes": 0,
-      "win_pct_excluding_pushes": 58.3
+      "win_pct_excluding_pushes": 56.0
     },
     "recent_form": {
-      "wins": 9,
-      "losses": 3,
+      "wins": 15,
+      "losses": 10,
       "pushes": 0,
-      "win_pct_excluding_pushes": 75.0
+      "win_pct_excluding_pushes": 60.0
     },
     "always_underdog": {
-      "wins": 7,
-      "losses": 5,
+      "wins": 16,
+      "losses": 9,
       "pushes": 0,
-      "win_pct_excluding_pushes": 58.3
+      "win_pct_excluding_pushes": 64.0
     },
     "unanimous": {
-      "wins": 6,
-      "losses": 2,
+      "wins": 10,
+      "losses": 6,
       "pushes": 0,
-      "win_pct_excluding_pushes": 75.0
+      "win_pct_excluding_pushes": 62.5
     }
   },
   "completed": [
+    {
+      "week": 11,
+      "event_id": "401856857",
+      "agreement": "2 of 3",
+      "majority_result": "losses"
+    },
     {
       "week": 11,
       "event_id": "401856859",
@@ -62,9 +68,57 @@
     },
     {
       "week": 11,
+      "event_id": "401856861",
+      "agreement": "2 of 3",
+      "majority_result": "wins"
+    },
+    {
+      "week": 11,
       "event_id": "401856862",
       "agreement": "2 of 3",
       "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401856863",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401856864",
+      "agreement": "3 of 3",
+      "majority_result": "wins"
+    },
+    {
+      "week": 11,
+      "event_id": "401856883",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401856884",
+      "agreement": "2 of 3",
+      "majority_result": "wins"
+    },
+    {
+      "week": 11,
+      "event_id": "401856885",
+      "agreement": "2 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401856886",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401856887",
+      "agreement": "3 of 3",
+      "majority_result": "wins"
     },
     {
       "week": 11,
@@ -98,8 +152,20 @@
     },
     {
       "week": 11,
+      "event_id": "401858298",
+      "agreement": "3 of 3",
+      "majority_result": "wins"
+    },
+    {
+      "week": 11,
       "event_id": "401858301",
       "agreement": "3 of 3",
+      "majority_result": "wins"
+    },
+    {
+      "week": 11,
+      "event_id": "401858518",
+      "agreement": "2 of 3",
       "majority_result": "wins"
     },
     {
@@ -116,9 +182,21 @@
     },
     {
       "week": 11,
+      "event_id": "401858523",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 11,
       "event_id": "401858525",
       "agreement": "3 of 3",
       "majority_result": "losses"
+    },
+    {
+      "week": 11,
+      "event_id": "401860914",
+      "agreement": "3 of 3",
+      "majority_result": "wins"
     }
   ]
 }

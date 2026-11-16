@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-16T12:23:17.136658+00:00",
+  "espn_event_id": "401858305",
+  "kickoff_utc": "2026-11-21T17:30:00+00:00",
+  "game": {
+    "favorite": "Virginia",
+    "underdog": "N. Carolina",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -1.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858305",
+    "kickoff_utc": "2026-11-21T17:30:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Virginia",
+    "underdog": "N. Carolina",
+    "projected_favorite_margin": 0.65,
+    "recommended_team": "N. Carolina",
+    "estimated_edge_points": 0.35,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}
