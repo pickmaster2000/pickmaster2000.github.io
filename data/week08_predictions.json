@@ -1,7 +1,7 @@
 {
   "week": 8,
   "season": 2026,
-  "generated_at": "2026-11-19T23:55:14.805416+00:00",
+  "generated_at": "2026-11-20T01:32:25.548576+00:00",
   "source": "ESPN public completed-game scoreboard + Yahoo spread",
   "model": "Regularized scoring with market anchoring",
   "warning": "Uncalibrated model; no injuries, weather, or multi-AI analysis. Do not interpret displayed ATS percentages as validated probabilities.",
