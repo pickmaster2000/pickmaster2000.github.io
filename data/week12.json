@@ -2,7 +2,7 @@
   "week": 12,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=12",
-  "retrieved_at": "2026-11-21T11:55:39.584277+00:00",
+  "retrieved_at": "2026-11-21T15:07:25.537287+00:00",
   "games": [
     {
       "favorite": "UCF",
@@ -10,8 +10,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -2.5,
-      "favorite_pick_pct": 69,
-      "underdog_pick_pct": 31,
+      "favorite_pick_pct": 68,
+      "underdog_pick_pct": 32,
       "espn_event_id": "401856869",
       "kickoff_utc": "2026-11-20T23:00:00+00:00"
     },
@@ -21,8 +21,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -13.5,
-      "favorite_pick_pct": 53,
-      "underdog_pick_pct": 47,
+      "favorite_pick_pct": 51,
+      "underdog_pick_pct": 49,
       "espn_event_id": "401858303",
       "kickoff_utc": "2026-11-21T00:30:00+00:00"
     },
@@ -32,8 +32,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -16.0,
-      "favorite_pick_pct": 75,
-      "underdog_pick_pct": 25,
+      "favorite_pick_pct": 76,
+      "underdog_pick_pct": 24,
       "espn_event_id": "401866468",
       "kickoff_utc": "2026-11-21T00:30:00+00:00"
     },
@@ -43,8 +43,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -23.0,
-      "favorite_pick_pct": 47,
-      "underdog_pick_pct": 53,
+      "favorite_pick_pct": 46,
+      "underdog_pick_pct": 54,
       "espn_event_id": "401864545",
       "kickoff_utc": "2026-11-21T01:00:00+00:00"
     },
@@ -87,8 +87,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.5,
-      "favorite_pick_pct": 75,
-      "underdog_pick_pct": 25,
+      "favorite_pick_pct": 73,
+      "underdog_pick_pct": 27,
       "espn_event_id": "401862834",
       "kickoff_utc": "2026-11-21T17:00:00+00:00"
     },
@@ -109,8 +109,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -8.5,
-      "favorite_pick_pct": 68,
-      "underdog_pick_pct": 32,
+      "favorite_pick_pct": 65,
+      "underdog_pick_pct": 35,
       "espn_event_id": "401856868",
       "kickoff_utc": "2026-11-21T18:00:00+00:00"
     },
@@ -120,8 +120,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -8.5,
-      "favorite_pick_pct": 70,
-      "underdog_pick_pct": 30,
+      "favorite_pick_pct": 68,
+      "underdog_pick_pct": 32,
       "espn_event_id": "401858527",
       "kickoff_utc": "2026-11-21T19:30:00+00:00"
     },
@@ -153,8 +153,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -7.5,
-      "favorite_pick_pct": 82,
-      "underdog_pick_pct": 18,
+      "favorite_pick_pct": 80,
+      "underdog_pick_pct": 20,
       "espn_event_id": "401858535",
       "kickoff_utc": "2026-11-21T20:30:00+00:00"
     },
@@ -164,8 +164,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -1.5,
-      "favorite_pick_pct": 21,
-      "underdog_pick_pct": 79,
+      "favorite_pick_pct": 22,
+      "underdog_pick_pct": 78,
       "espn_event_id": "401856754",
       "kickoff_utc": "2026-11-21T20:30:00+00:00"
     },
@@ -186,8 +186,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -7.5,
-      "favorite_pick_pct": 80,
-      "underdog_pick_pct": 20,
+      "favorite_pick_pct": 78,
+      "underdog_pick_pct": 22,
       "espn_event_id": "401856752",
       "kickoff_utc": "2026-11-21T20:45:00+00:00"
     },
@@ -197,8 +197,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -20.5,
-      "favorite_pick_pct": 67,
-      "underdog_pick_pct": 33,
+      "favorite_pick_pct": 68,
+      "underdog_pick_pct": 32,
       "espn_event_id": "401858302",
       "kickoff_utc": "2026-11-22T00:00:00+00:00"
     },
@@ -208,8 +208,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -7.0,
-      "favorite_pick_pct": 77,
-      "underdog_pick_pct": 23
+      "favorite_pick_pct": 75,
+      "underdog_pick_pct": 25
     },
     {
       "favorite": "Missouri",
@@ -228,8 +228,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -16.5,
-      "favorite_pick_pct": 78,
-      "underdog_pick_pct": 22,
+      "favorite_pick_pct": 77,
+      "underdog_pick_pct": 23,
       "espn_event_id": "401856753",
       "kickoff_utc": "2026-11-22T00:30:00+00:00"
     },
@@ -261,8 +261,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 75,
-      "underdog_pick_pct": 25,
+      "favorite_pick_pct": 73,
+      "underdog_pick_pct": 27,
       "espn_event_id": "401856870",
       "kickoff_utc": "2026-11-22T03:15:00+00:00"
     },
@@ -272,8 +272,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -9.5,
-      "favorite_pick_pct": 89,
-      "underdog_pick_pct": 11,
+      "favorite_pick_pct": 88,
+      "underdog_pick_pct": 12,
       "espn_event_id": "401860919",
       "kickoff_utc": "2026-11-22T03:30:00+00:00"
     }
