@@ -1,36 +1,36 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-20T23:58:05.439276+00:00",
+  "generated_at": "2026-11-21T11:55:57.747688+00:00",
   "status": "RETROSPECTIVE EXPLORATORY COMPARISON: NOT a real-time pregame backtest. This does not establish profitable predictive accuracy.",
   "limitation": "Historical Yahoo slate spreads may have been refreshed after kickoff; incumbent backfills may also reflect later model-code changes.",
   "models": {
     "incumbent": {
-      "wins": 87,
-      "losses": 95,
-      "pushes": 6,
-      "win_pct_excluding_pushes": 47.8,
-      "evaluated": 188
-    },
-    "challenger": {
-      "wins": 84,
+      "wins": 88,
       "losses": 98,
       "pushes": 6,
-      "win_pct_excluding_pushes": 46.2,
-      "evaluated": 188
+      "win_pct_excluding_pushes": 47.3,
+      "evaluated": 192
     },
-    "always_favorite": {
-      "wins": 81,
+    "challenger": {
+      "wins": 85,
       "losses": 101,
       "pushes": 6,
-      "win_pct_excluding_pushes": 44.5,
-      "evaluated": 188
+      "win_pct_excluding_pushes": 45.7,
+      "evaluated": 192
+    },
+    "always_favorite": {
+      "wins": 84,
+      "losses": 102,
+      "pushes": 6,
+      "win_pct_excluding_pushes": 45.2,
+      "evaluated": 192
     },
     "always_underdog": {
-      "wins": 101,
-      "losses": 81,
+      "wins": 102,
+      "losses": 84,
       "pushes": 6,
-      "win_pct_excluding_pushes": 55.5,
-      "evaluated": 188
+      "win_pct_excluding_pushes": 54.8,
+      "evaluated": 192
     }
   },
   "weeks": [
@@ -68,7 +68,7 @@
     },
     {
       "week": 12,
-      "same_games_evaluated": 0
+      "same_games_evaluated": 4
     }
   ],
   "decision": "Challenger remains separate; do not replace production until independently verified prospective results warrant it."

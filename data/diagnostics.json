@@ -1,14 +1,14 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-20T23:58:02.348188+00:00",
+  "generated_at": "2026-11-21T11:55:50.255460+00:00",
   "warning": "Exploratory retrospective slices; Yahoo spreads may have changed after kickoff. Baselines use exactly the same matched games. Do not optimize parameters or claim predictive advantage from these samples.",
   "groups": {
     "all": {
-      "wins": 87,
-      "losses": 95,
+      "wins": 88,
+      "losses": 98,
       "pushes": 6,
-      "count": 188,
-      "win_pct_excluding_pushes": 47.8
+      "count": 192,
+      "win_pct_excluding_pushes": 47.3
     },
     "favorite": {
       "wins": 12,
@@ -18,11 +18,11 @@
       "win_pct_excluding_pushes": 31.6
     },
     "underdog": {
-      "wins": 75,
-      "losses": 69,
+      "wins": 76,
+      "losses": 72,
       "pushes": 5,
-      "count": 149,
-      "win_pct_excluding_pushes": 52.1
+      "count": 153,
+      "win_pct_excluding_pushes": 51.4
     },
     "home": {
       "wins": 50,
@@ -32,11 +32,11 @@
       "win_pct_excluding_pushes": 50.5
     },
     "away": {
-      "wins": 37,
-      "losses": 46,
+      "wins": 38,
+      "losses": 49,
       "pushes": 5,
-      "count": 88,
-      "win_pct_excluding_pushes": 44.6
+      "count": 92,
+      "win_pct_excluding_pushes": 43.7
     },
     "neutral_or_unknown": {
       "wins": 0,
@@ -46,67 +46,67 @@
       "win_pct_excluding_pushes": null
     },
     "baseline_always_favorite": {
-      "wins": 81,
-      "losses": 101,
+      "wins": 84,
+      "losses": 102,
       "pushes": 6,
-      "count": 188,
-      "win_pct_excluding_pushes": 44.5
+      "count": 192,
+      "win_pct_excluding_pushes": 45.2
     },
     "baseline_always_underdog": {
-      "wins": 101,
-      "losses": 81,
+      "wins": 102,
+      "losses": 84,
       "pushes": 6,
-      "count": 188,
-      "win_pct_excluding_pushes": 55.5
+      "count": 192,
+      "win_pct_excluding_pushes": 54.8
     },
     "watchlist": {
       "wins": 28,
-      "losses": 29,
+      "losses": 30,
       "pushes": 1,
-      "count": 58,
-      "win_pct_excluding_pushes": 49.1
+      "count": 59,
+      "win_pct_excluding_pushes": 48.3
     },
     "weak_lean": {
-      "wins": 59,
-      "losses": 66,
+      "wins": 60,
+      "losses": 68,
       "pushes": 5,
-      "count": 130,
-      "win_pct_excluding_pushes": 47.2
+      "count": 133,
+      "win_pct_excluding_pushes": 46.9
     },
     "spread_under_7": {
       "wins": 46,
-      "losses": 59,
+      "losses": 60,
       "pushes": 1,
-      "count": 106,
-      "win_pct_excluding_pushes": 43.8
+      "count": 107,
+      "win_pct_excluding_pushes": 43.4
     },
     "spread_7_to_14": {
-      "wins": 34,
+      "wins": 35,
       "losses": 27,
       "pushes": 5,
-      "count": 66,
-      "win_pct_excluding_pushes": 55.7
+      "count": 67,
+      "win_pct_excluding_pushes": 56.5
     },
     "spread_over_14": {
       "wins": 7,
-      "losses": 9,
+      "losses": 11,
       "pushes": 0,
-      "count": 16,
-      "win_pct_excluding_pushes": 43.8
+      "count": 18,
+      "win_pct_excluding_pushes": 38.9
     },
     "with_public_majority": {
       "wins": 20,
-      "losses": 25,
+      "losses": 26,
       "pushes": 1,
-      "count": 46,
-      "win_pct_excluding_pushes": 44.4
+      "count": 47,
+      "win_pct_excluding_pushes": 43.5
     },
     "against_public_majority": {
-      "wins": 66,
-      "losses": 70,
+      "wins": 67,
+      "losses": 72,
       "pushes": 5,
-      "count": 141,
-      "win_pct_excluding_pushes": 48.5
+      "count": 144,
+      "win_pct_excluding_pushes": 48.2
     },
     "public_tied_or_unknown": {
       "wins": 1,
@@ -151,7 +151,7 @@
     },
     {
       "week": 12,
-      "evaluated": 0
+      "evaluated": 4
     }
   ]
 }

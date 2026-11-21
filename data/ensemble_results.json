@@ -1,50 +1,50 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-20T23:58:07.327597+00:00",
+  "generated_at": "2026-11-21T11:56:03.324857+00:00",
   "method": "First-observed pregame three-model majority on Yahoo public spread; same matched games for main and underdog baseline",
   "warning": "Correlated models; no proven benefit. Results are only first captured prekickoff snapshots; public spreads may differ from Yahoo official contest lines.",
   "total": {
     "recorded": 49,
-    "pending": 24,
+    "pending": 20,
     "unmatched": 0,
-    "decided": 25
+    "decided": 29
   },
   "models": {
     "majority": {
-      "wins": 15,
-      "losses": 10,
+      "wins": 16,
+      "losses": 13,
       "pushes": 0,
-      "win_pct_excluding_pushes": 60.0
+      "win_pct_excluding_pushes": 55.2
     },
     "incumbent": {
-      "wins": 15,
-      "losses": 10,
+      "wins": 16,
+      "losses": 13,
       "pushes": 0,
-      "win_pct_excluding_pushes": 60.0
+      "win_pct_excluding_pushes": 55.2
     },
     "offense_defense": {
-      "wins": 14,
-      "losses": 11,
+      "wins": 15,
+      "losses": 14,
       "pushes": 0,
-      "win_pct_excluding_pushes": 56.0
+      "win_pct_excluding_pushes": 51.7
     },
     "recent_form": {
       "wins": 15,
-      "losses": 10,
+      "losses": 14,
       "pushes": 0,
-      "win_pct_excluding_pushes": 60.0
+      "win_pct_excluding_pushes": 51.7
     },
     "always_underdog": {
-      "wins": 16,
-      "losses": 9,
+      "wins": 17,
+      "losses": 12,
       "pushes": 0,
-      "win_pct_excluding_pushes": 64.0
+      "win_pct_excluding_pushes": 58.6
     },
     "unanimous": {
       "wins": 10,
-      "losses": 6,
+      "losses": 9,
       "pushes": 0,
-      "win_pct_excluding_pushes": 62.5
+      "win_pct_excluding_pushes": 52.6
     }
   },
   "completed": [
@@ -89,6 +89,12 @@
       "event_id": "401856864",
       "agreement": "3 of 3",
       "majority_result": "wins"
+    },
+    {
+      "week": 12,
+      "event_id": "401856869",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
     },
     {
       "week": 11,
@@ -163,6 +169,12 @@
       "majority_result": "wins"
     },
     {
+      "week": 12,
+      "event_id": "401858303",
+      "agreement": "2 of 3",
+      "majority_result": "wins"
+    },
+    {
       "week": 11,
       "event_id": "401858518",
       "agreement": "2 of 3",
@@ -197,6 +209,18 @@
       "event_id": "401860914",
       "agreement": "3 of 3",
       "majority_result": "wins"
+    },
+    {
+      "week": 12,
+      "event_id": "401864545",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
+    },
+    {
+      "week": 12,
+      "event_id": "401866468",
+      "agreement": "3 of 3",
+      "majority_result": "losses"
     }
   ]
 }
