@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401856873",
+  "kickoff_utc": "2026-11-29T02:00:00+00:00",
+  "game": {
+    "favorite": "Arizona",
+    "underdog": "Arizona St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -7.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856873",
+    "kickoff_utc": "2026-11-29T02:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Arizona",
+    "underdog": "Arizona St.",
+    "projected_favorite_margin": 8.22,
+    "recommended_team": "Arizona",
+    "estimated_edge_points": 0.72,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

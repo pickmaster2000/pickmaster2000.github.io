@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401858317",
+  "kickoff_utc": "2026-11-28T20:00:00+00:00",
+  "game": {
+    "favorite": "Virginia Tech",
+    "underdog": "Virginia",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -3.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858317",
+    "kickoff_utc": "2026-11-28T20:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Virginia Tech",
+    "underdog": "Virginia",
+    "projected_favorite_margin": 2.27,
+    "recommended_team": "Virginia",
+    "estimated_edge_points": 0.73,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

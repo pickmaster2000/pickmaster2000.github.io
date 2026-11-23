@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:45.954868+00:00",
+  "game": {
+    "favorite": "Pittsburgh",
+    "underdog": "California",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -9.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858315",
+    "kickoff_utc": "2026-11-29T00:30:00+00:00"
+  },
+  "espn_event_id": "401858315",
+  "kickoff_utc": "2026-11-29T00:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "California",
+      "canonical_pick": "california",
+      "edge_points": 0.34
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Pittsburgh",
+      "canonical_pick": "pitt",
+      "edge_points": 0.14
+    },
+    {
+      "model": "recent_form",
+      "pick": "California",
+      "canonical_pick": "california",
+      "edge_points": 1.25
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "California",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

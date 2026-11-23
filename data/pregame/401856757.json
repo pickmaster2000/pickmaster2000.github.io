@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401856757",
+  "kickoff_utc": "2026-11-29T00:30:00+00:00",
+  "game": {
+    "favorite": "Alabama",
+    "underdog": "Auburn",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -16.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856757",
+    "kickoff_utc": "2026-11-29T00:30:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Alabama",
+    "underdog": "Auburn",
+    "projected_favorite_margin": 15.14,
+    "recommended_team": "Auburn",
+    "estimated_edge_points": 1.36,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

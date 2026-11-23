@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401856765",
+  "kickoff_utc": "2026-11-29T00:00:00+00:00",
+  "game": {
+    "favorite": "Tennessee",
+    "underdog": "Vanderbilt",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -11.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856765",
+    "kickoff_utc": "2026-11-29T00:00:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Tennessee",
+    "underdog": "Vanderbilt",
+    "projected_favorite_margin": 11.74,
+    "recommended_team": "Tennessee",
+    "estimated_edge_points": 0.24,
+    "signal": "weak_lean",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

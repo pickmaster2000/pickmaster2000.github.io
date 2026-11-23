@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401856760",
+  "kickoff_utc": "2026-11-28T20:30:00+00:00",
+  "game": {
+    "favorite": "Georgia",
+    "underdog": "Georgia Tech",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -35.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856760",
+    "kickoff_utc": "2026-11-28T20:30:00+00:00"
+  },
+  "prediction": {
+    "favorite": "Georgia",
+    "underdog": "Georgia Tech",
+    "projected_favorite_margin": 31.91,
+    "recommended_team": "Georgia Tech",
+    "estimated_edge_points": 3.59,
+    "signal": "watchlist",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

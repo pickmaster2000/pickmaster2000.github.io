@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:45.954868+00:00",
+  "game": {
+    "favorite": "Florida",
+    "underdog": "Florida St.",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -5.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856759",
+    "kickoff_utc": "2026-11-27T20:30:00+00:00"
+  },
+  "espn_event_id": "401856759",
+  "kickoff_utc": "2026-11-27T20:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Florida St.",
+      "canonical_pick": "florida state",
+      "edge_points": 1.29
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Florida St.",
+      "canonical_pick": "florida state",
+      "edge_points": 1.16
+    },
+    {
+      "model": "recent_form",
+      "pick": "Florida St.",
+      "canonical_pick": "florida state",
+      "edge_points": 1.91
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Florida St.",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

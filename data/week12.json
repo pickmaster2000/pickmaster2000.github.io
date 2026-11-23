@@ -2,7 +2,7 @@
   "week": 12,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=12",
-  "retrieved_at": "2026-11-21T23:49:49.749804+00:00",
+  "retrieved_at": "2026-11-23T12:06:21.802340+00:00",
   "games": [
     {
       "favorite": "UCF",
@@ -54,8 +54,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -5.5,
-      "favorite_pick_pct": 89,
-      "underdog_pick_pct": 11,
+      "favorite_pick_pct": 88,
+      "underdog_pick_pct": 12,
       "espn_event_id": "401856866",
       "kickoff_utc": "2026-11-21T17:00:00+00:00"
     },
@@ -76,8 +76,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -6.0,
-      "favorite_pick_pct": 79,
-      "underdog_pick_pct": 21,
+      "favorite_pick_pct": 78,
+      "underdog_pick_pct": 22,
       "espn_event_id": "401858533",
       "kickoff_utc": "2026-11-21T17:00:00+00:00"
     },
@@ -87,8 +87,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.5,
-      "favorite_pick_pct": 73,
-      "underdog_pick_pct": 27,
+      "favorite_pick_pct": 72,
+      "underdog_pick_pct": 28,
       "espn_event_id": "401862834",
       "kickoff_utc": "2026-11-21T17:00:00+00:00"
     },
@@ -98,8 +98,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -1.5,
-      "favorite_pick_pct": 30,
-      "underdog_pick_pct": 70,
+      "favorite_pick_pct": 29,
+      "underdog_pick_pct": 71,
       "espn_event_id": "401858305",
       "kickoff_utc": "2026-11-21T17:30:00+00:00"
     },
@@ -109,8 +109,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -8.5,
-      "favorite_pick_pct": 65,
-      "underdog_pick_pct": 35,
+      "favorite_pick_pct": 63,
+      "underdog_pick_pct": 37,
       "espn_event_id": "401856868",
       "kickoff_utc": "2026-11-21T18:00:00+00:00"
     },
@@ -131,8 +131,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -10.0,
-      "favorite_pick_pct": 76,
-      "underdog_pick_pct": 24,
+      "favorite_pick_pct": 75,
+      "underdog_pick_pct": 25,
       "espn_event_id": "401858304",
       "kickoff_utc": "2026-11-21T20:30:00+00:00"
     },
@@ -164,8 +164,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -1.5,
-      "favorite_pick_pct": 22,
-      "underdog_pick_pct": 78,
+      "favorite_pick_pct": 21,
+      "underdog_pick_pct": 79,
       "espn_event_id": "401856754",
       "kickoff_utc": "2026-11-21T20:30:00+00:00"
     },
@@ -261,10 +261,10 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 73,
-      "underdog_pick_pct": 27,
+      "favorite_pick_pct": 72,
+      "underdog_pick_pct": 28,
       "espn_event_id": "401856870",
-      "kickoff_utc": "2026-11-22T03:15:00+00:00"
+      "kickoff_utc": "2026-11-22T03:30:00+00:00"
     },
     {
       "favorite": "Oregon St.",

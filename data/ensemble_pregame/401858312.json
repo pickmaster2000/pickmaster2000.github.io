@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:45.954868+00:00",
+  "game": {
+    "favorite": "Wake Forest",
+    "underdog": "Duke",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -14.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858312",
+    "kickoff_utc": "2026-11-28T20:30:00+00:00"
+  },
+  "espn_event_id": "401858312",
+  "kickoff_utc": "2026-11-28T20:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Duke",
+      "canonical_pick": "duke",
+      "edge_points": 1.59
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Duke",
+      "canonical_pick": "duke",
+      "edge_points": 1.09
+    },
+    {
+      "model": "recent_form",
+      "pick": "Duke",
+      "canonical_pick": "duke",
+      "edge_points": 0.89
+    }
+  ],
+  "agreement": "3 of 3",
+  "majority_pick": "Duke",
+  "full_three_model_vote": true,
+  "unanimous": true,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

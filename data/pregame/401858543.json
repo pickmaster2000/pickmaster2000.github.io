@@ -1,0 +1,29 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:34.159864+00:00",
+  "espn_event_id": "401858543",
+  "kickoff_utc": "2026-11-28T20:30:00+00:00",
+  "game": {
+    "favorite": "USC",
+    "underdog": "UCLA",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -6.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401858543",
+    "kickoff_utc": "2026-11-28T20:30:00+00:00"
+  },
+  "prediction": {
+    "favorite": "USC",
+    "underdog": "UCLA",
+    "projected_favorite_margin": 2.71,
+    "recommended_team": "UCLA",
+    "estimated_edge_points": 3.79,
+    "signal": "watchlist",
+    "model": "Regularized opponent-adjusted scores, 70% market anchor",
+    "data_quality": "Experimental, not backtested; injuries/weather not included"
+  },
+  "notice": "Immutable first observed pre-kickoff snapshot; not a guarantee line equals official Yahoo contest line."
+}

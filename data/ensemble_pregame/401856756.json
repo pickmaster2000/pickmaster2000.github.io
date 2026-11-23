@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:45.954868+00:00",
+  "game": {
+    "favorite": "Texas",
+    "underdog": "Texas A&M",
+    "favorite_home": false,
+    "underdog_home": true,
+    "favorite_spread": -11.0,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856756",
+    "kickoff_utc": "2026-11-28T00:30:00+00:00"
+  },
+  "espn_event_id": "401856756",
+  "kickoff_utc": "2026-11-28T00:30:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Texas A&M",
+      "canonical_pick": "texas a and m",
+      "edge_points": 1.47
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Texas A&M",
+      "canonical_pick": "texas a and m",
+      "edge_points": 1.22
+    },
+    {
+      "model": "recent_form",
+      "pick": "Texas",
+      "canonical_pick": "texas",
+      "edge_points": 0.59
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "Texas A&M",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}

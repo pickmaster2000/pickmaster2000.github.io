@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "week": 13,
+  "captured_at": "2026-11-23T12:06:45.954868+00:00",
+  "game": {
+    "favorite": "Arizona",
+    "underdog": "Arizona St.",
+    "favorite_home": true,
+    "underdog_home": false,
+    "favorite_spread": -7.5,
+    "favorite_pick_pct": 0,
+    "underdog_pick_pct": 0,
+    "espn_event_id": "401856873",
+    "kickoff_utc": "2026-11-29T02:00:00+00:00"
+  },
+  "espn_event_id": "401856873",
+  "kickoff_utc": "2026-11-29T02:00:00+00:00",
+  "votes": [
+    {
+      "model": "incumbent",
+      "pick": "Arizona",
+      "canonical_pick": "arizona",
+      "edge_points": 0.72
+    },
+    {
+      "model": "offense_defense",
+      "pick": "Arizona",
+      "canonical_pick": "arizona",
+      "edge_points": 0.62
+    },
+    {
+      "model": "recent_form",
+      "pick": "Arizona St.",
+      "canonical_pick": "arizona state",
+      "edge_points": 1.69
+    }
+  ],
+  "agreement": "2 of 3",
+  "majority_pick": "Arizona",
+  "full_three_model_vote": true,
+  "unanimous": false,
+  "thursday_public_reference_verified": false,
+  "warning": "First-observed live Yahoo public line, not verified official Yahoo contest line."
+}
