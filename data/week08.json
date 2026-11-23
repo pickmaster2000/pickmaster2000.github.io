@@ -2,7 +2,7 @@
   "week": 8,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=8",
-  "retrieved_at": "2026-11-23T12:06:20.457008+00:00",
+  "retrieved_at": "2026-11-23T18:11:02.699280+00:00",
   "games": [
     {
       "favorite": "Virginia",
@@ -197,8 +197,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -13.0,
-      "favorite_pick_pct": 85,
-      "underdog_pick_pct": 15,
+      "favorite_pick_pct": 87,
+      "underdog_pick_pct": 13,
       "espn_event_id": "401860907",
       "kickoff_utc": "2026-10-24T22:00:00+00:00"
     },
