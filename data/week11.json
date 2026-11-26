@@ -2,7 +2,7 @@
   "week": 11,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=11",
-  "retrieved_at": "2026-11-26T12:13:31.737592+00:00",
+  "retrieved_at": "2026-11-26T18:02:11.187904+00:00",
   "games": [
     {
       "favorite": "Pittsburgh",
@@ -21,8 +21,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -9.5,
-      "favorite_pick_pct": 93,
-      "underdog_pick_pct": 7,
+      "favorite_pick_pct": 95,
+      "underdog_pick_pct": 5,
       "espn_event_id": "401856860",
       "kickoff_utc": "2026-11-14T03:15:00+00:00"
     },
@@ -142,8 +142,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 93,
-      "underdog_pick_pct": 7,
+      "favorite_pick_pct": 87,
+      "underdog_pick_pct": 13,
       "espn_event_id": "401856861",
       "kickoff_utc": "2026-11-14T20:30:00+00:00"
     },
