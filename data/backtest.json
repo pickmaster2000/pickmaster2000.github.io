@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-23T23:59:34.344905+00:00",
+  "generated_at": "2026-11-26T12:13:41.787555+00:00",
   "method": "Retrospective, prior-week-only model against available ESPN final scores and current public Yahoo snapshot spreads",
   "limitations": [
     "NOT a true point-in-time historical backtest. Yahoo snapshots may have been retrieved or updated after games occurred.",
@@ -12,7 +12,7 @@
     "wins": 95,
     "losses": 110,
     "pushes": 7,
-    "unmatched": 0,
+    "unmatched": 24,
     "evaluated": 212,
     "win_rate_excluding_pushes": 46.3
   },
@@ -104,6 +104,16 @@
       "pushes": 1,
       "unmatched": 0,
       "evaluated": 24,
+      "slate_games": 25,
+      "model_picks": 24
+    },
+    {
+      "week": 13,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "unmatched": 24,
+      "evaluated": 0,
       "slate_games": 25,
       "model_picks": 24
     }
