@@ -2,7 +2,7 @@
   "week": 13,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=13",
-  "retrieved_at": "2026-11-27T01:44:38.280881+00:00",
+  "retrieved_at": "2026-11-27T12:08:59.947194+00:00",
   "games": [
     {
       "favorite": "Iowa",
@@ -13,7 +13,7 @@
       "favorite_pick_pct": 77,
       "underdog_pick_pct": 23,
       "espn_event_id": "401858536",
-      "kickoff_utc": "2026-11-27T17:00:00+00:00"
+      "kickoff_utc": "2026-11-27T17:08:00+00:00"
     },
     {
       "favorite": "Mississippi",
