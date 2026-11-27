@@ -2,7 +2,7 @@
   "week": 3,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=3",
-  "retrieved_at": "2026-11-27T12:08:56.502560+00:00",
+  "retrieved_at": "2026-11-27T18:01:24.018562+00:00",
   "games": [
     {
       "favorite": "Texas Tech",
@@ -204,8 +204,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -22.5,
-      "favorite_pick_pct": 95,
-      "underdog_pick_pct": 5,
+      "favorite_pick_pct": 88,
+      "underdog_pick_pct": 12,
       "espn_event_id": "401856690",
       "kickoff_utc": "2026-09-19T23:30:00+00:00"
     },
@@ -268,8 +268,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -14.0,
-      "favorite_pick_pct": 88,
-      "underdog_pick_pct": 12,
+      "favorite_pick_pct": 90,
+      "underdog_pick_pct": 10,
       "espn_event_id": "401858458",
       "kickoff_utc": "2026-09-20T03:00:00+00:00"
     }

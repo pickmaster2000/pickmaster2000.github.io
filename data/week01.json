@@ -2,7 +2,7 @@
   "week": 1,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=1",
-  "retrieved_at": "2026-11-27T12:08:55.889339+00:00",
+  "retrieved_at": "2026-11-27T18:01:23.418395+00:00",
   "games": [
     {
       "favorite": "East. Michigan",
@@ -41,8 +41,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -32.5,
-      "favorite_pick_pct": 88,
-      "underdog_pick_pct": 12,
+      "favorite_pick_pct": 86,
+      "underdog_pick_pct": 14,
       "espn_event_id": "401858208",
       "kickoff_utc": "2026-09-05T16:00:00+00:00"
     },
@@ -52,8 +52,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -21.5,
-      "favorite_pick_pct": 85,
-      "underdog_pick_pct": 15
+      "favorite_pick_pct": 83,
+      "underdog_pick_pct": 17
     },
     {
       "favorite": "Houston",
@@ -83,8 +83,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -10.0,
-      "favorite_pick_pct": 100,
-      "underdog_pick_pct": 0,
+      "favorite_pick_pct": 89,
+      "underdog_pick_pct": 11,
       "espn_event_id": "401862698",
       "kickoff_utc": "2026-09-05T18:00:00+00:00"
     },

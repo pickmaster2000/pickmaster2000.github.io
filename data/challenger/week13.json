@@ -1,19 +1,9 @@
 {
   "season": 2026,
   "week": 13,
-  "generated_at": "2026-11-27T12:09:17.092203+00:00",
+  "generated_at": "2026-11-27T18:01:39.513491+00:00",
   "status": "CHALLENGER ONLY. Not production picks. Retrospective evaluation has line-timing limitations.",
   "predictions": [
-    {
-      "favorite": "Iowa",
-      "underdog": "Nebraska",
-      "projected_favorite_margin": 4.28,
-      "recommended_team": "Nebraska",
-      "estimated_edge_points": 0.22,
-      "signal": "weak_lean",
-      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
-      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
-    },
     {
       "favorite": "Mississippi",
       "underdog": "Mississippi St.",
@@ -30,6 +20,16 @@
       "projected_favorite_margin": 0.63,
       "recommended_team": "Tulsa",
       "estimated_edge_points": 0.87,
+      "signal": "weak_lean",
+      "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
+      "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."
+    },
+    {
+      "favorite": "Iowa",
+      "underdog": "Nebraska",
+      "projected_favorite_margin": 4.28,
+      "recommended_team": "Nebraska",
+      "estimated_edge_points": 0.22,
       "signal": "weak_lean",
       "model": "Challenger: opponent-adjusted offense and defense, anchored to market",
       "data_quality": "Experimental challenger, no validated advantage. No injuries/weather."

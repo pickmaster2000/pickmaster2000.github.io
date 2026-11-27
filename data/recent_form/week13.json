@@ -1,18 +1,9 @@
 {
   "season": 2026,
   "week": 13,
-  "generated_at": "2026-11-27T12:09:22.251093+00:00",
+  "generated_at": "2026-11-27T18:01:42.735706+00:00",
   "experimental": true,
   "predictions": [
-    {
-      "favorite": "Iowa",
-      "underdog": "Nebraska",
-      "recommended_team": "Iowa",
-      "projected_favorite_margin": 6.14,
-      "estimated_edge_points": 1.64,
-      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
-      "signal": "watchlist"
-    },
     {
       "favorite": "Mississippi",
       "underdog": "Mississippi St.",
@@ -28,6 +19,15 @@
       "recommended_team": "Tulsa",
       "projected_favorite_margin": -0.04,
       "estimated_edge_points": 1.54,
+      "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
+      "signal": "watchlist"
+    },
+    {
+      "favorite": "Iowa",
+      "underdog": "Nebraska",
+      "recommended_team": "Iowa",
+      "projected_favorite_margin": 6.14,
+      "estimated_edge_points": 1.64,
       "model": "Third statistical challenger: last-four-game schedule-adjusted scoring",
       "signal": "watchlist"
     },
