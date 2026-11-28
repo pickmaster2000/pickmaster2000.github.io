@@ -1,15 +1,15 @@
 {
   "season": 2026,
-  "generated_at": "2026-11-28T00:00:40.157079+00:00",
+  "generated_at": "2026-11-28T11:58:23.163996+00:00",
   "method": "First-captured pre-kickoff Yahoo public spread and contemporaneous model pick, scored using final ESPN results",
   "notice": "Forward-tracked evidence, NOT a claim of profitable performance. Public Yahoo lines may differ from private contest lines. Low sample sizes are unreliable.",
   "total": {
-    "wins": 23,
-    "losses": 28,
+    "wins": 25,
+    "losses": 30,
     "pushes": 1,
-    "pending": 21,
+    "pending": 17,
     "unmatched": 0,
-    "win_pct_excluding_pushes": 45.1
+    "win_pct_excluding_pushes": 45.5
   },
   "weeks": {
     "12": {
@@ -18,8 +18,8 @@
       "pushes": 1
     },
     "13": {
-      "wins": 0,
-      "losses": 3,
+      "wins": 2,
+      "losses": 5,
       "pushes": 0
     },
     "11": {
@@ -31,24 +31,24 @@
   "by_signal": {
     "watchlist": {
       "wins": 2,
-      "losses": 4,
+      "losses": 5,
       "pushes": 0
     },
     "weak_lean": {
-      "wins": 21,
-      "losses": 24,
+      "wins": 23,
+      "losses": 25,
       "pushes": 1
     }
   },
   "same_games_baselines": {
     "always_favorite": {
-      "wins": 24,
-      "losses": 27,
+      "wins": 27,
+      "losses": 28,
       "pushes": 1
     },
     "always_underdog": {
-      "wins": 27,
-      "losses": 24,
+      "wins": 28,
+      "losses": 27,
       "pushes": 1
     }
   }
