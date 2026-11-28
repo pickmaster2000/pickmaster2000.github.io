@@ -2,7 +2,7 @@
   "week": 2,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=2",
-  "retrieved_at": "2026-11-28T11:58:13.441361+00:00",
+  "retrieved_at": "2026-11-28T15:07:25.228983+00:00",
   "games": [
     {
       "favorite": "Boston Coll.",
@@ -270,8 +270,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -7.5,
-      "favorite_pick_pct": 80,
-      "underdog_pick_pct": 20
+      "favorite_pick_pct": 79,
+      "underdog_pick_pct": 21
     }
   ],
   "note": "Public pick percentages are not ATS probabilities. Public games may differ from your Yahoo group."

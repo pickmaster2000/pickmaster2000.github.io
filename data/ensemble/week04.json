@@ -1,7 +1,7 @@
 {
   "week": 4,
   "season": 2026,
-  "generated_at": "2026-11-28T11:58:26.222198+00:00",
+  "generated_at": "2026-11-28T15:07:43.101811+00:00",
   "experimental": true,
   "disclaimer": "Three correlated statistical predictors using ESPN public scores; NOT three independent AI services. Retrospective predictions change on reruns; evaluate only immutable prekickoff snapshots.",
   "games": [
@@ -12,8 +12,8 @@
         "favorite_home": false,
         "underdog_home": true,
         "favorite_spread": -3.0,
-        "favorite_pick_pct": 87,
-        "underdog_pick_pct": 13,
+        "favorite_pick_pct": 85,
+        "underdog_pick_pct": 15,
         "espn_event_id": "401862779",
         "kickoff_utc": "2026-09-25T20:00:00+00:00"
       },
@@ -559,8 +559,8 @@
         "favorite_home": true,
         "underdog_home": false,
         "favorite_spread": -12.5,
-        "favorite_pick_pct": 89,
-        "underdog_pick_pct": 11,
+        "favorite_pick_pct": 85,
+        "underdog_pick_pct": 15,
         "espn_event_id": "401856696",
         "kickoff_utc": "2026-09-26T23:10:00+00:00"
       },

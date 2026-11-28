@@ -2,7 +2,7 @@
   "week": 4,
   "source": "Yahoo public Pick Distribution (Spread and Confidence)",
   "source_url": "https://football.fantasysports.yahoo.com/college/pickdistribution?type=sc&week=4",
-  "retrieved_at": "2026-11-28T11:58:14.218362+00:00",
+  "retrieved_at": "2026-11-28T15:07:26.335161+00:00",
   "games": [
     {
       "favorite": "Army",
@@ -10,8 +10,8 @@
       "favorite_home": false,
       "underdog_home": true,
       "favorite_spread": -3.0,
-      "favorite_pick_pct": 87,
-      "underdog_pick_pct": 13,
+      "favorite_pick_pct": 85,
+      "underdog_pick_pct": 15,
       "espn_event_id": "401862779",
       "kickoff_utc": "2026-09-25T20:00:00+00:00"
     },
@@ -175,8 +175,8 @@
       "favorite_home": true,
       "underdog_home": false,
       "favorite_spread": -12.5,
-      "favorite_pick_pct": 89,
-      "underdog_pick_pct": 11,
+      "favorite_pick_pct": 85,
+      "underdog_pick_pct": 15,
       "espn_event_id": "401856696",
       "kickoff_utc": "2026-09-26T23:10:00+00:00"
     },
